@@ -1,0 +1,22 @@
+#
+#Sun Nov 14 12:10:40 CST 2010
+genBasicCompId=false
+sessionFactoryName=
+profile=
+daoSFId=sessionFactory
+version=3.2
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=src/applicationContext.xml
+useJavaTypes=true
+keyGenerator=increment
+libInstallFolder=<no jars/zips in selected libraries>
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=seesionFactory
+basePersistenceClass=
+reSettingsFile=
+configFile=/HotelReservation/src/applicationContext.xml
+createConfigFile=false
+addLibs2Classpath=true
