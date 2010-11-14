@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="HotelReservation"
+  id="myeclipse.1289703218281"
+  context-root="/HotelReservation"
+  j2ee-spec="5.0"
+  archive="HotelReservation.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
