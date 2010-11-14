@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName">
+			<value>com.mysql.jdbc.Driver</value>
+		</property>
+		<property name="url">
+			<value>jdbc:mysql://localhost:3306/test</value>
+		</property>
+		<property name="username">
+			<value>root</value>
+		</property>
+		<property name="password">
+			<value>root</value>
+		</property>
+	</bean>
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.MySQLDialect
+				</prop>
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>com/mask/hrs/po/HotelManager.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- 定义事务管理器（声明式的事务） -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<bean id="transactionInterceptor"
+		class="org.springframework.transaction.interceptor.TransactionInterceptor">
+		<!-- 配置事务管理器 -->
+		<property name="transactionManager" ref="transactionManager" />
+		<!-- 配置事务属性 -->
+		<property name="transactionAttributes">
+			<props>
+				<prop key="*">PROPAGATION_REQUIRED</prop>
+				<prop key="find*">PROPAGATION_REQUIRED,readOnly</prop>
+				<prop key="query*">PROPAGATION_REQUIRED,readOnly</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean
+		class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<property name="beanNames">
+			<value>*ServiceImpl</value>
+		</property>
+		<property name="interceptorNames">
+			<list>
+				<value>transactionInterceptor</value>
+			</list>
+		</property>
+	</bean>
+	<bean
+		class="org.springframework.transaction.interceptor.TransactionAttributeSourceAdvisor">
+		<property name="transactionInterceptor"
+			ref="transactionInterceptor" />
+	</bean>
+	<!-- 定义事务管理器 结束 -->
+
+
+	<bean id="managerDao" class="com.mask.hrs.dao.HotelManagerDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+	<bean id="hotelManagerServiceImpl"
+		class="com.mask.hrs.service.impl.HotelManagerServiceImpl">
+		<property name="managerDao">
+			<ref bean="managerDao" />
+		</property>
+	</bean>
+
+
+	<bean name="/admin" class="com.mask.admin.action.AdminAction">
+		<property name="hotelManagerService">
+			<ref bean="hotelManagerServiceImpl" />
+		</property>
+	</bean>
+</beans>
