@@ -17,8 +17,9 @@
 		<meta http-equiv="description" content="订房网">
 		<script type="text/javascript"
 			src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
+		<script type="text/javascript" src="./index.js"></script>
 		<link type="text/css" rel="stylesheet" href="./themes/css/common.css" />
+
 	</head>
 
 	<body>
@@ -30,15 +31,13 @@
 					<div id="heard">
 						<h1>
 							<a href="http://www.hrs.cn"><img alt="回到HRS首页"
-									src="http://www.hrs.cn/themes/hrs/images/logo_hrs.gif" />
-							</a>
+									src="http://www.hrs.cn/themes/hrs/images/logo_hrs.gif" /> </a>
 						</h1>
 						<p class="hotlineInfo">
 							<img src="http://www.hrs.cn/themes/hrs/images/hotlineInfo.gif"
 								alt="HRS免费预定热线（中国）：800 720 1388 ／ 400 720 1388" />
 						</p>
 						<ul class="topNav">
-							<!-- block.tpl.php begin -->
 
 							<li>
 								<a href="http://www.hrs.cn/customer-service">客户服务</a>
@@ -76,13 +75,10 @@
 							</li>
 
 							<li class="language sub">
-								<a><i class="zh_CN">简体中文</i>
-								</a>
+								<a><i class="zh_CN">简体中文</i> </a>
 
 							</li>
-							<!-- block.tpl.php end -->
 						</ul>
-						<!-- block.tpl.php begin -->
 
 						<ul class="nice-menu nice-menu-down" id="nice-menu-1">
 							<li id="menu-672" class="menu-path-front active">
@@ -107,59 +103,60 @@
 								</ul>
 							</li>
 							<li id="menu-256" class="menuparent menu-path-node">
-								<a href="/article">旅行博客</a>
+								<a href="/article">航空订票</a>
 								<ul>
 									<li id="menu-2654" class="menu-path-taxonomy-term-761">
-										<a href="/article/destination-guides">目的地指南</a>
+										<a href="/article/destination-guides">机票查询</a>
 									</li>
 									<li id="menu-2655" class="menu-path-taxonomy-term-759">
-										<a href="/article/food-shopping">美食购物</a>
+										<a href="/article/food-shopping">修改/取消预订</a>
 									</li>
-									<li id="menu-2656" class="menu-path-taxonomy-term-760">
-										<a href="/article/transportation-accommodation">交通住宿</a>
-									</li>
-									<li id="menu-2657" class="menu-path-taxonomy-term-756">
-										<a href="/article/travel-strategies">游记攻略</a>
-									</li>
-
-									<li id="menu-2658" class="menu-path-taxonomy-term-772">
-										<a href="/article/special">特色专题</a>
-									</li>
-									<li id="menu-2659" class="menu-path-taxonomy-term-763">
-										<a href="/article/promotion">官方活动</a>
-									</li>
-								</ul>
-							</li>
-							<li id="menu-630" class="menu-path-node-1345">
-								<a href="/corporate-services">商旅管家</a>
-							</li>
-							<li id="menu-633" class="menu-path-node-9">
-								<a href="/mobile">手机订房</a>
-							</li>
-							<li id="menu-643" class="menu-path-node-4766">
-								<a href="/campaign/best-price-guarantee">酒店低价保障</a>
-							</li>
-							<li id="menu-3696" class="menuparent menu-path-node-10029">
-								<a href="/campaign/201008ccc">全球酒店房价猜猜猜</a>
-								<ul>
-									<li id="menu-3672" class="menu-path-node-9882">
-										<a href="/campaign/2010movie#week-4">游遍世界 电影随行</a>
-									</li>
-									<li id="menu-3619" class="menu-path-node-9735">
-										<a href="/campaign/2010wine">专题:葡萄酒寻魅</a>
-									</li>
-
 								</ul>
 							</li>
 							<li id="menu-258" class="menu-path-node-1458">
-								<a href="/international" target="_blank">HRS Global Site</a>
+								<a href="/international" target="_blank">欢迎使用</a>
 							</li>
 						</ul>
 
 					</div>
 					<!-- header end -->
 
-					<div id="content"></div>
+					<div id="content">
+						<!-- 查询DIV -->
+						<div class="index_banner_block index_focus">
+							<div class="index_focus_left">
+								<div id="search" class="index_search"
+									style="background-color: blue;">
+									<span>搜索~~~~~~~~~~~~</span>
+									<br />
+									<br />
+									<br />
+									<br />
+									<br />
+									<span>~~~~~~~~~~~~搜索</span>
+								</div>
+							</div>
+
+							<div class="index_focus_right" style="background-color: green;">
+								<div class="clear-block">
+									<div id="block-block-50" class="block">
+										<div class="block_cantent">
+
+											<span>广告~~~~~~~~~~~~</span>
+											<br />
+											<br />
+											<br />
+											<br />
+											<br />
+											<span>~~~~~~~~~~~~广告</span>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 查询DIV结束 -->
+					</div>
 					<div id="footer">
 						<div id="corner01"></div>
 						<div id="corner02"></div>
