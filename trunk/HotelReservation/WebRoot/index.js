@@ -81,36 +81,6 @@ $(document).ready(function(){
 		});
 	});
 	
-	$('#name').click(function(){
-	
-	});
-	$('#name').keyup( function(e) {
-		if ( e.keyCode == 37){
-			if (g_current_page > 1){
-				window.location.href = $('#prev').attr('href');
-			}else{
-				if ($('#prev_chapter').size() > 0){
-					if (confirm('您现在浏览的是本章首页,确认浏览前一章？')){
-						window.location.href = $('#prev_chapter').attr('href');
-					}
-				}
-			}
-		}
-		if ( e.keyCode == 39){
-			if (g_current_page < g_max_page_count ){
-				window.location.href = $('#next').attr('href');
-			}else{
-				if ($('#next_chapter').size() > 0){
-					nextChapterMsgBox();
-				}else{
-					if(final_page_url){
-						window.location.href=final_page_url;
-						return ;
-					}
-					alert('你已经浏览完所有内容');
-				}
-			}
-		}
 	
 	
 	//16 shift
@@ -122,7 +92,6 @@ $(document).ready(function(){
 	//38 ^
 	//39 -> 右方向键
 	//40 \/ 
-	});
 	
 	
 });
