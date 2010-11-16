@@ -1,11 +1,11 @@
-#nav li:hover a{color:#cc092f;background:#fff url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -550px;padding:0;margin:-4px 0 0 0;}
+#nav li:hover a{color:#cc092f;background:#fff url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -550px;padding:0;margin:-4px 0 0 0;}
 #nav li.first:hover a{background-position:-1px -100px;}
-#nav li:hover a span{display:block;background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 100% -650px;padding:8px 12px 5px 12px;}
+#nav li:hover a span{display:block;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 100% -650px;padding:8px 12px 5px 12px;}
 #meta li.sub:hover span span,#nav li.sub:hover a span span{background-position:100% -545px;}
 #meta li#fontSize:hover b span span{background-position:100% -97px;}
-#meta li:hover a,#meta li:hover b,#meta li b:hover{position:relative;color:#cc092f;background:#fff url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -850px;padding:0;margin:-3px 0 0 0;}
+#meta li:hover a,#meta li:hover b,#meta li b:hover{position:relative;color:#cc092f;background:#fff url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -850px;padding:0;margin:-3px 0 0 0;}
 #meta li.first:hover a{background-position:-1px -850px;}
-#meta li:hover a span,#meta li:hover b span,#meta li b:hover span{display:block;background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 100% -850px;padding:3px 7px 1px 7px;}
+#meta li:hover a span,#meta li:hover b span,#meta li b:hover span{display:block;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 100% -850px;padding:3px 7px 1px 7px;}
 #meta li:hover ul,#meta li ul:hover,#nav li:hover ul,#nav li ul:hover,#nav li:hover form{display:block;width:18em;}
 #meta li:hover ul li a,#nav li:hover ul li a{overflow:hidden;font-weight:normal;color:#cc092f;background:#fff;padding:5px 7px;margin:0;}
 #meta li:hover .infoMetaNav{width:39.9em;}
@@ -16,9 +16,9 @@ p.extSearch input:hover{text-decoration:underline;}
 input.link:hover,input.link:focus{text-decoration:underline;}
 #content .marginal input.link,#content .totalPrice input.link{display:block;}
 .help-layer .close:hover{text-decoration:underline;}
-.videoPlaylistItem:hover{background:url(../../images/wide/_general/_general/elements/video_hover.png);}
+.videoPlaylistItem:hover{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/video_hover.png);}
 .videoPlaylistItem:hover a{color:#fff;}
-.videoPlaylistItem:hover .a360Degree{background:url(../../images/wide/_general/_general/elements/video_360_h.png);}
-.videoPlaylistItem:hover .externVideos{background:url(../../images/wide/_general/_general/elements/video_extern_h.png);}
+.videoPlaylistItem:hover .a360Degree{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/video_360_h.png);}
+.videoPlaylistItem:hover .externVideos{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/video_extern_h.png);}
 ul#mobileCollection_qcms li:hover a{text-decoration:underline!important;}
 ul#mobileCollection_qcms li:hover a img{visibility:hidden;}
