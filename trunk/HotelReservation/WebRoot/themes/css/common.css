@@ -71,21 +71,21 @@ input.text_input { border:solid 1px #afafaf; width:132px; color:#666; background
 .hot_hotel .n_mainpage_wrapper { height:105px; overflow:hidden; _zoom:1;}
 
 .index_focus { background:#fff; overflow:hidden; _zoom:1;}
-.index_focus .index_focus_left { float:left; overflow:hidden; _zoom:1; padding:4px; width:500px; }
+.index_focus .index_focus_left { float:left; overflow:hidden; _zoom:1; padding:4px; width:550px; height:320px;}
 .index_focus .index_focus_left .index_search {  _zoom:1; }
-.index_focus .index_focus_left .index_search .index_search_wrapper{ width:290px; background:#ffeae9; padding:8px;  overflow:hidden; min-height:348px;}
+.index_focus .index_focus_left .index_search .index_search_wrapper{ width:528px;height:299px; background:#ffeae9; padding:8px;  overflow:hidden; }
 .index_focus .index_focus_left .index_images { width:455px; float:right; }
 .index_focus .index_focus_left .index_search_wrapper{ position:absolute; left:16px; top:12px; z-index:10;}
 
 
-.index_focus .index_focus_right { float:right; width:446px; padding:4px 4px 4px 2px; background:#fff; _zoom:1; _overflow:hidden;}
+.index_focus .index_focus_right { float:right; width:396px;height:320px; padding:4px 4px 4px 2px; background:#fff; _zoom:1; _overflow:hidden;}
 .hot_hotel .hot_hotel_title { clear:both; _zoom:1; position:relative; z-index:1; height:25px; padding:3px 8px 2px 8px; border-bottom:solid 1px #145ca4; background:url(../images/index_small_icon.gif) repeat-x left -540px; }
 #wrapper .hot_hotel h2{ font-size:14px; color:#FB0A01; font-weight:bold; height:22px; text-align:center; line-height:22px;  }
-#wrapper .hot_hotel{ border:solid 1px #145CA4; margin-top:2px;}
+#wrapper .hot_hotel{ border:solid 1px #145CA4;float:left;width: 476px;}
 #wrapper .hot_hotel h2 span{ font-size:12px; color:#999; font-weight:normal;}
 
-.index_focus .index_focus_right .index_images{ float:left; width:396px; _zoom:1;}
-.index_focus .index_focus_right dl.hrs_list{ float:left; padding-left:8px; width:220px;}
+.index_focus .index_focus_right .index_images{ float:left; width:396px; _zoom:1;padding-bottom: 4px;}
+.index_focus .index_focus_right dl.hrs_list{ padding-left:8px;}/*自己修改 原始的为 float:left; padding-left:8px; width:220px;*/
 
 .progressBase{ display:-moz-inline-box; display:inline-block; font-size:0; line-height:0; border:solid 1px #5b9848; margin-right:3px; vertical-align:middle;}
 .progressBase{ *display:inline;}
