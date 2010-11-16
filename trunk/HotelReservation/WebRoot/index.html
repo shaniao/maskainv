@@ -1,13 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 	<head>
-
 		<title>订房网</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="酒店,旅行,订房,预定" />
-		<meta name="description" content="订房网" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<script type="text/javascript"
 			src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 		<script type="text/javascript" src="./index.js"></script>
@@ -115,40 +112,1010 @@
 					<!-- header end -->
 
 					<div id="content">
-						<!-- 查询DIV -->
+						
 						<div class="index_banner_block index_focus">
 							<div class="index_focus_left">
-								<div id="search" class="index_search"
-									style="background-color: blue;">
-									<span>搜索~~~~~~~~~~~~</span>
-									<br />
-									<br />
-									<br />
-									<br />
-									<br />
-									<span>~~~~~~~~~~~~搜索</span>
+								<!-- 查询DIV -->
+								<div id="search" class="index_search">
+									<div class="index_search_wrapper border_red" id="search_box">
+										<h2 class="small_icon_0">
+											超低特价预订
+											<br />
+											全球超过250,000家酒店
+										</h2>
+										<form action="" name="searchForm" method="post"
+											id="searchForm" target="_blank"
+											onsubmit="changeHRSaction(this);">
+											<div class="content_block hrs_searchbox">
+
+												<ul>
+
+													<li>
+
+														<table cellpadding="0" cellspacing="0" border="0"
+															width="100%">
+															<tr>
+																<td>
+																	<b class="red">*</b> 您的目的地
+																	<!--<a href="/tutorial" class="help" target="_blank">点击这里获取帮助</a>-->
+																	<br />
+																	<input type="text" name="location" id="destiny"
+																		class="text_input" style="width: 279px;"
+																		value="请输入您的目的地，中英文均可" autocomplete="off"
+																		maxlength="200" name="location"
+																		style="color: rgb(128, 128, 128);"
+																		onfocus="if (this.value=='请输入您的目的地，中英文均可'){this.value=''}"
+																		onblur="if (this.value==''){this.value='请输入您的目的地，中英文均可'}" />
+																</td>
+															</tr>
+														</table>
+
+													</li>
+													<li>
+														<table cellpadding="0" cellspacing="0" border="0"
+															width="100%">
+															<tr>
+																<td style="width: 50%">
+																	<b class="red">*</b> 入住时间
+																	<br />
+																	<input type="text" class="text_input"
+																		style="width: 110px" id="startDatepicker" />
+																</td>
+
+																<td>
+																	<b class="red">*</b> 离店时间
+																	<br />
+																	<input type="text" class="text_input"
+																		style="width: 110px" id="endDatepicker" />
+																</td>
+															</tr>
+														</table>
+													</li>
+
+													<li>
+														<table cellpadding="0" cellspacing="0" border="0"
+															width="100%">
+															<tr>
+																<td style="width: 50%;">
+																	<b class="red">*</b> 房间数量&nbsp;
+																	<a href="javascript:void(0)"
+																		title="单人间是指含有一张单人床的房间，只可入住一个成人；双人间是指含有一张双人床的房间，可以入住两个成人。"
+																		class="help empty">&nbsp;</a>
+																	<br />
+																	<select name="singleRooms" id="singleRooms"
+																		style="width: 68px" onchange="change_room()">
+																		<option selected="selected" value="0">
+																			单人间
+																		</option>
+
+																		<option value="1">
+																			1
+																		</option>
+																		<option value="2">
+																			2
+																		</option>
+																		<option value="3">
+																			3
+																		</option>
+																		<option value="4">
+																			4
+																		</option>
+																		<option value="5">
+																			5
+																		</option>
+																		<option value="6">
+																			6
+																		</option>
+
+																	</select>
+																	<select name="doubleRooms" style="width: 68px;"
+																		id="doubleRooms" onchange="change_room()">
+																		<option selected="selected" value="0">
+																			双人间
+																		</option>
+																		<option value="1">
+																			1
+																		</option>
+																		<option value="2">
+																			2
+																		</option>
+																		<option value="3">
+																			3
+																		</option>
+																		<option value="4">
+																			4
+																		</option>
+
+																		<option value="5">
+																			5
+																		</option>
+																		<option value="6">
+																			6
+																		</option>
+																	</select>
+																</td>
+																<td>
+																	<b class="red">*</b> 客人数量
+																	<br />
+																	<select name="adults" id="adults" style="width: 68px;">
+
+																		<option selected="selected" value="0">
+																			成人
+																		</option>
+																		<option value="1">
+																			1
+																		</option>
+																		<option value="2">
+																			2
+																		</option>
+																		<option value="3">
+																			3
+																		</option>
+																		<option value="4">
+																			4
+																		</option>
+																		<option value="5">
+																			5
+																		</option>
+
+																		<option value="6">
+																			6
+																		</option>
+																		<option value="7">
+																			7
+																		</option>
+																		<option value="8">
+																			8
+																		</option>
+																		<option value="9">
+																			9
+																		</option>
+																		<option value="10">
+																			10
+																		</option>
+																		<option value="11">
+																			11
+																		</option>
+
+																		<option value="12">
+																			12
+																		</option>
+																		<option value="13">
+																			13
+																		</option>
+																		<option value="14">
+																			14
+																		</option>
+																		<option value="15">
+																			15
+																		</option>
+																		<option value="16">
+																			16
+																		</option>
+																		<option value="17">
+																			17
+																		</option>
+
+																		<option value="18">
+																			18
+																		</option>
+																	</select>
+																	<select name="children" id="children"
+																		style="width: 68px;" class="child_select">
+																		<option selected="selected" value="0">
+																			儿童
+																		</option>
+																		<option value="1">
+																			1
+																		</option>
+																		<option value="2">
+																			2
+																		</option>
+																		<option value="3">
+																			3
+																		</option>
+
+																		<option value="4">
+																			4
+																		</option>
+																		<option value="5">
+																			5
+																		</option>
+																		<option value="6">
+																			6
+																		</option>
+																	</select>
+																</td>
+															</tr>
+														</table>
+
+													</li>
+													<li class="search_children_expand">
+														<div class="search_children_expand_block">
+															<table cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td>
+																		<span class="search_children_expand_block_title">1.儿童</span>
+																	</td>
+
+																	<td style="width: 220px; text-align: right;">
+																		<label>
+																			年龄：
+																		</label>
+																		<select style="width: 45px"
+																			id="childAccomodationsage1"
+																			name="childAccomodationsage1">
+																			<option value="0">
+																				0
+																			</option>
+																			<option value="1">
+																				1
+																			</option>
+																			<option value="2">
+																				2
+																			</option>
+																			<option value="3">
+																				3
+																			</option>
+
+																			<option value="4">
+																				4
+																			</option>
+																			<option value="5">
+																				5
+																			</option>
+																			<option value="6">
+																				6
+																			</option>
+																			<option value="7">
+																				7
+																			</option>
+																			<option value="8">
+																				8
+																			</option>
+																			<option value="9">
+																				9
+																			</option>
+
+																			<option value="10">
+																				10
+																			</option>
+																			<option value="11">
+																				11
+																			</option>
+																			<option value="12">
+																				12
+																			</option>
+																			<option value="13">
+																				13
+																			</option>
+																			<option value="14">
+																				14
+																			</option>
+																			<option value="15">
+																				15
+																			</option>
+
+																			<option value="16">
+																				16
+																			</option>
+																			<option value="17">
+																				17
+																			</option>
+																		</select>
+																		&nbsp;
+																		<label>
+																			床：
+																		</label>
+																		<select style="width: 90px"
+																			id="childAccomodationsaccomodation1"
+																			name="childAccomodationsaccomodation1">
+																			<option value="1">
+																				与父母同床
+																			</option>
+
+																			<option value="0">
+																				加床
+																			</option>
+																			<option value="2">
+																				单开房间
+																			</option>
+																		</select>
+																	</td>
+																</tr>
+															</table>
+														</div>
+														<div class="search_children_expand_block">
+
+															<table cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td>
+																		<span class="search_children_expand_block_title">2.儿童</span>
+																	</td>
+																	<td style="width: 220px; text-align: right;">
+																		<label>
+																			年龄：
+																		</label>
+																		<select style="width: 45px"
+																			id="childAccomodationsage2"
+																			name="childAccomodationsage2">
+
+																			<option value="0">
+																				0
+																			</option>
+																			<option value="1">
+																				1
+																			</option>
+																			<option value="2">
+																				2
+																			</option>
+																			<option value="3">
+																				3
+																			</option>
+																			<option value="4">
+																				4
+																			</option>
+																			<option value="5">
+																				5
+																			</option>
+
+																			<option value="6">
+																				6
+																			</option>
+																			<option value="7">
+																				7
+																			</option>
+																			<option value="8">
+																				8
+																			</option>
+																			<option value="9">
+																				9
+																			</option>
+																			<option value="10">
+																				10
+																			</option>
+																			<option value="11">
+																				11
+																			</option>
+
+																			<option value="12">
+																				12
+																			</option>
+																			<option value="13">
+																				13
+																			</option>
+																			<option value="14">
+																				14
+																			</option>
+																			<option value="15">
+																				15
+																			</option>
+																			<option value="16">
+																				16
+																			</option>
+																			<option value="17">
+																				17
+																			</option>
+
+																		</select>
+																		&nbsp;
+																		<label>
+																			床：
+																		</label>
+																		<select style="width: 90px"
+																			id="childAccomodationsaccomodation2"
+																			name="childAccomodationsaccomodation2">
+																			<option value="1">
+																				与父母同床
+																			</option>
+																			<option value="0">
+																				加床
+																			</option>
+																			<option value="2">
+																				单开房间
+																			</option>
+
+																		</select>
+																	</td>
+																</tr>
+															</table>
+														</div>
+														<div class="search_children_expand_block">
+															<table cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td>
+
+																		<span class="search_children_expand_block_title">3.儿童</span>
+																	</td>
+																	<td style="width: 220px; text-align: right;">
+																		<label>
+																			年龄：
+																		</label>
+																		<select style="width: 45px"
+																			id="childAccomodationsage3"
+																			name="childAccomodationsage3">
+																			<option value="0">
+																				0
+																			</option>
+																			<option value="1">
+																				1
+																			</option>
+
+																			<option value="2">
+																				2
+																			</option>
+																			<option value="3">
+																				3
+																			</option>
+																			<option value="4">
+																				4
+																			</option>
+																			<option value="5">
+																				5
+																			</option>
+																			<option value="6">
+																				6
+																			</option>
+																			<option value="7">
+																				7
+																			</option>
+
+																			<option value="8">
+																				8
+																			</option>
+																			<option value="9">
+																				9
+																			</option>
+																			<option value="10">
+																				10
+																			</option>
+																			<option value="11">
+																				11
+																			</option>
+																			<option value="12">
+																				12
+																			</option>
+																			<option value="13">
+																				13
+																			</option>
+
+																			<option value="14">
+																				14
+																			</option>
+																			<option value="15">
+																				15
+																			</option>
+																			<option value="16">
+																				16
+																			</option>
+																			<option value="17">
+																				17
+																			</option>
+																		</select>
+																		&nbsp;
+																		<label>
+																			床：
+																		</label>
+
+																		<select style="width: 90px"
+																			id="childAccomodationsaccomodation3"
+																			name="childAccomodationsaccomodation3">
+																			<option value="1">
+																				与父母同床
+																			</option>
+																			<option value="0">
+																				加床
+																			</option>
+																			<option value="2">
+																				单开房间
+																			</option>
+																		</select>
+																	</td>
+																</tr>
+
+															</table>
+														</div>
+														<div class="search_children_expand_block">
+															<table cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td>
+																		<span class="search_children_expand_block_title">4.儿童</span>
+																	</td>
+
+																	<td style="width: 220px; text-align: right;">
+																		<label>
+																			年龄：
+																		</label>
+																		<select style="width: 45px"
+																			id="childAccomodationsage4"
+																			name="childAccomodationsage4">
+																			<option value="0">
+																				0
+																			</option>
+																			<option value="1">
+																				1
+																			</option>
+																			<option value="2">
+																				2
+																			</option>
+																			<option value="3">
+																				3
+																			</option>
+
+																			<option value="4">
+																				4
+																			</option>
+																			<option value="5">
+																				5
+																			</option>
+																			<option value="6">
+																				6
+																			</option>
+																			<option value="7">
+																				7
+																			</option>
+																			<option value="8">
+																				8
+																			</option>
+																			<option value="9">
+																				9
+																			</option>
+
+																			<option value="10">
+																				10
+																			</option>
+																			<option value="11">
+																				11
+																			</option>
+																			<option value="12">
+																				12
+																			</option>
+																			<option value="13">
+																				13
+																			</option>
+																			<option value="14">
+																				14
+																			</option>
+																			<option value="15">
+																				15
+																			</option>
+
+																			<option value="16">
+																				16
+																			</option>
+																			<option value="17">
+																				17
+																			</option>
+																		</select>
+																		&nbsp;
+																		<label>
+																			床：
+																		</label>
+																		<select style="width: 90px"
+																			id="childAccomodationsaccomodation4"
+																			name="childAccomodationsaccomodation4">
+																			<option value="1">
+																				与父母同床
+																			</option>
+
+																			<option value="0">
+																				加床
+																			</option>
+																			<option value="2">
+																				单开房间
+																			</option>
+																		</select>
+																	</td>
+																</tr>
+															</table>
+														</div>
+														<div class="search_children_expand_block">
+
+															<table cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td>
+																		<span class="search_children_expand_block_title">5.儿童</span>
+																	</td>
+																	<td style="width: 220px; text-align: right;">
+																		<label>
+																			年龄：
+																		</label>
+																		<select style="width: 45px"
+																			id="childAccomodationsage5"
+																			name="childAccomodationsage5">
+
+																			<option value="0">
+																				0
+																			</option>
+																			<option value="1">
+																				1
+																			</option>
+																			<option value="2">
+																				2
+																			</option>
+																			<option value="3">
+																				3
+																			</option>
+																			<option value="4">
+																				4
+																			</option>
+																			<option value="5">
+																				5
+																			</option>
+
+																			<option value="6">
+																				6
+																			</option>
+																			<option value="7">
+																				7
+																			</option>
+																			<option value="8">
+																				8
+																			</option>
+																			<option value="9">
+																				9
+																			</option>
+																			<option value="10">
+																				10
+																			</option>
+																			<option value="11">
+																				11
+																			</option>
+
+																			<option value="12">
+																				12
+																			</option>
+																			<option value="13">
+																				13
+																			</option>
+																			<option value="14">
+																				14
+																			</option>
+																			<option value="15">
+																				15
+																			</option>
+																			<option value="16">
+																				16
+																			</option>
+																			<option value="17">
+																				17
+																			</option>
+
+																		</select>
+																		&nbsp;
+																		<label>
+																			床：
+																		</label>
+																		<select style="width: 90px"
+																			id="childAccomodationsaccomodation5"
+																			name="childAccomodationsaccomodation5">
+																			<option value="1">
+																				与父母同床
+																			</option>
+																			<option value="0">
+																				加床
+																			</option>
+																			<option value="2">
+																				单开房间
+																			</option>
+
+																		</select>
+																	</td>
+																</tr>
+															</table>
+														</div>
+														<div class="search_children_expand_block">
+															<table cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td>
+
+																		<span class="search_children_expand_block_title">6.儿童</span>
+																	</td>
+																	<td style="width: 220px; text-align: right;">
+																		<label>
+																			年龄：
+																		</label>
+																		<select style="width: 45px"
+																			id="childAccomodationsage6"
+																			name="childAccomodationsage6">
+																			<option value="0">
+																				0
+																			</option>
+																			<option value="1">
+																				1
+																			</option>
+
+																			<option value="2">
+																				2
+																			</option>
+																			<option value="3">
+																				3
+																			</option>
+																			<option value="4">
+																				4
+																			</option>
+																			<option value="5">
+																				5
+																			</option>
+																			<option value="6">
+																				6
+																			</option>
+																			<option value="7">
+																				7
+																			</option>
+
+																			<option value="8">
+																				8
+																			</option>
+																			<option value="9">
+																				9
+																			</option>
+																			<option value="10">
+																				10
+																			</option>
+																			<option value="11">
+																				11
+																			</option>
+																			<option value="12">
+																				12
+																			</option>
+																			<option value="13">
+																				13
+																			</option>
+
+																			<option value="14">
+																				14
+																			</option>
+																			<option value="15">
+																				15
+																			</option>
+																			<option value="16">
+																				16
+																			</option>
+																			<option value="17">
+																				17
+																			</option>
+																		</select>
+																		&nbsp;
+																		<label>
+																			床：
+																		</label>
+
+																		<select style="width: 90px"
+																			id="childAccomodationsaccomodation6"
+																			name="childAccomodationsaccomodation6">
+																			<option value="1">
+																				与父母同床
+																			</option>
+																			<option value="0">
+																				加床
+																			</option>
+																			<option value="2">
+																				单开房间
+																			</option>
+																		</select>
+																	</td>
+																</tr>
+
+															</table>
+														</div>
+														<div class="search_children_expand_action">
+															<a href="javascript:void(0)" class="child_close_btn">
+																<span style="font-weight: bold">↑</span> 关闭 </a>
+														</div>
+													</li>
+
+													<li>
+														<table cellpadding="0" cellspacing="0" border="0"
+															width="100%">
+															<tr>
+																<td style="width: 50%;">
+																	酒店星级
+																	<br />
+																	<select id="rating" style="width: 140px"
+																		name="minRating">
+																		<option selected="selected" value="0">
+																			不限
+																		</option>
+																		<option value="1">
+																			>= 1星
+																		</option>
+
+																		<option value="2">
+																			>= 2星
+																		</option>
+																		<option value="3">
+																			>= 3星
+																		</option>
+																		<option value="4">
+																			>= 4星
+																		</option>
+																		<option value="5">
+																			>= 5星
+																		</option>
+																	</select>
+																</td>
+																<td>
+																	酒店房价
+																	<br />
+
+																	<select style="width: 140px" id="maxprice"
+																		name="maxprice">
+																		<option value="">
+																			不限
+																		</option>
+																		<option value="200">
+																			RMB 200以下
+																		</option>
+																		<option value="500">
+																			RMB 500以下
+																		</option>
+																		<option value="800">
+																			RMB 800以下
+																		</option>
+																	</select>
+																</td>
+
+															</tr>
+														</table>
+													</li>
+												</ul>
+												<input type="hidden" value="false" name="mapExpanded"
+													id="mapExpanded" />
+												<input type="hidden" class="standard" value="initSearch"
+													name="activity" />
+												<input type="hidden" id="searchSource" class="standard"
+													value="1" name="searchSource" />
+												<input type="hidden" name="veMapSearch" id="veMapSearch"
+													value="true" />
+												<input type="hidden" name="stopWatchTime" value="1700" />
+
+												<input type="hidden" name="suggestedID" id="suggestedID"
+													value="" />
+												<input type="hidden" name="currency" value="CNY" />
+											</div>
+										</form>
+									</div>
 								</div>
 							</div>
 
-							<div class="index_focus_right" style="background-color: green;">
+							<div class="index_focus_right">
 								<div class="clear-block">
 									<div id="block-block-50" class="block">
 										<div class="block_cantent">
+											<div class="banner_block clear-block">
 
-											<span>广告~~~~~~~~~~~~</span>
-											<br />
-											<br />
-											<br />
-											<br />
-											<br />
-											<span>~~~~~~~~~~~~广告</span>
+												<div class="index_images">
+													<div id="index_focus_images">
+														<div id="ads"></div>
+														<div class="images_btn_bar"></div>
+													</div>
+												</div>
 
+												<dl class="hrs_list arrow underline gray">
+													<dt>
+														特惠活动
+													</dt>
+													<dd>
+														<a
+															href="/campaign/20101103christmasmarket?lid=HP:20101103christmasmarket：TL1">探索圣诞集市，酒店节省高达30%！</a>
+													</dd>
+													<dd>
+														<a href="/campaign/201008ccc?lid=HP:1008ccc:TL2">活动截止，大奖得主立即揭晓！</a>
+													</dd>
+													<dd>
+														<a href="/campaign/20101025EP?lid=HP:20101025EP:TL3">独家特惠-在HRS起码便宜10%！</a>
+													</dd>
+													<dd>
+														<a
+															href="http://www.hrs.cn/article/special-hotels?lid=HP:speical-hotels:TL7">HRS特色酒店推荐!</a>
+													</dd>
+												</dl>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<!-- 查询DIV结束 -->
+
+						<div class="hot_hotel" id="hot_tab">
+							<h2>
+								全球特价酒店推荐
+								<span>30天内最低酒店报价</span>
+							</h2>
+							<div class="hot_hotel_title">
+
+								<div class="hot_hotel_tab">
+									<dl>
+										<dd class="active" id="new_index_hot_city_7184">
+											上海
+										</dd>
+										<dd id="new_index_hot_city_7186">
+											北京
+										</dd>
+										<dd id="new_index_hot_city_7179">
+											广州
+										</dd>
+										<dd id="new_index_hot_city_7178">
+											香港
+										</dd>
+										<dd id="new_index_hot_city_9604">
+											法兰克福
+										</dd>
+										<dd id="new_index_hot_city_9605">
+											维也纳
+										</dd>
+										<dd id="new_index_hot_city_9607">
+											慕尼黑
+										</dd>
+										<dd id="new_index_hot_city_10172">
+											布拉格
+										</dd>
+									</dl>
+								</div>
+							</div>
+
+							<div class="hot_hotel_content">
+							</div>
+						</div>
+						<div class="hot_hotel" id="my_hot_tab"
+							style="float: right; width: 476px;">
+							<h2>
+								全球特价酒店推荐
+								<span>30天内最低酒店报价</span>
+							</h2>
+							<div class="hot_hotel_title">
+
+								<div class="hot_hotel_tab">
+									<dl>
+										<dd class="active" id="new_index_hot_city_7184">
+											上海
+										</dd>
+										<dd id="new_index_hot_city_7186">
+											北京
+										</dd>
+										<dd id="new_index_hot_city_7179">
+											广州
+										</dd>
+										<dd id="new_index_hot_city_7178">
+											香港
+										</dd>
+
+										<dd id="new_index_hot_city_7174">
+											杭州
+										</dd>
+										<dd id="new_index_hot_city_7180">
+											巴黎
+										</dd>
+										<dd id="new_index_hot_city_7173">
+											柏林
+										</dd>
+										<dd id="new_index_hot_city_7182">
+											罗马
+										</dd>
+										<dd id="new_index_hot_city_7175">
+											伦敦
+										</dd>
+										<dd id="new_index_hot_city_7189">
+											米兰
+										</dd>
+									</dl>
+								</div>
+							</div>
+
+							<div class="hot_hotel_content">
+							</div>
+						</div>
+						<!--Topic picture start-->
+						<div>
+							<a
+								href="http://www.hrs.cn/campaign/20101103christmasmarket?lid=HP:20101103christmasmarket:WB"><img
+									width="960" src="http://www.hrs.cn/themes/hrs/images/movie_banner.jpg" />
+							</a>
+						</div>
+						<!--Topic picture end-->
+
 					</div>
 					<div id="footer">
 						<div id="corner01"></div>

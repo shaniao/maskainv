@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ads>
+	<ad>
+		<description>探索圣诞节日集市，酒店节省高达30%！</description>
+		<href>111</href>
+		<photo>
+			http://www.hrs.cn/sites/default/files/384x165christ-market_v2%281%29.jpg
+		</photo>
+	</ad>
+	<ad>
+		<description>活动截止，大奖得主立即揭晓！</description>
+		<href>222</href>
+		<photo>
+			http://www.hrs.cn/sites/default/files/1008summercamp2%283%29.jpg
+		</photo>
+	</ad>
+	<ad>
+		<description>独家特惠-在HRS起码便宜10%！</description>
+		<href>333</href>
+		<photo>
+			http://www.hrs.cn/sites/default/files/banner101025.jpg
+		</photo>
+	</ad>
+	<ad>
+		<description>为什么选择HRS?</description>
+		<href>444</href>
+		<photo>
+			http://www.hrs.cn/sites/default/files/image/newkv_whyhrs.jpg
+		</photo>
+	</ad>
+</ads>
