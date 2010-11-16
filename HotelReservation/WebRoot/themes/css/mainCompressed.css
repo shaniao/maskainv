@@ -31,16 +31,16 @@ h2.keyvisual{font-size:1.6em!important;margin-bottom:1.2em;width:61.75em;height:
 * html h2.keyvisual{width:100%;margin-right:-1em;margin-bottom:.4em;}
 h2 img.keyvisual{position:absolute;top:0;left:0;z-index:1;width:61.75em;height:6.25em;margin:0 0 0 -.75em;z-index:0;}
 h2 span{line-height:100%;position:relative;z-index:2;padding:1.2em 0 0 0;width:26em;display:block;font-size:1.7em!important;color:#145CA3;}
-span.vi{display:block;width:4em;height:4em;overflow:hidden;background:url("../../images/wide/_general/_general/icons/play.png") no-repeat 0 0;}
+span.vi{display:block;width:4em;height:4em;overflow:hidden;background:url("http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/play.png") no-repeat 0 0;}
 address{font-style:normal;}
 ol,ul{list-style:none;}
 ul.checkList{padding:.4em 0 .8em 0;}
-ul.checkList li{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -999px;padding:0 0 .3em 20px;}
+ul.checkList li{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -999px;padding:0 0 .3em 20px;}
 div.checkListHead{background:#f0f0f0;border-top:#d7d7d7 1px solid;border-bottom:#d7d7d7 1px solid;margin-right:.8em;}
 div.checkListHead h4{border-top:#fff 1px solid;padding:.8em;}
 ul.checkListLarge,ul.checkListLargeTooltip{background:#f8f8f8;padding:.8em .8em .8em 1.6em;border-top:#fff 1px solid;border-bottom:#d7d7d7 1px solid;}
 .col6 ul.checkListLarge{margin-top:0;}
-ul.checkListLarge li,ul.checkListLargeTooltip li{background:url(../../images/wide/_general/_general/icons/check_large.png) no-repeat 0 5px;padding:0 0 .3em 42px;}
+ul.checkListLarge li,ul.checkListLargeTooltip li{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/check_large.png) no-repeat 0 5px;padding:0 0 .3em 42px;}
 ul.checkListLarge li p strong,ul.checkListLargeTooltip li p strong{display:block;}
 ul.checkListLargeTooltip{background:transparent;border:0;}
 ul.checkListLarge li p.moreMobileFeatures{padding:1em 0 0 0;border-width:1px 0 0 0;border-style:solid;border-color:#d7d7d7;}
@@ -82,14 +82,14 @@ p.output sup{font-size:.6em!important;}
 p.addRoom:after,.detailsPrint dl:after,.detailsPrint:after,div.marginal:after,#content:after,#startSecondRow:after,.box:after,#head:after,#nav:after,.contentFooter:after{content:" ";clear:both;visibility:hidden;display:block;height:0;}
 p.confirmation{width:100%;padding:0 0 .8em 0;margin:0 0 .8em 0;border-bottom:1px solid #d7d7d7;}
 p.infos{color:#7E7E7E;clear:both;padding-top:1em;}
-#wrap{background:url(../../images/wide/_general/_general/elements/shadow.png) #FFF repeat-y 0 100%;width:100.8em;margin:0 auto;position:relative;}
-#layout01{background:url(../../images/wide/_general/_general/elements/shadow.png) repeat-y 100% 100%;padding:0 10px 0 0;}
-#layout02{background:#FFF url(../../images/wide/_general/_general/elements/shadow_bottom.png) repeat-x left bottom;padding:0 0 44px 0;margin:0 0 0 10px;}
-#corner01{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 0;height:15px;width:15px;bottom:-1px;left:0;position:absolute;}
-#corner02{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 100% 0;height:15px;width:15px;bottom:-1px;right:0;position:absolute;}
+#wrap{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/shadow.png) #FFF repeat-y 0 100%;width:100.8em;margin:0 auto;position:relative;}
+#layout01{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/shadow.png) repeat-y 100% 100%;padding:0 10px 0 0;}
+#layout02{background:#FFF url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/shadow_bottom.png) repeat-x left bottom;padding:0 0 44px 0;margin:0 0 0 10px;}
+#corner01{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 0;height:15px;width:15px;bottom:-1px;left:0;position:absolute;}
+#corner02{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 100% 0;height:15px;width:15px;bottom:-1px;right:0;position:absolute;}
 #wrap.start #layout02{background-color:#E6EBF1;}
 #wrap.start{position:relative;}
-#head{position:relative;height:8.8em;background:#C4D6EB url(../../images/wide/_general/_general/elements/head_gradient_oldIE.gif) repeat-x left top;voice-family:"\"}\"";voice-family:inherit;background:#28518d url(../../images/wide/_general/_general/elements/sprite.png) repeat-x 0 -300px;height:auto;}
+#head{position:relative;height:8.8em;background:#C4D6EB url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/head_gradient_oldIE.gif) repeat-x left top;voice-family:"\"}\"";voice-family:inherit;background:#28518d url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) repeat-x 0 -300px;height:auto;}
 #head h1{padding:10px 1em 1.3em 2.6em;}
 #head h1 img{width:20em;height:6.3em;}
 #head p{position:absolute;top:2.6em;right:1em;text-align:right;color:#FFF;background-color:transparent;line-height:1.5;padding:.65em 0 0 0;}
@@ -102,15 +102,15 @@ p.infos{color:#7E7E7E;clear:both;padding-top:1em;}
 .smallHead #head h1 img{height:5em;width:16em;}
 .smallHead #head p{top:2em;}
 .smallHead #head p a.hotlineInfo{display:inline;}
-#nav{position:relative;background:url(../../images/wide/_general/_general/elements/sprite.png) #cc092f repeat-x 0 -150px;margin:0 1.2em;z-index:1008;}
-#nav li{float:left;display:block;background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -797px;margin-right:-1px;}
-#nav li.first{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -200px;}
+#nav{position:relative;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) #cc092f repeat-x 0 -150px;margin:0 1.2em;z-index:1008;}
+#nav li{float:left;display:block;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -797px;margin-right:-1px;}
+#nav li.first{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -200px;}
 #nav li a{cursor:pointer;display:block;font-weight:bold;text-decoration:none;color:#FFF;padding:4px 12px 5px 12px;position:relative;}
 #nav li a:hover,#nav li a:active,#nav li a:focus{text-decoration:underline;}
-#nav li a:hover,#nav li a:active,#nav li a:focus,#nav li.active a,#nav li.jsHover a{color:#cc092f;background:url(../../images/wide/_general/_general/elements/sprite.png) #FFF no-repeat 0 -550px;padding:0;margin:-4px 0 0 0;}
+#nav li a:hover,#nav li a:active,#nav li a:focus,#nav li.active a,#nav li.jsHover a{color:#cc092f;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) #FFF no-repeat 0 -550px;padding:0;margin:-4px 0 0 0;}
 #nav li.first a:hover,#nav li.first a:active,#nav li.first a:focus,#nav li.jsFirstHover a,#nav li.first a{background-position:-1px -550px;}
-#nav li a:hover span,#nav li a:active span,#nav li a:focus span,#nav li.jsHover a span,#nav li.active a span{display:block;background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 100% -650px;padding:8px 12px 5px 12px;}
-#meta li.sub a:hover span span,#meta li.sub a:active span span,#meta li.sub a:focus span span,#meta li.sub a span span,#meta li.sub b span span,#nav li.sub a:hover span span,#nav li.sub a:active span span,#nav li.sub a:focus span span,#nav li.sub a span span{display:block;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 100% -495px;padding:0 9px 0 0;}
+#nav li a:hover span,#nav li a:active span,#nav li a:focus span,#nav li.jsHover a span,#nav li.active a span{display:block;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 100% -650px;padding:8px 12px 5px 12px;}
+#meta li.sub a:hover span span,#meta li.sub a:active span span,#meta li.sub a:focus span span,#meta li.sub a span span,#meta li.sub b span span,#nav li.sub a:hover span span,#nav li.sub a:active span span,#nav li.sub a:focus span span,#nav li.sub a span span{display:block;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 100% -495px;padding:0 9px 0 0;}
 #meta li.sub a:hover span span,#meta li.sub a:active span span,#meta li.sub a:focus span span,#meta li.jsHover a span span,#meta li.jsHover b span span,#meta li.active a span span,#nav li.sub a:hover span span,#nav li.sub a:active span span,#nav li.sub a:focus span span,#nav li.jsHover a span span,#nav li.active a span span{background-position:100% -545px;}
 #nav li.badge{position:relative;}
 #nav input.badge{padding-left:3.5em!important;position:relative;z-index:10;}
@@ -131,23 +131,23 @@ p.infos{color:#7E7E7E;clear:both;padding-top:1em;}
 .col8{width:85.6em;}
 .col9{width:97.2em;position:relative;_width:97.7em;_margin:0 -.5em 0 0;}
 #meta #fontSize.hide{display:none;}
-#meta #fontSize b span span{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 100% -47px;padding:0 43px 0 0;display:block;}
+#meta #fontSize b span span{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 100% -47px;padding:0 43px 0 0;display:block;}
 #wrap #meta #fontSize.jsHover b span span{background-position:100% -97px;}
 #meta #fontSize ul{border:1px solid #d7d7d7;border-top:none;}
 #meta #fontSize li{background:transparent;border:none;font-weight:normal;color:#cc092f;margin:0;}
 #meta #fontSize ul li a,#meta #fontSize ul li a,#meta #fontSize ul li a:hover,#meta #fontSize ul li a:focus,#meta #fontSize ul li a:active{font-size:1.1em!important;font-weight:bold;color:#cc092f;padding-left:29px;}
 #meta #fontSize ul li a:active{text-decoration:none;}
-#meta #fontSize ul li a.normal{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat .6em -1794px;}
-#meta #fontSize ul li a.decrease{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat .6em -1694px;}
-#meta #fontSize ul li a.increase{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat .6em -1744px;}
+#meta #fontSize ul li a.normal{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat .6em -1794px;}
+#meta #fontSize ul li a.decrease{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat .6em -1694px;}
+#meta #fontSize ul li a.increase{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat .6em -1744px;}
 #meta li a,#meta li b,#meta li label{display:block;font-weight:normal;text-decoration:none;color:#FFF;padding:0 7px 1px 7px;cursor:pointer;}
 #meta li label{position:relative;padding:1px 5px;}
 #meta li label span{display:none;}
 #meta li a:hover,#meta li a:active,#meta li a:focus{text-decoration:underline;}
-#meta li a:hover,#meta li a:active,#meta li a:focus,#meta li.jsHover a,#meta li.jsHover b,#meta li.active a{position:relative;color:#cc092f;background:url(../../images/wide/_general/_general/elements/sprite.png) #FFF no-repeat 0 -850px;padding:0;margin:-3px 0 0 0;}
+#meta li a:hover,#meta li a:active,#meta li a:focus,#meta li.jsHover a,#meta li.jsHover b,#meta li.active a{position:relative;color:#cc092f;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) #FFF no-repeat 0 -850px;padding:0;margin:-3px 0 0 0;}
 #meta li.first a:hover,#meta li.first a:active,#meta li.first a:focus,#meta li.jsFirstHover a,#meta li.active a{background-position:-1px -850px;}
-#meta li a:hover span,#meta li a:active span,#meta li a:focus span,#meta li.jsHover a span,#meta li.jsHover b span,#meta li.active a span{display:block;background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 100% -850px;padding:3px 7px 1px 7px;}
-#changeLanguage{background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat scroll 0 -444px;border:medium none;cursor:pointer;height:1.4em;text-indent:-100000px;width:1em;*padding-left:1em;*background-position:0 -448px;}
+#meta li a:hover span,#meta li a:active span,#meta li a:focus span,#meta li.jsHover a span,#meta li.jsHover b span,#meta li.active a span{display:block;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 100% -850px;padding:3px 7px 1px 7px;}
+#changeLanguage{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat scroll 0 -444px;border:medium none;cursor:pointer;height:1.4em;text-indent:-100000px;width:1em;*padding-left:1em;*background-position:0 -448px;}
 #meta li.jsHover ul,#nav li.jsHover ul,#nav li.jsHover form{display:block;width:18em;}
 #nav li ul.wide{width:36em;}
 #nav.el li ul.wide,#nav.zu li ul.wide{width:40em;}
@@ -158,7 +158,7 @@ p.infos{color:#7E7E7E;clear:both;padding-top:1em;}
 #nav li ul.wide li{width:50%;}
 #meta li ul li a,#meta li.jsHover ul li a,#nav li ul li a,#nav li.jsHover ul li a{overflow:hidden;font-weight:normal;color:#cc092f;background:#FFF;padding:5px 7px;margin:0;}
 #meta li ul li a:hover,#meta li ul li a:active,#meta li ul li a:focus,#nav li ul li a:hover,#nav li ul li a:active,#nav li ul li a:focus{color:#FFF;background:#cc092f;padding:5px 7px;margin:0;}
-#meta li i{cursor:default;font-style:normal;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat;padding-left:22px;}
+#meta li i{cursor:default;font-style:normal;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat;padding-left:22px;}
 #meta li.language{border:0;}
 #meta li.language ul li{background:none;width:25%;border-right:0;}
 #meta li.language ul li a{height:1.3em;}
@@ -197,17 +197,17 @@ p.infos{color:#7E7E7E;clear:both;padding-top:1em;}
 #meta .language i.fi{background-position:0 -6398px;}
 #meta .language i.sv{background-position:0 -6498px;}
 #meta .language i.tr{background-position:0 -6598px;}
-#meta .infoMetaNav,#meta li.jsHover .infoMetaNav{width:39.9em;background:url("../../images/wide/_general/_general/elements/teaser.png") repeat-x bottom #fff;}
+#meta .infoMetaNav,#meta li.jsHover .infoMetaNav{width:39.9em;background:url("http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/teaser.png") repeat-x bottom #fff;}
 #meta .infoMetaNav li{float:left;width:17.4em;border:0;padding:.7em .7em .7em 1.2em;}
 #meta .infoMetaNav li.seperator{border-right:1px dotted #d7d7d7;width:18.5em;padding:.7em 1.2em .7em .7em;}
 #meta .infoMetaNav p{position:static;color:#000;padding:0;right:0;text-align:left;top:0;}
 #meta .infoMetaNav p.heading{font-weight:900;margin-bottom:.4em;}
-#meta .infoMetaNav p.f11Key{background:transparent url(../../images/wide/_general/_general/icons/f11_key.png) no-repeat right 4px;padding-right:4em;}
-#meta .infoMetaNav a.link,#meta .infoMetaNav a:hover,#meta .infoMetaNav a:active{font-weight:bold;color:#cc092f;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -46px;padding:0;padding-left:15px;}
+#meta .infoMetaNav p.f11Key{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/f11_key.png) no-repeat right 4px;padding-right:4em;}
+#meta .infoMetaNav a.link,#meta .infoMetaNav a:hover,#meta .infoMetaNav a:active{font-weight:bold;color:#cc092f;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -46px;padding:0;padding-left:15px;}
 #meta .infoMetaNav a:hover{text-decoration:underline;}
 .loaded .hideOnLoad,.showOnLoad{display:none!important;}
 .loaded b.showOnLoad,.jsHover ul.showOnLoad{display:block!important;}
-#nav li.mobile{float:right;background:#b11a1a url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 100% -750px;margin:0;}
+#nav li.mobile{float:right;background:#b11a1a url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 100% -750px;margin:0;}
 #nav li.mobile a{overflow:hidden;}
 #nav li.mobile a span{display:block;margin-right:-1px;}
 #nav li.mobile ul{right:0;}
@@ -232,9 +232,9 @@ p.infos{color:#7E7E7E;clear:both;padding-top:1em;}
 #breadcrumb h3,#breadcrumb li{color:#145CA3;font-weight:normal;font-size:1.1em!important;display:inline;margin-left:.4em;}
 #breadcrumb h3{font-weight:bold;margin-bottom:0;background:transparent;}
 #breadcrumb ol{display:inline;}
-#breadcrumb a{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 100% -3547px;color:#145CA3;padding-right:14px;text-decoration:underline;}
+#breadcrumb a{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 100% -3547px;color:#145CA3;padding-right:14px;text-decoration:underline;}
 #contentNav{clear:left;float:left;position:relative;z-index:2;background:#FFF;width:auto;border:1px solid #C8C8C8;margin:-3em 0 0 0;*margin:-2.8em 0 .4em 0;_margin:-3em 0 .4em 0;}
-#wrap.contentNavChilds #contentNav{background:url(../../images/wide/_general/_general/elements/contentNav.gif) repeat-x left center;}
+#wrap.contentNavChilds #contentNav{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/contentNav.gif) repeat-x left center;}
 .spaceContentNav{clear:both;height:1em;overflow:hidden;}
 .col8 .spaceContentNav{height:1px;}
 #wrap.contentNavChilds .spaceContentNav{height:2em;*height:1.7em;}
@@ -243,7 +243,7 @@ p.infos{color:#7E7E7E;clear:both;padding-top:1em;}
 #contentNav ul{clear:left;float:left;width:auto;margin:-.2em 1px .2em -3px;}
 .contentNavChilds #contentNav ul{margin:-.2em 1px .2em -2px;}
 #contentNav ul li{float:left;display:block;}
-#contentNav ul li a{font-size:1.2em;color:#cc092f;font-weight:bold;float:left;display:block;padding:.1em .9em .05em .9em;margin:.25em 0 .3em 0;background:transparent url(../../images/wide/_general/_general/elements/dot.png) repeat-y left center;}
+#contentNav ul li a{font-size:1.2em;color:#cc092f;font-weight:bold;float:left;display:block;padding:.1em .9em .05em .9em;margin:.25em 0 .3em 0;background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/dot.png) repeat-y left center;}
 *+html #contentNav ul li a{float:none;padding:.2em .9em .25em .9em;margin:.15em 0 .15em 0;}
 *+html #wrap.contentNavChilds #contentNav ul li a{float:none;padding:.1em .9em .0em .9em;margin:.15em 0 .45em 0;}
 #contentNav ul.firstLevel li a{white-space:nowrap;}
@@ -261,13 +261,13 @@ p.infos{color:#7E7E7E;clear:both;padding-top:1em;}
 #content div #contentNav{margin:2em 0 2em 0;width:100%;}
 #content div #contentNav div{right:-1px;width:100%;}
 #content div #contentNav ul{margin:0;}
-#contentNav ul li input{font-size:1.2em;color:#cc092f;font-weight:bold;float:left;overflow:visible!important;display:block;padding:.1em .9em .1em .9em;margin:.05em 0 .25em 0;border-left:1px dotted #CCC;background:transparent url(../../images/wide/_general/_general/elements/dot.png) repeat-y left center;border:none;cursor:pointer;font-family:arial,helvetica,sans-serif;}
+#contentNav ul li input{font-size:1.2em;color:#cc092f;font-weight:bold;float:left;overflow:visible!important;display:block;padding:.1em .9em .1em .9em;margin:.05em 0 .25em 0;border-left:1px dotted #CCC;background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/dot.png) repeat-y left center;border:none;cursor:pointer;font-family:arial,helvetica,sans-serif;}
 #contentNav ul li input.selected{color:#145CA3;}
 #contentNav ul li.first input{background-image:none;}
 #contentNav li.badge{position:relative;}
 #contentNav input.badge{padding-left:3.5em;position:relative;z-index:10;}
 #contentNav img.badgeNew{position:absolute;left:.4em;top:-1em;}
-.help-layer table.data,#content table.data{border:1px solid #C4C4C5;border-collapse:separate;background:url(../../images/wide/_general/_general/elements/teaser.png) no-repeat bottom left;margin-bottom:.8em;}
+.help-layer table.data,#content table.data{border:1px solid #C4C4C5;border-collapse:separate;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/teaser.png) no-repeat bottom left;margin-bottom:.8em;}
 .col6 table.data{width:53.3em;}
 .col6 .box table.data{width:51.3em;}
 .col9 table.data{width:80.5em;}
@@ -283,9 +283,9 @@ p.infos{color:#7E7E7E;clear:both;padding-top:1em;}
 #content table.data tfoot td.close{border-bottom:1px solid #C4C4C5;height:1px;overflow:hidden;background:#FFF;}
 table.data label input{position:relative;top:1px;margin-top:-1px;*margin-top:-4px;}
 table .even td{background:#f0f0f0;}
-#content table.noHead{border-top:none;background:url(../../images/wide/_general/_general/elements/teaser.png) no-repeat top left;margin-top:-1px;margin-bottom:.8em;position:relative;}
+#content table.noHead{border-top:none;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/teaser.png) no-repeat top left;margin-top:-1px;margin-bottom:.8em;position:relative;}
 #content table.noShadow{border-top:none;background:none;}
-#content table.noHead tfoot td{border-top:none;background:url(../../images/wide/_general/_general/elements/teaser.png) no-repeat bottom left;}
+#content table.noHead tfoot td{border-top:none;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/teaser.png) no-repeat bottom left;}
 #content table.data td.links{vertical-align:middle;text-align:right;}
 #content table.data td.message p{color:#145CA3;}
 #content table.data td.rating span.totalRating{position:static;}
@@ -308,7 +308,7 @@ form select.req,form select.req:focus,form input.req,form input.req:focus,form t
 #wrap form select.error,#wrap form select.error:focus,#wrap form input.error,#wrap form input.error:focus{border:1px solid #cc092f;background:#FFE0E0!important;}
 form input.button{cursor:pointer;}
 form .global{float:right;}
-.jsFreeSubmit{background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat scroll 0 -44px;border:medium none;cursor:pointer;height:1.4em;text-indent:-100000px;width:1em;*padding-left:1em;*background-position:0 -47px;}
+.jsFreeSubmit{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat scroll 0 -44px;border:medium none;cursor:pointer;height:1.4em;text-indent:-100000px;width:1em;*padding-left:1em;*background-position:0 -47px;}
 div.footerLinks{margin:0 0 4.5em;}
 ul.foot{clear:both;text-align:center;padding:0 0 .5em 0;*position:relative;}
 ul.foot li{display:inline;padding:0 .2em;margin:0;}
@@ -331,7 +331,7 @@ div.bookmarks ul.main{float:right;}
 div.bookmarks ul.main li{float:left;}
 div.bookmarks div#hrsContact a,div.bookmarks ul li#hrsContactContent a{text-decoration:none;}
 div.bookmarks div#hrsContact p,div.bookmarks div#hrsContactContent p{margin:0;}
-div.bookmarks div#hrsContact,div.bookmarks div#hrsContactContent{background:transparent url(../../images/wide/_general/_general/bookmarkicons/sprite-bookmarks.png) 0 -926px no-repeat;float:left;padding-left:9em;}
+div.bookmarks div#hrsContact,div.bookmarks div#hrsContactContent{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/bookmarkicons/sprite-bookmarks.png) 0 -926px no-repeat;float:left;padding-left:9em;}
 div.bookmarks div#hrsContactContent{background-position:0 -962px;}
 div.bookmarks ul li ul{margin:.25em 0 0 0;}
 div.bookmarks li ul li a{padding-right:.5em;}
@@ -341,7 +341,7 @@ div.bookmarks ul li#mobileDevices{width:230px;}
 div.bookmarks ul li#bookmarkSelection h6,div.bookmarks ul li#recommendedSelection h6,div.bookmarks ul li#mobileDevices h6{margin:0 0 3px 0;}
 ul#bookmarkTooltip{margin:10px 0 5px 0;}
 ul#bookmarkTooltip li{float:left;}
-ul#bookmarkTooltip li a{background-color:transparent;background-image:url(../../images/wide/_general/_general/bookmarkicons/sprite-bookmarks.png);text-decoration:none;border:0;display:block;height:28px;width:30px;padding:0;margin:0;}
+ul#bookmarkTooltip li a{background-color:transparent;background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/bookmarkicons/sprite-bookmarks.png);text-decoration:none;border:0;display:block;height:28px;width:30px;padding:0;margin:0;}
 ul#bookmarkTooltip li a.bebo{background-position:0 0;}
 ul#bookmarkTooltip li a.blip{background-position:0 -30px;}
 ul#bookmarkTooltip li a.clipmarks{background-position:0 -60px;}
@@ -368,7 +368,7 @@ ul#mobileDeviceTooltip,p.addTooltipInfo{clear:left;}
 p.addTooltipInfo{width:238px;border-width:1px 0 0 0;border-style:solid;border-color:#d7d7d7;padding:5px 0 0 0;margin:5px 0 0 0!important;color:#000!important;}
 ul#mobileDeviceTooltip{width:249px;margin:10px 0 5px 0;}
 ul#mobileDeviceTooltip li{float:left;margin:0;padding:0;}
-ul#mobileDeviceTooltip li a,a.blackberryStore,a.iphoneStore,a.ipadStore,a.nokiaAppsStore,a.nokiaMapsStore,a.hotelsnowStore,a.palmpreStore,a.vodafoneStore{margin:0 8px 8px 0;background-color:transparent;background-image:url(../../images/wide/_general/_general/bookmarkicons/sprite-bookmarks.png);text-decoration:none;border:0;display:block;height:27px;width:74px;background-position:0 -766px;}
+ul#mobileDeviceTooltip li a,a.blackberryStore,a.iphoneStore,a.ipadStore,a.nokiaAppsStore,a.nokiaMapsStore,a.hotelsnowStore,a.palmpreStore,a.vodafoneStore{margin:0 8px 8px 0;background-color:transparent;background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/bookmarkicons/sprite-bookmarks.png);text-decoration:none;border:0;display:block;height:27px;width:74px;background-position:0 -766px;}
 ul#mobileDeviceTooltip li a.iphone,a.iphoneStore{background-position:0 -830px;}
 ul#mobileDeviceTooltip li a.blackberry,a.blackberryStore{background-position:0 -894px;}
 ul#mobileDeviceTooltip li a.ipad,a.ipadStore{background-position:0 -1062px;}
@@ -380,12 +380,12 @@ ul#mobileDeviceTooltip li a.hotelsnow,a.hotelsnowStore{background-position:0 -11
 ul#mobileDeviceTooltip li a.palmpre,a.vodafoneStore{background-position:0 -1190px;}
 ul#mobileDeviceTooltip li a.vodafone,a.vodafoneStore{background-position:0 -1222px;}
 ul#mobileDeviceTooltip li a.link{padding-left:0;}
-div.bookmarks li#recommendedSelection ul li a{float:left;background-color:transparent;background-image:url(../../images/wide/_general/_general/bookmarkicons/sprite-bookmarks.png);text-decoration:none;border:0;display:block;height:27px;width:86px;background-position:0 -998px;}
+div.bookmarks li#recommendedSelection ul li a{float:left;background-color:transparent;background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/bookmarkicons/sprite-bookmarks.png);text-decoration:none;border:0;display:block;height:27px;width:86px;background-position:0 -998px;}
 div.bookmarks li#recommendedSelection ul li a.facebook,div.bookmarks li#recommendedSelection ul li a.hp_facebook{background-position:0 -1030px;}
 .error{color:#cc092f;}
 .errorMsg,.messages{color:#cc092f;border-top:1px solid #cc092f;border-bottom:1px solid #cc092f;background:#FFE0E0;padding:.8em;margin:0 .8em .8em 0;}
 .box .errorMsg{font-size:1.2em!important;margin:0;}
-.errorMsg a{color:#cc092f;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -46px;padding:0 0 0 15px;display:block;}
+.errorMsg a{color:#cc092f;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -46px;padding:0 0 0 15px;display:block;}
 .multistorno a{display:inline!important;}
 .col9 .multistorno{width:61.2em;}
 .messages{border-top-color:#5987C0;border-bottom-color:#5987C0;}
@@ -421,16 +421,16 @@ div.messages *{font-size:1em;}
 .changed span{background-color:#D0DEED;}
 .setRight{text-align:right;}
 div#content b{color:#003;}
-div#content label b,div#content span.desc b,div#content h4 b,#contextSensitiveHelpForm b,div#content label b,div#content span.desc b,div#content h4 b,div#content #sendSms .info b,div#content #sendSms b{color:#cc092f;padding:3px;font-weight:normal;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9929px;}
+div#content label b,div#content span.desc b,div#content h4 b,#contextSensitiveHelpForm b,div#content label b,div#content span.desc b,div#content h4 b,div#content #sendSms .info b,div#content #sendSms b{color:#cc092f;padding:3px;font-weight:normal;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9929px;}
 div#content ul.liCol3 label b{background:none;}
 .highlight{color:#cc092f;}
 .tRight{text-align:right;}
-.jsToggler{cursor:pointer;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -3292px;padding-left:25px;}
+.jsToggler{cursor:pointer;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -3292px;padding-left:25px;}
 .jsToggled{background-position:0 -3342px;}
-div.box h4.jsToggler{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -3398px;padding:.1em 0 .2em 18px;}
+div.box h4.jsToggler{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -3398px;padding:.1em 0 .2em 18px;}
 div.box h4.jsToggled{background-position:0 -3448px;padding-bottom:1em;border-bottom:1px solid #D0DEED;}
 div.box h4.last{border-bottom:none;}
-.infoTooltip{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 100% -1160px;padding:1px 19px 1px 0;*padding-top:0;}
+.infoTooltip{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 100% -1160px;padding:1px 19px 1px 0;*padding-top:0;}
 img.right{margin:0 .8em!important;}
 .noFloat{float:none!important;}
 .noBorder{border:none!important;}
@@ -438,7 +438,7 @@ img.right{margin:0 .8em!important;}
 p.qcms{clear:left;}
 .simParagraph{line-height:1.5em;}
 .autoCursor{cursor:default!important;}
-#nav li.myhrs div .link,a.link,.noVideoPlayer span{font-weight:bold;color:#cc092f;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -46px;padding-left:15px;}
+#nav li.myhrs div .link,a.link,.noVideoPlayer span{font-weight:bold;color:#cc092f;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -46px;padding-left:15px;}
 #nav li.myhrs div .link{background:none;padding:0;font-weight:normal;margin-left:0!important;}
 a.link:hover,a.link:focus{text-decoration:underline;}
 a.noIcon{font-weight:bold;color:#cc092f;}
@@ -447,45 +447,45 @@ a.top{background-position:0 -596px;font-weight:normal;padding-left:8px;}
 a:hover.top{background-position:0 -646px;color:#145CA3;}
 a.bottom{background-position:0 -196px;}
 a.popup{background-position:0 -2850px;padding-left:23px;}
-a.back{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -146px!important;}
-a.close{background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat scroll 0 -1050px;padding-left:24px;}
+a.back{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -146px!important;}
+a.close{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat scroll 0 -1050px;padding-left:24px;}
 a.thin{font-weight:normal;padding-left:0;background:none;}
 a.switch{background-position:0 -2950px;padding-left:20px;}
-#wrap a.download{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -1550px;padding:1px 0 4px 20px;}
-#wrap a.email,a.email{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -1598px;padding-left:20px;line-height:1.25em;}
-#wrap a.sendEmail{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -1648px;padding-left:20px;}
+#wrap a.download{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -1550px;padding:1px 0 4px 20px;}
+#wrap a.email,a.email{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -1598px;padding-left:20px;line-height:1.25em;}
+#wrap a.sendEmail{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -1648px;padding-left:20px;}
 #wrap a.print{background-position:0 -2900px;padding:.3em 0 .2em 20px;}
-#wrap a.jumper{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat -45px -296px;padding:0 0 0 12px;}
-#wrap .bar a.jumper{font-weight:normal;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 100% -296px;padding:0 12px 0 0;}
-#wrap a.note,#wrap input.note{background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2800px;padding:1px 0 2px 20px;color:#cc092f;border:none;cursor:pointer;font-weight:bold;}
-#wrap a.contextHelp,#wrap a.contextHelpFake{background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9550px;color:#145ca3;font-weight:normal;padding-left:18px;}
+#wrap a.jumper{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat -45px -296px;padding:0 0 0 12px;}
+#wrap .bar a.jumper{font-weight:normal;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 100% -296px;padding:0 12px 0 0;}
+#wrap a.note,#wrap input.note{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2800px;padding:1px 0 2px 20px;color:#cc092f;border:none;cursor:pointer;font-weight:bold;}
+#wrap a.contextHelp,#wrap a.contextHelpFake{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9550px;color:#145ca3;font-weight:normal;padding-left:18px;}
 #wrap a.contextHelp.active{background-position:0 -9598px;color:#b11a1a;text-decoration:none;}
-#wrap a.calNote{background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9985px;padding:1px 0 2px 20px;}
-#wrap span.calIconA{background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2220px;width:14px;height:14px;display:block;float:left;cursor:pointer;}
+#wrap a.calNote{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9985px;padding:1px 0 2px 20px;}
+#wrap span.calIconA{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2220px;width:14px;height:14px;display:block;float:left;cursor:pointer;}
 #wrap .marginalSearch span.calIconA{float:right;margin:0 .5em .5em 0;}
 #wrap input.dateInput{float:left;}
 ul.ankerList{padding:0 0 2.4em 0;}
 ul.ankerList li,.col3 ul.secondLevel li{border-bottom:1px solid #C8C8C8;margin:.4em 0;padding:.4em 0;}
 ul.ankerList li a{display:block;background-position:0 .3em;}
-.col3 ul.secondLevel li a,.col3 ul.ankerList li a{font-weight:bold;color:#cc092f;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -196px;padding-left:15px;}
-.col3 ul.secondLevel li a.selected{color:#145CA3;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -246px;}
+.col3 ul.secondLevel li a,.col3 ul.ankerList li a{font-weight:bold;color:#cc092f;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -196px;padding-left:15px;}
+.col3 ul.secondLevel li a.selected{color:#145CA3;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -246px;}
 div#wrap .col3 ul.ankerList,div#wrap .col3 ul.secondLevel{padding-bottom:0;margin-bottom:.2em;}
 .col3 ul.ankerList li,.col3 ul.secondLevel li{border-bottom:none;margin:0;}
-.col3 ul.ankerList li a:hover,.col3 ul.secondLevel li a:hover{color:#145CA3;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -246px;}
+.col3 ul.ankerList li a:hover,.col3 ul.secondLevel li a:hover{color:#145CA3;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -246px;}
 div#content p{line-height:1.5em;margin:.1em 1.2em 1.4em 0;}
 div#content .errorMsg p{margin:0 1.2em 0 0;}
 div#wrap div#layout01 div#layout02 p.widthBorder{line-height:1.5em;margin-bottom:.7em;padding-bottom:.8em;border-bottom:1px solid #d7d7d7!important;background:#FFF;}
 div#wrap div#layout01 div#layout02 .services p.widthBorder{background:#F0F7FF;}
 div#wrap div.box p.widthBorder{margin-right:0;}
 div#wrap div.teaser ul.city{margin:0 .8em .4em 1.325em;}
-ul.city li{clear:both;text-align:right;background:url(../../images/wide/_general/_general/elements/sprite.png) repeat-x bottom left;margin-bottom:.2em;}
+ul.city li{clear:both;text-align:right;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) repeat-x bottom left;margin-bottom:.2em;}
 ul.city li strong,ul.city li span.left{margin:0 0 -1px 0;padding:0 5px 0 0;display:block;float:left;position:relative;}
 ul.city li a,ul.city li span{font-weight:bold;line-height:1em;color:#cc092f;background-color:#FFF;margin:0 0 -4px 0;}
 ul.city li strong a,ul.city li span{line-height:1.4em;color:#003;margin:0;}
 ul.city li span{font-weight:normal;padding-bottom:1px;}
 ul.city li strong a.link{color:#cc092f;}
-#content input.link,.teaser input.link{font-family:arial,helvetica,sans-serif;display:inline;font-weight:bold;color:#cc092f;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -45px;padding:0 0 0 10px;border:none;*overflow:visible;*padding:0 0 0 20px;cursor:pointer;}
-#content input.back{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -146px!important;}
+#content input.link,.teaser input.link{font-family:arial,helvetica,sans-serif;display:inline;font-weight:bold;color:#cc092f;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -45px;padding:0 0 0 10px;border:none;*overflow:visible;*padding:0 0 0 20px;cursor:pointer;}
+#content input.back{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -146px!important;}
 .contentFooter{clear:both;padding:1.4em .8em .4em 0;margin:0 .8em 8px 0;*height:1%;}
 div.box .contentFooter{width:100%;padding:1.2em 0 0 0;margin:1.2em 0 0 0;border-top:1px solid #d7d7d7;border-bottom:none;}
 div.box .noBorder{margin:-.8em 0 0 0;}
@@ -504,28 +504,28 @@ div.notepad .button{padding:0 0 1px 0;_padding:0 0 1px 0;}
 span.inText{float:left;margin-left:0;margin-bottom:1.4em;}
 .global{float:left;}
 .contentFooter .global{float:right;}
-.global input,.global a,.global strong,.global img,#nav li.myhrs li.logout .global a{background:#cc092f url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -1100px;padding:.3em .25em .45em .3em;}
+.global input,.global a,.global strong,.global img,#nav li.myhrs li.logout .global a{background:#cc092f url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -1100px;padding:.3em .25em .45em .3em;}
 .global a,#nav li.myhrs li.logout .global a{padding:.4em .5em .5em .5em;}
 span.local{border-color:#5987c0;line-height:normal;}
 span.local span{border-color:#5987c0;}
-span.local a,span.local input,span.local strong,span.select a,span.select input,span.select strong{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -2366px!important;padding:0 .3em .09em .3em;}
+span.local a,span.local input,span.local strong,span.select a,span.select input,span.select strong{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -2366px!important;padding:0 .3em .09em .3em;}
 span.white,span.white span{background:#f0f0f0;border-color:#F0F0F0;}
-span.white input{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -3006px!important;}
+span.white input{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -3006px!important;}
 span.noPic a{padding:.1em .5em .15em .5em!important;}
 span.select a{padding:.1em .3em .15em .3em;}
 span.local a{padding:.05em .3em .2em .8em;}
 span.local strong,span.select strong{padding:.1em .5em .15em .5em;}
 #wrap.start .search .button{margin:.8em .85em .85em 0;}
-#wrap.start .search .button input{font-size:1.5em!important;text-align:left;background:#cc092f url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 100% -950px!important;min-width:10.31em;padding:.4em 2.85em .5em .4em!important;}
-span.booking input,span.booking a,span.booking strong{background:#cc092f url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 100% -1200px!important;padding-right:3em!important;}
+#wrap.start .search .button input{font-size:1.5em!important;text-align:left;background:#cc092f url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 100% -950px!important;min-width:10.31em;padding:.4em 2.85em .5em .4em!important;}
+span.booking input,span.booking a,span.booking strong{background:#cc092f url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 100% -1200px!important;padding-right:3em!important;}
 span.booking strong{padding:.4em .5em .5em .5em;}
 span.booking{display:inline;}
 span.link span{float:left;}
-span.select a,span.select input,span.select strong,#dashboard .jsToggled span strong{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -1766px!important;padding-left:25px;}
-span.select a.open,span.select input.open,span.select strong.open{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -2166px!important;}
-span.selectDisabled a,span.selectDisabled strong{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -1966px!important;}
+span.select a,span.select input,span.select strong,#dashboard .jsToggled span strong{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -1766px!important;padding-left:25px;}
+span.select a.open,span.select input.open,span.select strong.open{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -2166px!important;}
+span.selectDisabled a,span.selectDisabled strong{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -1966px!important;}
 span.selectDisabled,span.selectDisabled span{border-color:#A4A4A4;}
-span.selectDisabled a.open,span.selectDisabled strong.open{background:url(../../images/wide/_general/_general/elements/select_open_disabled.png) no-repeat left center!important;}
+span.selectDisabled a.open,span.selectDisabled strong.open{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/select_open_disabled.png) no-repeat left center!important;}
 .global strong img{background:none;margin:.13em 0;padding:0;*padding:.13em 0;*margin:0;top:0;}
 #offers h5 input{*overflow:visible;}
 .help-layer ul.list,#content ul.list{list-style:square;padding:0 0 0 20px;}
@@ -535,28 +535,28 @@ span.selectDisabled a.open,span.selectDisabled strong.open{background:url(../../
 div.article p.pic{width:17em;padding:1.1em 0 0 1.1em!important;}
 div.articleLeft{float:left;width:41em;}
 div.articleLeft p,div.articleLeft div.left{margin:.4em 1.6em .4em 0!important;}
-.bar{clear:both;background:url(../../images/wide/_general/_general/elements/bar.png) repeat-x 50% 50%;position:relative;padding:0 1.2em;border:1px solid #C8C8C8;margin:0 .8em -1px 0;}
+.bar{clear:both;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/bar.png) repeat-x 50% 50%;position:relative;padding:0 1.2em;border:1px solid #C8C8C8;margin:0 .8em -1px 0;}
 div#wrap h3.bar{padding:.6em;margin:0 .6em -1px 0;font-size:1.4em;color:#145CA3;position:relative;z-index:10;*height:1%;}
 div#wrap #content h3 a.hotlineInfo{position:absolute;top:0;right:2em;padding:0;background:none;}
 #wrap .services h3{font-size:1.4em;color:#145CA3;padding:.6em 0;margin:0;color:#145CA3;}
 #wrap .bar h3{font-size:1.4em;color:#145CA3;padding:.6em 0;margin:0;*position:static;}
 #wrap .bar h3.jsToggler{padding-left:1.9em;}
-.bar input{padding:.6em 1.55em;margin:0;border:none;font-size:1.4em;font-family:arial,helvetica,sans-serif;font-weight:bold;color:#145CA3;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -3292px;cursor:pointer;}
+.bar input{padding:.6em 1.55em;margin:0;border:none;font-size:1.4em;font-family:arial,helvetica,sans-serif;font-weight:bold;color:#145CA3;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -3292px;cursor:pointer;}
 .bar input.act{background-position:0 -3342px;*margin:0;}
 .bar .jumper{position:absolute;top:.8em;right:1.2em;}
-h3.bar a{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -3350px;padding:0 1.8em;color:#145CA3;}
-h3.bar span{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -3300px;padding:0 1.8em;}
-.box{font-size:1em!important;background:url(../../images/wide/_general/_general/elements/standard_form.gif) repeat-x bottom left;padding:.8em 1.2em 1.2em 1.2em;border:1px solid #C8C8C8;margin:0 .8em .8em 0;}
+h3.bar a{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -3350px;padding:0 1.8em;color:#145CA3;}
+h3.bar span{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -3300px;padding:0 1.8em;}
+.box{font-size:1em!important;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/standard_form.gif) repeat-x bottom left;padding:.8em 1.2em 1.2em 1.2em;border:1px solid #C8C8C8;margin:0 .8em .8em 0;}
 .galleryBox{padding:.7em;position:relative;}
 #videoGallery .galleryBox{text-align:center;}
-.galleryBox a{background:url(../../images/wide/_general/_general/icons/gallery_buttons.png) no-repeat;display:block;width:29px;height:100%;position:absolute;top:0;}
+.galleryBox a{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/gallery_buttons.png) no-repeat;display:block;width:29px;height:100%;position:absolute;top:0;}
 .galleryBox a.prev{background-position:-26px center;}
 .galleryBox a.next{right:.55em;background-position:0 center;}
 .services{border:none;background:#F0F7FF;}
 dl.box dt,dl.box dd{font-size:1.2em!important;}
 #webCalendarContainer{position:absolute;top:-9000px;z-index:800;padding:0 5px 5px 1px;*padding:0 5px 5px 0;}
 label.cal{position:relative;padding-bottom:.6em;}
-.help-layer label.cal{position:static;display:block;background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 164px -2220px;overflow:hidden;}
+.help-layer label.cal{position:static;display:block;background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 164px -2220px;overflow:hidden;}
 .help-layer label.cal span{float:left;width:53px;font-weight:900;}
 .help-layer label.cal input{width:100px;float:left;}
 label.map{margin-right:1em;width:16em!important;}
@@ -591,11 +591,11 @@ fieldset.marginalSearch div#childrenWrap div label.age select{width:auto;display
 div.bookingStat{padding-top:0;*height:1%;}
 div.bookingStat div.lT{z-index:0;}
 div#wrap div.bookingStat ul{margin:1em 0 -.6em 1.2em;padding:0;float:left;}
-div.bookingStat ul li{float:left;display:block;background:url(../../images/wide/_general/_general/elements/dot.png) repeat-y 0 0;padding:0 0 0 .9em;}
+div.bookingStat ul li{float:left;display:block;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/dot.png) repeat-y 0 0;padding:0 0 0 .9em;}
 div.bookingStat ul li img{padding:.4em .8em 0 0;*padding:.6em .8em 0 0;margin:0 0 0 -.6em;}
 div.bookingStat ul li.first,div.bookingStat ul li.firstActive{background:none;padding:0;}
 div.bookingStat ul li span,div.bookingStat ul li span input{display:block;float:left;font-weight:bold;line-height:2.4em;color:#5987C0;padding:0 .8em 0 2.8em;}
-div.bookingStat ul li span{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -700px;}
+div.bookingStat ul li span{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -700px;}
 div.bookingStat ul li.first span{background-position:0 -700px;}
 div.bookingStat ul li.second span{background-position:0 -800px;}
 div.bookingStat ul li.third span{background-position:0 -900px;}
@@ -605,7 +605,7 @@ div.bookingStat ul li.thirdActive span{background-position:0 -950px;color:#cc092
 div.bookingStat ul li span input{background:transparent;border:none;padding:0;margin-top:.5em;}
 ul.fc{margin:0 1.2em 0 0;}
 ul.fc li{display:inline;}
-div#content p.secure{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -1900px;padding-left:20px;margin:.4em 1.2em .4em 0;}
+div#content p.secure{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -1900px;padding-left:20px;margin:.4em 1.2em .4em 0;}
 div.box fieldset{clear:both;border-bottom:1px solid #D0DEED;margin:0 0 .8em 0;padding:.8em 1.2em .4em 0;}
 .smallHead div.box fieldset.wishes{margin-bottom:-4px!important;}
 div.box fieldset.special{background:#F0F7FF;padding:0;}
@@ -733,11 +733,11 @@ div#childrenWrap div label.age{width:9.7em;}
 select.childAccommodation{width:15em;}
 ul.sitemap{overflow:hidden;bottom:-15px;margin-top:-20px!important;}
 * html ul.sitemap{width:63.7em;}
-ul.sitemap a{color:#cc092f;font-weight:bold;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -46px;padding-left:15px;line-height:160%;}
+ul.sitemap a{color:#cc092f;font-weight:bold;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -46px;padding-left:15px;line-height:160%;}
 ul.sitemap li{clear:left;float:left;width:100%;border-top:1px solid #D0DEED;margin-top:-1px;padding:.3em 0;*margin-left:1em;*width:51em;}
 * html ul.sitemap li{display:inline;width:45em;}
 ul.sitemap ul{clear:left;}
-ul.sitemap ul a{color:#145CA3;font-weight:normal;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 4px;padding-left:14px;}
+ul.sitemap ul a{color:#145CA3;font-weight:normal;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 4px;padding-left:14px;}
 ul.sitemap ul li{border-top:none;margin-left:3em;}
 .service div#content p.setRight{border-bottom:1px solid #d7d7d7;padding-bottom:.6em;margin:-.8em .8em .4em 0;}
 .service div#content p.singleItem i{font-weight:bold;font-style:normal;}
@@ -760,8 +760,8 @@ div.col9 span.button input{*filter:Alpha(opacity = 99);}
 #content table.changeViewBasket tbody td,#content table.changeViewBasket tfoot td,#content table.changeViewBasket thead th,#content table.changeViewBasket tbody th{padding:.4em 0 .4em 1em;}
 #content table.changeViewBasket thead th{border-top:1px solid #C4C4C5;}
 #content table.changeViewBasket thead th.roomNr{background:#779FCF;border-right:.1em solid #D0DEED;border-top:.1em solid #D0DEED;color:#FFF;text-align:center;padding:.4em;}
-#content table.changeViewBasket thead th.first,#content table.changeViewBasket tfoot td.first{padding:0;border-width:0;background:#679acd url(../../images/wide/_general/_general/elements/bg_top_changeViewBasket.gif) repeat-x 0 0;}
-#content table.changeViewBasket tfoot td.first{background:#5987c0 url(../../images/wide/_general/_general/elements/bg_btm_changeViewBasket.gif) repeat-x 0 0;}
+#content table.changeViewBasket thead th.first,#content table.changeViewBasket tfoot td.first{padding:0;border-width:0;background:#679acd url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/bg_top_changeViewBasket.gif) repeat-x 0 0;}
+#content table.changeViewBasket tfoot td.first{background:#5987c0 url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/bg_btm_changeViewBasket.gif) repeat-x 0 0;}
 #content table.changeViewBasket tbody td.last{padding:.4em .8em .4em 1.6em;}
 #content table.changeViewBasket tbody td.last a{display:block;white-space:nowrap;}
 #content table.changeViewBasket tbody td.first{padding:.4em 0 .4em .4em;width:auto;text-align:right;white-space:nowrap;border:none;border-top:1px solid #D0DEED;}
@@ -795,10 +795,10 @@ div#wrap #content table.changeViewBasket tfoot td span.button{margin-top:.6em!im
 #wrap div#content table.cancelBookingMeanStep td.mc{color:#FFF;font-size:1.2em!important;font-weight:bold;text-align:center;padding:.4em 0 0 0;}
 .mm{width:2.41em;border-left:solid 1px #a0b5cb;border-right:solid 1px #a0b5cb;text-align:center;}
 td.mc{background:#779FCF!important;}
-.mm a,.mm span{font-family:Verdana;font-size:.75em!important;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 50% -2450px;color:#FFF;font-weight:bold;height:3.9em;text-align:center;display:block;}
+.mm a,.mm span{font-family:Verdana;font-size:.75em!important;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 50% -2450px;color:#FFF;font-weight:bold;height:3.9em;text-align:center;display:block;}
 #tablehead .mm{background:#5987c0;padding:0;width:2.51em;*width:2.61em;}
-#tablehead td.mm span{background:url(../../images/wide/_general/_general/icons/sprite_loh.png) no-repeat 0 -400px;display:block;height:auto;position:relative;margin-top:-1px;padding:0;}
-#tablehead .mm span span{border:none;background:url(../../images/wide/_general/_general/icons/sprite_loh.png) no-repeat 100% -400px;margin-top:-1px;height:100%;width:100%;display:block;}
+#tablehead td.mm span{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite_loh.png) no-repeat 0 -400px;display:block;height:auto;position:relative;margin-top:-1px;padding:0;}
+#tablehead .mm span span{border:none;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite_loh.png) no-repeat 100% -400px;margin-top:-1px;height:100%;width:100%;display:block;}
 #tablehead .mm a{height:auto;}
 #tablehead .mm span *,#tablehead .mm span.number{background:none;}
 #tablehead .mm span.number{font-weight:bold;font-family:Arial;font-size:1em!important;}
@@ -825,7 +825,7 @@ div#wrap table.favorites .hotellist td{border-top:none;border-bottom:solid 1px #
 .favorites .hf a{background:none;padding:0;}
 .favorites span.button a{margin:0 0 -4px 0;}
 div#wrap table.data tfoot td{background:#E0ECF8;}
-div#wrap table.data tfoot td.foot{border:none;width:2.55em;background:#E0ECF8 url(../../images/wide/_general/_general/elements/favorites_useSelected.png) no-repeat bottom left;}
+div#wrap table.data tfoot td.foot{border:none;width:2.55em;background:#E0ECF8 url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/favorites_useSelected.png) no-repeat bottom left;}
 div#wrap table.data tfoot td span.button{margin-top:.1em!important;margin-bottom:.2em!important;}
 #wrap .data .hb{vertical-align:bottom;padding-bottom:.7em;padding-top:.6em;}
 div#wrap table.data tfoot td label{float:left;margin:0 1.6em 0;}
@@ -856,14 +856,14 @@ div#wrap div.promotion p.picthumbFirst,div#wrap div.promotion p.picthumbSec{marg
 div#wrap div.promotion p.picthumbSec{margin:0 0 .4em 0;left:.8em;float:left;}
 div#wrap div.promotion div.picWrap{position:relative;left:0;width:16.3em;float:left;margin-bottom:-.5em;}
 div.promotionCont{float:left;width:31.1em;padding-bottom:2.75em;}
-div.promotionCont a.contLinkMedium{font-weight:bold;color:#cc092f;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -46px;padding-left:15px;}
+div.promotionCont a.contLinkMedium{font-weight:bold;color:#cc092f;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -46px;padding-left:15px;}
 div.promotionCont a.contLinkMedium:hover{text-decoration:underline;}
 div#wrap div.promotion p.pic img{width:11.666em;height:11.666em;}
 div#wrap div.promotion p.picthumbFirst img,div#wrap div.promotion p.picthumbSec img{width:5.6em;height:5.6em;}
 div#wrap div.promotion p.teaserLink{width:17em;bottom:35px;padding:1em 0 0;margin-bottom:0;position:absolute;z-index:5000;right:0;text-align:right;}
 div#wrap div.promotion p.teaserLink a{background-position:0 -46px;display:inline;}
 div#wrap div.promotion p.promotionLink{width:38.4em;border-top:1px dotted #C8C8C8;padding:.4em 0;position:absolute;z-index:2000;bottom:0;}
-div#wrap div.promotion p.promotionLink a{font-weight:normal;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -346px;color:#145CA3;display:block;}
+div#wrap div.promotion p.promotionLink a{font-weight:normal;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -346px;color:#145CA3;display:block;}
 div#wrap div.promotion div.lT{height:4em;}
 div#wrap div.promotionCont h3,div#wrap div.promotionCont h3 a{font-size:12px;}
 div#wrap div.promotionCont h4,div#wrap div.promotionCont h4 a{font-size:13px;}
@@ -887,9 +887,9 @@ ul#bookingHistorySelection li{float:left;list-style:none;margin:0;padding:0 .125
 ul#bookingHistorySelection li a{display:block;color:#cc092f;font-weight:bold;}
 ul#bookingHistorySelection li.active{font-weight:bold;color:#003;}
 ul#bookingHistorySelection li.back,ul#bookingHistorySelection li.next,ul#bookingHistorySelection li.first,ul#bookingHistorySelection li.last{display:block;border:0 solid transparent;color:#cc092f;text-decoration:none;cursor:hand;voice-family:"\"}\"";voice-family:inherit;cursor:pointer;}
-ul#bookingHistorySelection li.back{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -100px;padding:0;margin:0 1em 0 .2em;height:2em;}
+ul#bookingHistorySelection li.back{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -100px;padding:0;margin:0 1em 0 .2em;height:2em;}
 ul#bookingHistorySelection li.back a{padding:0 0 0 2em;}
-ul#bookingHistorySelection li.next{height:2em;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 100% -400px;padding:0;margin:0 .2em 0 1em;}
+ul#bookingHistorySelection li.next{height:2em;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 100% -400px;padding:0;margin:0 .2em 0 1em;}
 ul#bookingHistorySelection li.next a{padding:0 2.25em 0 0;}
 ul#bookingHistorySelection li.first img,ul#bookingHistorySelection li.last img{border:0;margin:0 .5em 0 0;}
 ul#bookingHistorySelection li.last img{margin:0 0 0 .5em;}
@@ -901,7 +901,7 @@ table.navActive_ratingHP{table-layout:fixed;width:50.1em!important;_width:49.5em
 table.navActive_ratingHP .link{float:right;margin-right:.8em;}
 table.navActive_ratingHP td,table.navActive_ratingHP th{text-align:center;border-bottom:1px solid #D0DEED;padding:.3em 0 .3em 0;}
 table.navActive_ratingHP tr.topFlop th{border:none;padding:0 0 .3em 0;}
-table.navActive_ratingHP th.topFlop{background:url(../../images/wide/_general/_general/icons/rating_arrow.gif) no-repeat 100% 85%;}
+table.navActive_ratingHP th.topFlop{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/rating_arrow.gif) no-repeat 100% 85%;}
 table.navActive_ratingHP th.topFlop div.top,table.navActive_ratingHP th.topFlop div.flop{float:right;color:#028A01;font-size:.9em;font-weight:bold;}
 table.navActive_ratingHP th.topFlop div.flop{float:left;color:#cc092f;}
 table.navActive_ratingHP td.hotelDescriptionLink,table.navActive_ratingHP td.ratingDescription{padding:1.8em 0 .75em 0;border-bottom:none;}
@@ -928,8 +928,8 @@ div.marginal dl#evaluationDescription dt{width:auto;float:none;}
 div.marginal dl#evaluationDescription dt img{float:left;margin-right:.3em;}
 div.marginal dl#evaluationDescription dd{display:inline;float:none;}
 #veMap{position:relative;border:1px solid #d7d7d7;margin-bottom:.4em;}
-p.hotelmarker{clear:left;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2100px;padding:.4em 0 .6em 30px;height:1.9em;}
-td.mapMarker span,.pushPin,.mapMarker{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2100px;text-align:center;width:23px;height:34px;font-family:Verdana;font-size:9px!important;font-weight:bold;color:#fff;}
+p.hotelmarker{clear:left;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2100px;padding:.4em 0 .6em 30px;height:1.9em;}
+td.mapMarker span,.pushPin,.mapMarker{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2100px;text-align:center;width:23px;height:34px;font-family:Verdana;font-size:9px!important;font-weight:bold;color:#fff;}
 .mapMarker a{font-size:12px!important;font-weight:bold;color:#fff;}
 td.mapMarker{background:none;height:4.8em;width:auto;}
 td.mapMarker span{height:34px!important;}
@@ -949,8 +949,8 @@ div.mapWrap{float:left;width:14em;}
 #content #startFirstRow{padding:8em 0 0 1.2em;margin:0;}
 #startFirstRow{position:relative;margin:8em 0 0 0;overflow:hidden;background:none;}
 #startFirstRow:after{content:"";display:block;clear:both;}
-.teaser{margin:0 .85em .8em 0;background:#FFF url(../../images/wide/_general/_general/elements/teaser.png) no-repeat 0 0;border:1px solid #C8C8C8;padding:8px 0 0 0;clear:both;}
-.teaser div.lT{height:15px;background:url(../../images/wide/_general/_general/elements/teaser.png) no-repeat bottom left;margin:0;clear:both;}
+.teaser{margin:0 .85em .8em 0;background:#FFF url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/teaser.png) no-repeat 0 0;border:1px solid #C8C8C8;padding:8px 0 0 0;clear:both;}
+.teaser div.lT{height:15px;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/teaser.png) no-repeat bottom left;margin:0;clear:both;}
 div.lT02{display:none;}
 .teaser p,#wrap .teaser h3,.teaser h4,.teaser h5,.teaser div,.teaser ul,.teaser dl,.teaser form,.teaser address{position:relative;z-index:1;line-height:1.3em;}
 div#wrap .teaser p,div#wrap .teaser h3,div#wrap .teaser h4,div#wrap .teaser h5,div#wrap .teaser div,div#wrap .teaser ul,div#wrap .teaser dl,div#wrap .teaser form,div#wrap .teaser address{line-height:1.3em;}
@@ -963,8 +963,8 @@ div#wrap .teaser .tCol1_5 p.info{margin:1em .5em .1em 1em;*margin:1em .5em .3em 
 div#content .teaser address{display:block;clear:both;font-size:1em;margin:0 .9em .45em 1.1em;font-style:normal;}
 div#content .contact address{margin-bottom:-.6em;*margin-bottom:0;}
 div#content .teaser address a{display:block;clear:both;margin:0 0 .8em 0;}
-div#wrap div#content .col3 .calendar{padding-right:80px;background:url(../../images/wide/_general/_general/icons/ic_cal_note.gif) top right no-repeat;}
-div#content div.car p.carRental{padding:0 11em 0 0;background:url(../../images/wide/_general/_general/content/preview_carRental.jpg) top right no-repeat;}
+div#wrap div#content .col3 .calendar{padding-right:80px;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/ic_cal_note.gif) top right no-repeat;}
+div#content div.car p.carRental{padding:0 11em 0 0;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/content/preview_carRental.jpg) top right no-repeat;}
 div#content div.sport p.easySport{width:80%;float:left;}
 div#content div.sport p.easySport a#ad_easysport img{float:none;}
 div#content div.sport img.easysportTeaser{float:right;}
@@ -977,7 +977,7 @@ ul#mobileCollection li{float:left;width:24.5%;text-align:center;margin:1em 0;}
 ul#mobileCollection li a{display:block;width:100%;text-align:center;}
 ul#mobileCollection li a:active,ul#mobileCollection li a:focus,ul#mobileCollection li a:hover{text-decoration:underline;}
 ul#mobileCollection li a{text-align:center;font-weight:bold!important;color:#145ca3!important;}
-div.box ul#mobileCollection li a{background:url(../../images/wide/_general/_general/content/sprite-mobile-devices.jpg) no-repeat 0 20px;display:block;width:150px;height:220px;margin:0 auto;}
+div.box ul#mobileCollection li a{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/content/sprite-mobile-devices.jpg) no-repeat 0 20px;display:block;width:150px;height:220px;margin:0 auto;}
 ul#mobileCollection li a#blackberry{background-position:0 -170px;}
 ul#mobileCollection li a#hotelsnow{background-position:0 -370px;}
 ul#mobileCollection li a#iPad{background-position:0 -570px;}
@@ -987,7 +987,7 @@ ul#mobileCollection li a#palmPre{background-position:0 -1170px;}
 ul#mobileCollection li a#mobilePhone{background-position:0 -1370px;}
 ul#mobileCollection li a#vodafone{background-position:0 -3870px;}
 ul#mobileCollection li a#nokiaApp{background-position:0 -4470px;}
-div.box ul#mobileCollection li a:active,div.box ul#mobileCollection li a:focus,div.box ul#mobileCollection li a:hover{background:url(../../images/wide/_general/_general/content/sprite-mobile-devices.jpg) no-repeat 0 -1583px;display:block;width:150px;height:220px;margin:0 auto;}
+div.box ul#mobileCollection li a:active,div.box ul#mobileCollection li a:focus,div.box ul#mobileCollection li a:hover{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/content/sprite-mobile-devices.jpg) no-repeat 0 -1583px;display:block;width:150px;height:220px;margin:0 auto;}
 ul#mobileCollection li a#blackberry:active,ul#mobileCollection li a#blackberry:focus,ul#mobileCollection li a#blackberry:hover{background-position:0 -1833px;}
 ul#mobileCollection li a#hotelsnow:active,ul#mobileCollection li a#hotelsnow:focus,ul#mobileCollection li a#hotelsnow:hover{background-position:0 -2131px;}
 ul#mobileCollection li a#iPad:active,ul#mobileCollection li a#iPad:focus,ul#mobileCollection li a#iPad:hover{background-position:0 -2433px;}
@@ -1040,7 +1040,7 @@ div#wrap div#layout01 div#layout02 table.data p.totalRating,div#wrap div#layout0
 span.totalRating{display:block;border-width:1px;border-style:solid;border-color:#3A7D34;width:3.5em;height:9px;background-color:#F0F4F7;overflow:hidden;position:absolute;left:0;top:0;}
 .hotellist span.totalRating{position:static;}
 * html span.totalRating{left:-4.1em;}
-span.totalRating a{background-image:url(../../images/wide/_general/_general/elements/rating_gradient.png);background-position:0 0;height:9px;display:block;_background-image:none;}
+span.totalRating a{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/rating_gradient.png);background-position:0 0;height:9px;display:block;_background-image:none;}
 .rating0 a{background-image:none;width:0;}
 .rating1 a{width:10%;background-color:#FF0A00;}
 .rating2 a{width:20%;background-color:#FF3700;}
@@ -1064,7 +1064,7 @@ div#wrap div#layout01 div#layout02 p.prize{font-weight:bold;margin-bottom:0;line
 div#wrap div.cityList h4{position:relative;z-index:5;}
 .teaserWrap .cityList{padding-bottom:1.2em;}
 .teaserWrap div.lT{position:absolute;margin:0;bottom:.8em;z-index:0;*z-index:-1;height:500px;border:1px solid #C8C8C8;background-color:#FFF;}
-.teaserWrap div.lT02{display:block;position:absolute;margin:0 0 0 1px;top:0;height:15px;z-index:0;*z-index:-1;border-top:1px solid #C8C8C8;background:#FFF url(../../images/wide/_general/_general/elements/teaser.png) no-repeat 0 0;}
+.teaserWrap div.lT02{display:block;position:absolute;margin:0 0 0 1px;top:0;height:15px;z-index:0;*z-index:-1;border-top:1px solid #C8C8C8;background:#FFF url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/teaser.png) no-repeat 0 0;}
 div#wrap .teaserWrap p.teaserLink{position:absolute;margin-bottom:0;bottom:1.45em;z-index:20;white-space:nowrap;}
 div#wrap .teaserWrap .extended p.teaserLink{width:15.5em;bottom:.8em;}
 div#wrap .teaserWrap .extended p.teaserLink .link{margin-top:.4em;float:left;}
@@ -1087,12 +1087,12 @@ div#wrap div.tCol3 p.map img{width:26em;height:16em;}
 .tCol6{width:63.8em;}
 .tCol6 div.lT{width:63.7em;}
 p.extSearch{float:left;padding:0 0 2em .8em;*display:inline-block;}
-p.extSearch input{border:none;cursor:pointer;color:#cc092f;font-family:arial,helvetica,sans-serif;font-weight:bold;padding:2px 0 2px 40px;padding:.2em 0 .2em 1.5em;display:block;background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2048px;*border:1px solid transparent;_border-color:#FFF;}
+p.extSearch input{border:none;cursor:pointer;color:#cc092f;font-family:arial,helvetica,sans-serif;font-weight:bold;padding:2px 0 2px 40px;padding:.2em 0 .2em 1.5em;display:block;background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2048px;*border:1px solid transparent;_border-color:#FFF;}
 p.extSearch input.map{background-position:0 -1848px;border:none;}
 div#wrap div.gallery{padding-bottom:0;}
 div.gallery .lT{clear:both;}
 div.gallery a{float:left;position:relative;z-index:20;background:none;cursor:pointer;}
-div.gallery a.next,div.gallery a.prev{width:2.1em;margin:2.2em 0 0 .8em;height:2em;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -7150px;padding:0;}
+div.gallery a.next,div.gallery a.prev{width:2.1em;margin:2.2em 0 0 .8em;height:2em;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -7150px;padding:0;}
 div.gallery a.next{margin-left:.3em;background-position:0 -7200px;}
 div.slideShow{padding:0;overflow:auto;float:left;width:61.5em;_height:13em;}
 div.jsSlide{overflow:hidden;width:55.6em;margin:0 0 0 .4em;}
@@ -1137,7 +1137,7 @@ div#wrap div.topHotel div.marginalEl h5{display:block;width:9em;overflow:hidden;
 div.list span.button{bottom:.4em;}
 p.rateList{position:absolute;z-index:1000;bottom:1px;left:-.2em;width:51.7em;text-align:right;border-top:1px solid #C8C8C8;padding:.4em 0 0 0;}
 img.topHotel{position:absolute;top:0;right:0;}
-div.col3 div.topHotel{position:relative;padding:0;width:31em;border:3px solid #FFD76B;background:url(../../images/wide/_general/_general/elements/bg_tophotel_marginal.gif) no-repeat bottom right;min-height:1em;_height:auto;}
+div.col3 div.topHotel{position:relative;padding:0;width:31em;border:3px solid #FFD76B;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/bg_tophotel_marginal.gif) no-repeat bottom right;min-height:1em;_height:auto;}
 div.col3 .topHotel h4{width:13em;}
 .marginalTopBorder{border:1px solid #FDB63D;padding:.8em 0 0 0;}
 img.marginalPic{top:-3px;right:-3px;z-index:200;}
@@ -1153,8 +1153,8 @@ div#wrap div.col3 div.topHotel p.pic img{width:7.3em;height:7.3em;}
 div.col3 div.topHotel div.marginalEl{padding-bottom:.5em;}
 .topHotel span.bookingLink{right:-1em;bottom:-.2em;}
 .list span.bookingLink{right:1em;}
-span.bookingLink a{cursor:pointer;padding:.2em .5em;background:#cc092f url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -1106px;}
-.calIcon{background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2220px;padding-left:19px;height:14px;margin:1em 0 1em 1.1em;display:block;font-weight:900;}
+span.bookingLink a{cursor:pointer;padding:.2em .5em;background:#cc092f url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -1106px;}
+.calIcon{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -2220px;padding-left:19px;height:14px;margin:1em 0 1em 1.1em;display:block;font-weight:900;}
 .list .calIcon{margin-bottom:0;}
 .hn .calIcon{margin-left:0;margin-bottom:0;}
 p .calIcon,div#wrap .ts p a.calIcon{margin:.8em 0 .4em 0;text-decoration:none;}
@@ -1188,274 +1188,274 @@ ul.tagCloud a.step8{font-size:1.7em!important;}
 ul.tagCloud a.step9{font-size:1.8em!important;}
 ul.tagCloud a.step10{font-size:1.9em!important;}
 ul.tagCloud a.step11{font-size:2.0em!important;}
-.teaser h5.flag,.teaser h4.flag,table h5.flag{padding:0 0 0 20px;background-repeat:no-repeat;background-position:0 2px;background-image:url(../../images/wide/_general/_general/icons/sprite.png);}
-#wrap .teaser h3.flag{padding:0 0 0 22px;background-repeat:no-repeat;background-image:url(../../images/wide/_general/_general/icons/sprite.png);}
-#wrap h5.ad{background-image:url(../../images/wide/_general/_general/icons/flags/ad.png);}
-#wrap h5.ae{background-image:url(../../images/wide/_general/_general/icons/flags/ae.png);}
-#wrap h5.af{background-image:url(../../images/wide/_general/_general/icons/flags/af.png);}
-#wrap h5.ag{background-image:url(../../images/wide/_general/_general/icons/flags/ag.png);}
-#wrap h5.ai{background-image:url(../../images/wide/_general/_general/icons/flags/ai.png);}
-#wrap h5.al{background-image:url(../../images/wide/_general/_general/icons/flags/al.png);}
-#wrap h5.am{background-image:url(../../images/wide/_general/_general/icons/flags/am.png);}
-#wrap h5.an{background-image:url(../../images/wide/_general/_general/icons/flags/an.png);}
-#wrap h5.ao{background-image:url(../../images/wide/_general/_general/icons/flags/ao.png);}
-#wrap h5.ar{background-image:url(../../images/wide/_general/_general/icons/flags/ar.png);}
-#wrap h5.as{background-image:url(../../images/wide/_general/_general/icons/flags/as.png);}
-#wrap h5.at{background-image:url(../../images/wide/_general/_general/icons/flags/at.png);}
-#wrap h5.au{background-image:url(../../images/wide/_general/_general/icons/flags/au.png);}
-#wrap h5.aw{background-image:url(../../images/wide/_general/_general/icons/flags/aw.png);}
-#wrap h5.ax{background-image:url(../../images/wide/_general/_general/icons/flags/ax.png);}
-#wrap h5.az{background-image:url(../../images/wide/_general/_general/icons/flags/az.png);}
-#wrap h5.ba{background-image:url(../../images/wide/_general/_general/icons/flags/ba.png);}
-#wrap h5.ba{background-image:url(../../images/wide/_general/_general/icons/flags/ba.png);}
-#wrap h5.bb{background-image:url(../../images/wide/_general/_general/icons/flags/bb.png);}
-#wrap h5.bd{background-image:url(../../images/wide/_general/_general/icons/flags/bd.png);}
-#wrap h5.be{background-image:url(../../images/wide/_general/_general/icons/flags/be.png);}
-#wrap h5.bf{background-image:url(../../images/wide/_general/_general/icons/flags/bf.png);}
-#wrap h5.bg{background-image:url(../../images/wide/_general/_general/icons/flags/bg.png);}
-#wrap h5.bh{background-image:url(../../images/wide/_general/_general/icons/flags/bh.png);}
-#wrap h5.bi{background-image:url(../../images/wide/_general/_general/icons/flags/bi.png);}
-#wrap h5.bj{background-image:url(../../images/wide/_general/_general/icons/flags/bj.png);}
-#wrap h5.bm{background-image:url(../../images/wide/_general/_general/icons/flags/bm.png);}
-#wrap h5.bn{background-image:url(../../images/wide/_general/_general/icons/flags/bn.png);}
-#wrap h5.bo{background-image:url(../../images/wide/_general/_general/icons/flags/bo.png);}
-#wrap h5.br{background-image:url(../../images/wide/_general/_general/icons/flags/br.png);}
-#wrap h5.bs{background-image:url(../../images/wide/_general/_general/icons/flags/bs.png);}
-#wrap h5.bt{background-image:url(../../images/wide/_general/_general/icons/flags/bt.png);}
-#wrap h5.bv{background-image:url(../../images/wide/_general/_general/icons/flags/bv.png);}
-#wrap h5.bw{background-image:url(../../images/wide/_general/_general/icons/flags/bw.png);}
-#wrap h5.by{background-image:url(../../images/wide/_general/_general/icons/flags/by.png);}
-#wrap h5.bz{background-image:url(../../images/wide/_general/_general/icons/flags/bz.png);}
-#wrap h5.ca{background-image:url(../../images/wide/_general/_general/icons/flags/ca.png);}
-#wrap h5.catalonia{background-image:url(../../images/wide/_general/_general/icons/flags/catalonia.png);}
-#wrap h5.ca{background-image:url(../../images/wide/_general/_general/icons/flags/ca.png);}
-#wrap h5.cc{background-image:url(../../images/wide/_general/_general/icons/flags/cc.png);}
-#wrap h5.cd{background-image:url(../../images/wide/_general/_general/icons/flags/cd.png);}
-#wrap h5.cf{background-image:url(../../images/wide/_general/_general/icons/flags/cf.png);}
-#wrap h5.ca{background-image:url(../../images/wide/_general/_general/icons/flags/ca.png);}
-#wrap h5.ca{background-image:url(../../images/wide/_general/_general/icons/flags/ca.png);}
-#wrap h5.cg{background-image:url(../../images/wide/_general/_general/icons/flags/cg.png);}
-#wrap h5.ch{background-image:url(../../images/wide/_general/_general/icons/flags/ch.png);}
-#wrap h5.ci{background-image:url(../../images/wide/_general/_general/icons/flags/ci.png);}
-#wrap h5.ck{background-image:url(../../images/wide/_general/_general/icons/flags/ck.png);}
-#wrap h5.cl{background-image:url(../../images/wide/_general/_general/icons/flags/cl.png);}
-#wrap h5.cm{background-image:url(../../images/wide/_general/_general/icons/flags/cm.png);}
-#wrap h5.cn{background-image:url(../../images/wide/_general/_general/icons/flags/cn.png);}
-#wrap h5.co{background-image:url(../../images/wide/_general/_general/icons/flags/co.png);}
-#wrap h5.cr{background-image:url(../../images/wide/_general/_general/icons/flags/cr.png);}
-#wrap h5.cs{background-image:url(../../images/wide/_general/_general/icons/flags/cs.png);}
-#wrap h5.cu{background-image:url(../../images/wide/_general/_general/icons/flags/cu.png);}
-#wrap h5.cv{background-image:url(../../images/wide/_general/_general/icons/flags/cv.png);}
-#wrap h5.cx{background-image:url(../../images/wide/_general/_general/icons/flags/cx.png);}
-#wrap h5.cy{background-image:url(../../images/wide/_general/_general/icons/flags/cy.png);}
-#wrap h5.cz{background-image:url(../../images/wide/_general/_general/icons/flags/cz.png);}
-#wrap h5.de,.teaser h4.de,.teaser h3.de{background-image:url(../../images/wide/_general/_general/icons/flags/de.png);}
-#wrap h5.de{background-image:url(../../images/wide/_general/_general/icons/flags/de.png);}
-#wrap h5.dj{background-image:url(../../images/wide/_general/_general/icons/flags/dj.png);}
-#wrap h5.dk{background-image:url(../../images/wide/_general/_general/icons/flags/dk.png);}
-#wrap h5.dm{background-image:url(../../images/wide/_general/_general/icons/flags/dm.png);}
-#wrap h5.do{background-image:url(../../images/wide/_general/_general/icons/flags/do.png);}
-#wrap h5.dz{background-image:url(../../images/wide/_general/_general/icons/flags/dz.png);}
-#wrap h5.ec{background-image:url(../../images/wide/_general/_general/icons/flags/ec.png);}
-#wrap h5.ec{background-image:url(../../images/wide/_general/_general/icons/flags/ec.png);}
-#wrap h5.ee{background-image:url(../../images/wide/_general/_general/icons/flags/ee.png);}
-#wrap h5.eg{background-image:url(../../images/wide/_general/_general/icons/flags/eg.png);}
-#wrap h5.ec{background-image:url(../../images/wide/_general/_general/icons/flags/ec.png);}
-#wrap h5.eh{background-image:url(../../images/wide/_general/_general/icons/flags/eh.png);}
-#wrap h5.el{background-image:url(../../images/wide/_general/_general/icons/flags/gr.png);}
-#wrap h5.england,.teaser h4.england{background-image:url(../../images/wide/_general/_general/icons/flags/england.png);}
-#wrap h5.er{background-image:url(../../images/wide/_general/_general/icons/flags/er.png);}
-#wrap h5.es{background-image:url(../../images/wide/_general/_general/icons/flags/es.png);}
-#wrap h5.et{background-image:url(../../images/wide/_general/_general/icons/flags/et.png);}
-#wrap h5.europeanunion{background-image:url(../../images/wide/_general/_general/icons/flags/europeanunion.png);}
-#wrap h5.fi{background-image:url(../../images/wide/_general/_general/icons/flags/fi.png);}
-#wrap h5.fj{background-image:url(../../images/wide/_general/_general/icons/flags/fj.png);}
-#wrap h5.fk{background-image:url(../../images/wide/_general/_general/icons/flags/fk.png);}
-#wrap h5.fm{background-image:url(../../images/wide/_general/_general/icons/flags/fm.png);}
-#wrap h5.fo{background-image:url(../../images/wide/_general/_general/icons/flags/fo.png);}
-#wrap h5.fr{background-image:url(../../images/wide/_general/_general/icons/flags/fr.png);}
-#wrap h5.ga{background-image:url(../../images/wide/_general/_general/icons/flags/ga.png);}
-.teaser h4.gb,#wrap h5.gb,.teaser h3.gb{background-image:url(../../images/wide/_general/_general/icons/flags/gb.png);}
-#wrap h5.gd{background-image:url(../../images/wide/_general/_general/icons/flags/gd.png);}
-#wrap h5.ge{background-image:url(../../images/wide/_general/_general/icons/flags/ge.png);}
-#wrap h5.gf{background-image:url(../../images/wide/_general/_general/icons/flags/gf.png);}
-#wrap h5.gh{background-image:url(../../images/wide/_general/_general/icons/flags/gh.png);}
-#wrap h5.gi{background-image:url(../../images/wide/_general/_general/icons/flags/gi.png);}
-#wrap h5.gl{background-image:url(../../images/wide/_general/_general/icons/flags/gl.png);}
-#wrap h5.gm{background-image:url(../../images/wide/_general/_general/icons/flags/gm.png);}
-#wrap h5.gn{background-image:url(../../images/wide/_general/_general/icons/flags/gn.png);}
-#wrap h5.gp{background-image:url(../../images/wide/_general/_general/icons/flags/gp.png);}
-#wrap h5.gq{background-image:url(../../images/wide/_general/_general/icons/flags/gq.png);}
-#wrap h5.gr{background-image:url(../../images/wide/_general/_general/icons/flags/gr.png);}
-#wrap h5.gs{background-image:url(../../images/wide/_general/_general/icons/flags/gs.png);}
-#wrap h5.gt{background-image:url(../../images/wide/_general/_general/icons/flags/gt.png);}
-#wrap h5.gu{background-image:url(../../images/wide/_general/_general/icons/flags/gu.png);}
-#wrap h5.gw{background-image:url(../../images/wide/_general/_general/icons/flags/gw.png);}
-#wrap h5.gy{background-image:url(../../images/wide/_general/_general/icons/flags/gy.png);}
-#wrap h5.hk{background-image:url(../../images/wide/_general/_general/icons/flags/hk.png);}
-#wrap h5.hm{background-image:url(../../images/wide/_general/_general/icons/flags/hm.png);}
-#wrap h5.hn{background-image:url(../../images/wide/_general/_general/icons/flags/hn.png);}
-#wrap h5.hr{background-image:url(../../images/wide/_general/_general/icons/flags/hr.png);}
-#wrap h5.ht{background-image:url(../../images/wide/_general/_general/icons/flags/ht.png);}
-#wrap h5.hu{background-image:url(../../images/wide/_general/_general/icons/flags/hu.png);}
-#wrap h5.id{background-image:url(../../images/wide/_general/_general/icons/flags/id.png);}
-#wrap h5.ie{background-image:url(../../images/wide/_general/_general/icons/flags/ie.png);}
-#wrap h5.il{background-image:url(../../images/wide/_general/_general/icons/flags/il.png);}
-#wrap h5.in{background-image:url(../../images/wide/_general/_general/icons/flags/in.png);}
-#wrap h5.iq{background-image:url(../../images/wide/_general/_general/icons/flags/iq.png);}
-#wrap h5.ir{background-image:url(../../images/wide/_general/_general/icons/flags/ir.png);}
-#wrap h5.is{background-image:url(../../images/wide/_general/_general/icons/flags/is.png);}
-#wrap h5.it{background-image:url(../../images/wide/_general/_general/icons/flags/it.png);}
-#wrap h5.jm{background-image:url(../../images/wide/_general/_general/icons/flags/jm.png);}
-#wrap h5.jo{background-image:url(../../images/wide/_general/_general/icons/flags/jo.png);}
-#wrap h5.jp{background-image:url(../../images/wide/_general/_general/icons/flags/jp.png);}
-#wrap h5.ke{background-image:url(../../images/wide/_general/_general/icons/flags/ke.png);}
-#wrap h5.kg{background-image:url(../../images/wide/_general/_general/icons/flags/kg.png);}
-#wrap h5.kh{background-image:url(../../images/wide/_general/_general/icons/flags/kh.png);}
-#wrap h5.ki{background-image:url(../../images/wide/_general/_general/icons/flags/ki.png);}
-#wrap h5.km{background-image:url(../../images/wide/_general/_general/icons/flags/km.png);}
-#wrap h5.ke{background-image:url(../../images/wide/_general/_general/icons/flags/ke.png);}
-#wrap h5.kn{background-image:url(../../images/wide/_general/_general/icons/flags/kn.png);}
-#wrap h5.kp{background-image:url(../../images/wide/_general/_general/icons/flags/kp.png);}
-#wrap h5.kr{background-image:url(../../images/wide/_general/_general/icons/flags/kr.png);}
-#wrap h5.kw{background-image:url(../../images/wide/_general/_general/icons/flags/kw.png);}
-#wrap h5.ky{background-image:url(../../images/wide/_general/_general/icons/flags/ky.png);}
-#wrap h5.kz{background-image:url(../../images/wide/_general/_general/icons/flags/kz.png);}
-#wrap h5.la{background-image:url(../../images/wide/_general/_general/icons/flags/la.png);}
-#wrap h5.lb{background-image:url(../../images/wide/_general/_general/icons/flags/lb.png);}
-#wrap h5.lc{background-image:url(../../images/wide/_general/_general/icons/flags/lc.png);}
-#wrap h5.li{background-image:url(../../images/wide/_general/_general/icons/flags/li.png);}
-#wrap h5.lk{background-image:url(../../images/wide/_general/_general/icons/flags/lk.png);}
-#wrap h5.lr{background-image:url(../../images/wide/_general/_general/icons/flags/lr.png);}
-#wrap h5.ls{background-image:url(../../images/wide/_general/_general/icons/flags/ls.png);}
-#wrap h5.lt{background-image:url(../../images/wide/_general/_general/icons/flags/lt.png);}
-#wrap h5.lu{background-image:url(../../images/wide/_general/_general/icons/flags/lu.png);}
-#wrap h5.lv{background-image:url(../../images/wide/_general/_general/icons/flags/lv.png);}
-#wrap h5.ly{background-image:url(../../images/wide/_general/_general/icons/flags/ly.png);}
-#wrap h5.ma{background-image:url(../../images/wide/_general/_general/icons/flags/ma.png);}
-#wrap h5.mc{background-image:url(../../images/wide/_general/_general/icons/flags/mc.png);}
-#wrap h5.md{background-image:url(../../images/wide/_general/_general/icons/flags/md.png);}
-#wrap h5.me{background-image:url(../../images/wide/_general/_general/icons/flags/me.png);}
-#wrap h5.mg{background-image:url(../../images/wide/_general/_general/icons/flags/mg.png);}
-#wrap h5.mh{background-image:url(../../images/wide/_general/_general/icons/flags/mh.png);}
-#wrap h5.mk{background-image:url(../../images/wide/_general/_general/icons/flags/mk.png);}
-#wrap h5.ml{background-image:url(../../images/wide/_general/_general/icons/flags/ml.png);}
-#wrap h5.mm{background-image:url(../../images/wide/_general/_general/icons/flags/mm.png);}
-#wrap h5.mn{background-image:url(../../images/wide/_general/_general/icons/flags/mn.png);}
-#wrap h5.mo{background-image:url(../../images/wide/_general/_general/icons/flags/mo.png);}
-#wrap h5.mp{background-image:url(../../images/wide/_general/_general/icons/flags/mp.png);}
-#wrap h5.mq{background-image:url(../../images/wide/_general/_general/icons/flags/mq.png);}
-#wrap h5.mr{background-image:url(../../images/wide/_general/_general/icons/flags/mr.png);}
-#wrap h5.ms{background-image:url(../../images/wide/_general/_general/icons/flags/ms.png);}
-#wrap h5.mt{background-image:url(../../images/wide/_general/_general/icons/flags/mt.png);}
-#wrap h5.mu{background-image:url(../../images/wide/_general/_general/icons/flags/mu.png);}
-#wrap h5.mv{background-image:url(../../images/wide/_general/_general/icons/flags/mv.png);}
-#wrap h5.mw{background-image:url(../../images/wide/_general/_general/icons/flags/mw.png);}
-#wrap h5.mx{background-image:url(../../images/wide/_general/_general/icons/flags/mx.png);}
-#wrap h5.my{background-image:url(../../images/wide/_general/_general/icons/flags/my.png);}
-#wrap h5.mz{background-image:url(../../images/wide/_general/_general/icons/flags/mz.png);}
-#wrap h5.na{background-image:url(../../images/wide/_general/_general/icons/flags/na.png);}
-#wrap h5.nc{background-image:url(../../images/wide/_general/_general/icons/flags/nc.png);}
-#wrap h5.ne{background-image:url(../../images/wide/_general/_general/icons/flags/ne.png);}
-#wrap h5.na{background-image:url(../../images/wide/_general/_general/icons/flags/na.png);}
-#wrap h5.ng{background-image:url(../../images/wide/_general/_general/icons/flags/ng.png);}
-#wrap h5.ni{background-image:url(../../images/wide/_general/_general/icons/flags/ni.png);}
-#wrap h5.nl{background-image:url(../../images/wide/_general/_general/icons/flags/nl.png);}
-#wrap h5.no{background-image:url(../../images/wide/_general/_general/icons/flags/no.png);}
-#wrap h5.np{background-image:url(../../images/wide/_general/_general/icons/flags/np.png);}
-#wrap h5.nr{background-image:url(../../images/wide/_general/_general/icons/flags/nr.png);}
-#wrap h5.nu{background-image:url(../../images/wide/_general/_general/icons/flags/nu.png);}
-#wrap h5.nz{background-image:url(../../images/wide/_general/_general/icons/flags/nz.png);}
-#wrap h5.om{background-image:url(../../images/wide/_general/_general/icons/flags/om.png);}
-#wrap h5.pa{background-image:url(../../images/wide/_general/_general/icons/flags/pa.png);}
-#wrap h5.pe{background-image:url(../../images/wide/_general/_general/icons/flags/pe.png);}
-#wrap h5.pf{background-image:url(../../images/wide/_general/_general/icons/flags/pf.png);}
-#wrap h5.pg{background-image:url(../../images/wide/_general/_general/icons/flags/pg.png);}
-#wrap h5.ph{background-image:url(../../images/wide/_general/_general/icons/flags/ph.png);}
-#wrap h5.pk{background-image:url(../../images/wide/_general/_general/icons/flags/pk.png);}
-#wrap h5.pl{background-image:url(../../images/wide/_general/_general/icons/flags/pl.png);}
-#wrap h5.pm{background-image:url(../../images/wide/_general/_general/icons/flags/pm.png);}
-#wrap h5.pn{background-image:url(../../images/wide/_general/_general/icons/flags/pn.png);}
-#wrap h5.pr{background-image:url(../../images/wide/_general/_general/icons/flags/pr.png);}
-#wrap h5.ps{background-image:url(../../images/wide/_general/_general/icons/flags/ps.png);}
-#wrap h5.pt{background-image:url(../../images/wide/_general/_general/icons/flags/pt.png);}
-#wrap h5.pw{background-image:url(../../images/wide/_general/_general/icons/flags/pw.png);}
-#wrap h5.py{background-image:url(../../images/wide/_general/_general/icons/flags/py.png);}
-#wrap h5.qa{background-image:url(../../images/wide/_general/_general/icons/flags/qa.png);}
-#wrap h5.re{background-image:url(../../images/wide/_general/_general/icons/flags/re.png);}
-#wrap h5.ro{background-image:url(../../images/wide/_general/_general/icons/flags/ro.png);}
-#wrap h5.rs{background-image:url(../../images/wide/_general/_general/icons/flags/rs.png);}
-#wrap h5.ru{background-image:url(../../images/wide/_general/_general/icons/flags/ru.png);}
-#wrap h5.rw{background-image:url(../../images/wide/_general/_general/icons/flags/rw.png);}
-#wrap h5.sa{background-image:url(../../images/wide/_general/_general/icons/flags/sa.png);}
-#wrap h5.sc{background-image:url(../../images/wide/_general/_general/icons/flags/scpng);}
-#wrap h5.sc{background-image:url(../../images/wide/_general/_general/icons/flags/sc.png);}
-#wrap h5.scotland{background-image:url(../../images/wide/_general/_general/icons/flags/scotland.png);}
-#wrap h5.sd{background-image:url(../../images/wide/_general/_general/icons/flags/sd.png);}
-#wrap h5.se{background-image:url(../../images/wide/_general/_general/icons/flags/se.png);}
-#wrap h5.sg{background-image:url(../../images/wide/_general/_general/icons/flags/sg.png);}
-#wrap h5.sh{background-image:url(../../images/wide/_general/_general/icons/flags/sh.png);}
-#wrap h5.si{background-image:url(../../images/wide/_general/_general/icons/flags/si.png);}
-#wrap h5.sj{background-image:url(../../images/wide/_general/_general/icons/flags/sj.png);}
-#wrap h5.sk{background-image:url(../../images/wide/_general/_general/icons/flags/sk.png);}
-#wrap h5.sl{background-image:url(../../images/wide/_general/_general/icons/flags/sl.png);}
-#wrap h5.sm{background-image:url(../../images/wide/_general/_general/icons/flags/sm.png);}
-#wrap h5.sn{background-image:url(../../images/wide/_general/_general/icons/flags/sn.png);}
-#wrap h5.so{background-image:url(../../images/wide/_general/_general/icons/flags/so.png);}
-#wrap h5.sr{background-image:url(../../images/wide/_general/_general/icons/flags/sr.png);}
-#wrap h5.st{background-image:url(../../images/wide/_general/_general/icons/flags/st.png);}
-#wrap h5.sv{background-image:url(../../images/wide/_general/_general/icons/flags/sv.png);}
-#wrap h5.sy{background-image:url(../../images/wide/_general/_general/icons/flags/sy.png);}
-#wrap h5.sz{background-image:url(../../images/wide/_general/_general/icons/flags/sz.png);}
-#wrap h5.tc{background-image:url(../../images/wide/_general/_general/icons/flags/tc.png);}
-#wrap h5.td{background-image:url(../../images/wide/_general/_general/icons/flags/td.png);}
-#wrap h5.tf{background-image:url(../../images/wide/_general/_general/icons/flags/tf.png);}
-#wrap h5.tg{background-image:url(../../images/wide/_general/_general/icons/flags/tg.png);}
-#wrap h5.th{background-image:url(../../images/wide/_general/_general/icons/flags/th.png);}
-#wrap h5.tj{background-image:url(../../images/wide/_general/_general/icons/flags/tj.png);}
-#wrap h5.tk{background-image:url(../../images/wide/_general/_general/icons/flags/tk.png);}
-#wrap h5.tl{background-image:url(../../images/wide/_general/_general/icons/flags/tl.png);}
-#wrap h5.tm{background-image:url(../../images/wide/_general/_general/icons/flags/tm.png);}
-#wrap h5.tn{background-image:url(../../images/wide/_general/_general/icons/flags/tn.png);}
-#wrap h5.to{background-image:url(../../images/wide/_general/_general/icons/flags/to.png);}
-#wrap h5.tr{background-image:url(../../images/wide/_general/_general/icons/flags/tr.png);}
-#wrap h5.tt{background-image:url(../../images/wide/_general/_general/icons/flags/tt.png);}
-#wrap h5.tv{background-image:url(../../images/wide/_general/_general/icons/flags/tv.png);}
-#wrap h5.tw{background-image:url(../../images/wide/_general/_general/icons/flags/tw.png);}
-#wrap h5.tz{background-image:url(../../images/wide/_general/_general/icons/flags/tz.png);}
-#wrap h5.ua{background-image:url(../../images/wide/_general/_general/icons/flags/ua.png);}
-#wrap h5.ug{background-image:url(../../images/wide/_general/_general/icons/flags/ug.png);}
-#wrap h5.um{background-image:url(../../images/wide/_general/_general/icons/flags/um.png);}
-#wrap h5.us{background-image:url(../../images/wide/_general/_general/icons/flags/us.png);}
-#wrap h5.uy{background-image:url(../../images/wide/_general/_general/icons/flags/uy.png);}
-#wrap h5.uz{background-image:url(../../images/wide/_general/_general/icons/flags/uz.png);}
-#wrap h5.va{background-image:url(../../images/wide/_general/_general/icons/flags/va.png);}
-#wrap h5.vc{background-image:url(../../images/wide/_general/_general/icons/flags/vc.png);}
-#wrap h5.ve{background-image:url(../../images/wide/_general/_general/icons/flags/ve.png);}
-#wrap h5.vg{background-image:url(../../images/wide/_general/_general/icons/flags/vg.png);}
-#wrap h5.vi{background-image:url(../../images/wide/_general/_general/icons/flags/vi.png);}
-#wrap h5.vn{background-image:url(../../images/wide/_general/_general/icons/flags/vn.png);}
-#wrap h5.vu{background-image:url(../../images/wide/_general/_general/icons/flags/vu.png);}
-#wrap h5.wales{background-image:url(../../images/wide/_general/_general/icons/flags/wales.png);}
-#wrap h5.wf{background-image:url(../../images/wide/_general/_general/icons/flags/wf.png);}
-#wrap h5.ws{background-image:url(../../images/wide/_general/_general/icons/flags/ws.png);}
-#wrap h5.ye{background-image:url(../../images/wide/_general/_general/icons/flags/ye.png);}
-#wrap h5.yt{background-image:url(../../images/wide/_general/_general/icons/flags/yt.png);}
-#wrap h5.za{background-image:url(../../images/wide/_general/_general/icons/flags/za.png);}
-#wrap h5.zm{background-image:url(../../images/wide/_general/_general/icons/flags/zm.png);}
-#wrap h5.zw{background-image:url(../../images/wide/_general/_general/icons/flags/zw.png);}
+.teaser h5.flag,.teaser h4.flag,table h5.flag{padding:0 0 0 20px;background-repeat:no-repeat;background-position:0 2px;background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png);}
+#wrap .teaser h3.flag{padding:0 0 0 22px;background-repeat:no-repeat;background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png);}
+#wrap h5.ad{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ad.png);}
+#wrap h5.ae{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ae.png);}
+#wrap h5.af{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/af.png);}
+#wrap h5.ag{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ag.png);}
+#wrap h5.ai{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ai.png);}
+#wrap h5.al{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/al.png);}
+#wrap h5.am{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/am.png);}
+#wrap h5.an{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/an.png);}
+#wrap h5.ao{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ao.png);}
+#wrap h5.ar{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ar.png);}
+#wrap h5.as{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/as.png);}
+#wrap h5.at{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/at.png);}
+#wrap h5.au{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/au.png);}
+#wrap h5.aw{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/aw.png);}
+#wrap h5.ax{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ax.png);}
+#wrap h5.az{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/az.png);}
+#wrap h5.ba{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ba.png);}
+#wrap h5.ba{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ba.png);}
+#wrap h5.bb{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bb.png);}
+#wrap h5.bd{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bd.png);}
+#wrap h5.be{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/be.png);}
+#wrap h5.bf{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bf.png);}
+#wrap h5.bg{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bg.png);}
+#wrap h5.bh{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bh.png);}
+#wrap h5.bi{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bi.png);}
+#wrap h5.bj{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bj.png);}
+#wrap h5.bm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bm.png);}
+#wrap h5.bn{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bn.png);}
+#wrap h5.bo{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bo.png);}
+#wrap h5.br{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/br.png);}
+#wrap h5.bs{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bs.png);}
+#wrap h5.bt{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bt.png);}
+#wrap h5.bv{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bv.png);}
+#wrap h5.bw{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bw.png);}
+#wrap h5.by{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/by.png);}
+#wrap h5.bz{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/bz.png);}
+#wrap h5.ca{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ca.png);}
+#wrap h5.catalonia{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/catalonia.png);}
+#wrap h5.ca{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ca.png);}
+#wrap h5.cc{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cc.png);}
+#wrap h5.cd{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cd.png);}
+#wrap h5.cf{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cf.png);}
+#wrap h5.ca{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ca.png);}
+#wrap h5.ca{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ca.png);}
+#wrap h5.cg{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cg.png);}
+#wrap h5.ch{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ch.png);}
+#wrap h5.ci{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ci.png);}
+#wrap h5.ck{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ck.png);}
+#wrap h5.cl{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cl.png);}
+#wrap h5.cm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cm.png);}
+#wrap h5.cn{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cn.png);}
+#wrap h5.co{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/co.png);}
+#wrap h5.cr{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cr.png);}
+#wrap h5.cs{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cs.png);}
+#wrap h5.cu{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cu.png);}
+#wrap h5.cv{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cv.png);}
+#wrap h5.cx{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cx.png);}
+#wrap h5.cy{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cy.png);}
+#wrap h5.cz{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/cz.png);}
+#wrap h5.de,.teaser h4.de,.teaser h3.de{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/de.png);}
+#wrap h5.de{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/de.png);}
+#wrap h5.dj{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/dj.png);}
+#wrap h5.dk{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/dk.png);}
+#wrap h5.dm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/dm.png);}
+#wrap h5.do{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/do.png);}
+#wrap h5.dz{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/dz.png);}
+#wrap h5.ec{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ec.png);}
+#wrap h5.ec{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ec.png);}
+#wrap h5.ee{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ee.png);}
+#wrap h5.eg{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/eg.png);}
+#wrap h5.ec{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ec.png);}
+#wrap h5.eh{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/eh.png);}
+#wrap h5.el{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gr.png);}
+#wrap h5.england,.teaser h4.england{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/england.png);}
+#wrap h5.er{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/er.png);}
+#wrap h5.es{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/es.png);}
+#wrap h5.et{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/et.png);}
+#wrap h5.europeanunion{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/europeanunion.png);}
+#wrap h5.fi{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/fi.png);}
+#wrap h5.fj{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/fj.png);}
+#wrap h5.fk{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/fk.png);}
+#wrap h5.fm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/fm.png);}
+#wrap h5.fo{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/fo.png);}
+#wrap h5.fr{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/fr.png);}
+#wrap h5.ga{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ga.png);}
+.teaser h4.gb,#wrap h5.gb,.teaser h3.gb{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gb.png);}
+#wrap h5.gd{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gd.png);}
+#wrap h5.ge{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ge.png);}
+#wrap h5.gf{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gf.png);}
+#wrap h5.gh{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gh.png);}
+#wrap h5.gi{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gi.png);}
+#wrap h5.gl{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gl.png);}
+#wrap h5.gm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gm.png);}
+#wrap h5.gn{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gn.png);}
+#wrap h5.gp{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gp.png);}
+#wrap h5.gq{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gq.png);}
+#wrap h5.gr{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gr.png);}
+#wrap h5.gs{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gs.png);}
+#wrap h5.gt{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gt.png);}
+#wrap h5.gu{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gu.png);}
+#wrap h5.gw{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gw.png);}
+#wrap h5.gy{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/gy.png);}
+#wrap h5.hk{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/hk.png);}
+#wrap h5.hm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/hm.png);}
+#wrap h5.hn{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/hn.png);}
+#wrap h5.hr{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/hr.png);}
+#wrap h5.ht{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ht.png);}
+#wrap h5.hu{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/hu.png);}
+#wrap h5.id{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/id.png);}
+#wrap h5.ie{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ie.png);}
+#wrap h5.il{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/il.png);}
+#wrap h5.in{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/in.png);}
+#wrap h5.iq{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/iq.png);}
+#wrap h5.ir{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ir.png);}
+#wrap h5.is{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/is.png);}
+#wrap h5.it{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/it.png);}
+#wrap h5.jm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/jm.png);}
+#wrap h5.jo{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/jo.png);}
+#wrap h5.jp{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/jp.png);}
+#wrap h5.ke{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ke.png);}
+#wrap h5.kg{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/kg.png);}
+#wrap h5.kh{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/kh.png);}
+#wrap h5.ki{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ki.png);}
+#wrap h5.km{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/km.png);}
+#wrap h5.ke{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ke.png);}
+#wrap h5.kn{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/kn.png);}
+#wrap h5.kp{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/kp.png);}
+#wrap h5.kr{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/kr.png);}
+#wrap h5.kw{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/kw.png);}
+#wrap h5.ky{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ky.png);}
+#wrap h5.kz{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/kz.png);}
+#wrap h5.la{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/la.png);}
+#wrap h5.lb{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/lb.png);}
+#wrap h5.lc{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/lc.png);}
+#wrap h5.li{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/li.png);}
+#wrap h5.lk{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/lk.png);}
+#wrap h5.lr{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/lr.png);}
+#wrap h5.ls{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ls.png);}
+#wrap h5.lt{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/lt.png);}
+#wrap h5.lu{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/lu.png);}
+#wrap h5.lv{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/lv.png);}
+#wrap h5.ly{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ly.png);}
+#wrap h5.ma{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ma.png);}
+#wrap h5.mc{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mc.png);}
+#wrap h5.md{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/md.png);}
+#wrap h5.me{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/me.png);}
+#wrap h5.mg{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mg.png);}
+#wrap h5.mh{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mh.png);}
+#wrap h5.mk{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mk.png);}
+#wrap h5.ml{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ml.png);}
+#wrap h5.mm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mm.png);}
+#wrap h5.mn{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mn.png);}
+#wrap h5.mo{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mo.png);}
+#wrap h5.mp{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mp.png);}
+#wrap h5.mq{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mq.png);}
+#wrap h5.mr{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mr.png);}
+#wrap h5.ms{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ms.png);}
+#wrap h5.mt{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mt.png);}
+#wrap h5.mu{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mu.png);}
+#wrap h5.mv{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mv.png);}
+#wrap h5.mw{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mw.png);}
+#wrap h5.mx{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mx.png);}
+#wrap h5.my{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/my.png);}
+#wrap h5.mz{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/mz.png);}
+#wrap h5.na{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/na.png);}
+#wrap h5.nc{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/nc.png);}
+#wrap h5.ne{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ne.png);}
+#wrap h5.na{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/na.png);}
+#wrap h5.ng{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ng.png);}
+#wrap h5.ni{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ni.png);}
+#wrap h5.nl{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/nl.png);}
+#wrap h5.no{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/no.png);}
+#wrap h5.np{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/np.png);}
+#wrap h5.nr{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/nr.png);}
+#wrap h5.nu{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/nu.png);}
+#wrap h5.nz{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/nz.png);}
+#wrap h5.om{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/om.png);}
+#wrap h5.pa{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/pa.png);}
+#wrap h5.pe{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/pe.png);}
+#wrap h5.pf{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/pf.png);}
+#wrap h5.pg{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/pg.png);}
+#wrap h5.ph{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ph.png);}
+#wrap h5.pk{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/pk.png);}
+#wrap h5.pl{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/pl.png);}
+#wrap h5.pm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/pm.png);}
+#wrap h5.pn{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/pn.png);}
+#wrap h5.pr{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/pr.png);}
+#wrap h5.ps{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ps.png);}
+#wrap h5.pt{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/pt.png);}
+#wrap h5.pw{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/pw.png);}
+#wrap h5.py{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/py.png);}
+#wrap h5.qa{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/qa.png);}
+#wrap h5.re{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/re.png);}
+#wrap h5.ro{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ro.png);}
+#wrap h5.rs{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/rs.png);}
+#wrap h5.ru{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ru.png);}
+#wrap h5.rw{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/rw.png);}
+#wrap h5.sa{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sa.png);}
+#wrap h5.sc{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/scpng);}
+#wrap h5.sc{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sc.png);}
+#wrap h5.scotland{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/scotland.png);}
+#wrap h5.sd{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sd.png);}
+#wrap h5.se{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/se.png);}
+#wrap h5.sg{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sg.png);}
+#wrap h5.sh{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sh.png);}
+#wrap h5.si{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/si.png);}
+#wrap h5.sj{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sj.png);}
+#wrap h5.sk{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sk.png);}
+#wrap h5.sl{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sl.png);}
+#wrap h5.sm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sm.png);}
+#wrap h5.sn{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sn.png);}
+#wrap h5.so{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/so.png);}
+#wrap h5.sr{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sr.png);}
+#wrap h5.st{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/st.png);}
+#wrap h5.sv{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sv.png);}
+#wrap h5.sy{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sy.png);}
+#wrap h5.sz{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/sz.png);}
+#wrap h5.tc{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tc.png);}
+#wrap h5.td{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/td.png);}
+#wrap h5.tf{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tf.png);}
+#wrap h5.tg{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tg.png);}
+#wrap h5.th{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/th.png);}
+#wrap h5.tj{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tj.png);}
+#wrap h5.tk{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tk.png);}
+#wrap h5.tl{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tl.png);}
+#wrap h5.tm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tm.png);}
+#wrap h5.tn{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tn.png);}
+#wrap h5.to{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/to.png);}
+#wrap h5.tr{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tr.png);}
+#wrap h5.tt{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tt.png);}
+#wrap h5.tv{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tv.png);}
+#wrap h5.tw{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tw.png);}
+#wrap h5.tz{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/tz.png);}
+#wrap h5.ua{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ua.png);}
+#wrap h5.ug{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ug.png);}
+#wrap h5.um{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/um.png);}
+#wrap h5.us{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/us.png);}
+#wrap h5.uy{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/uy.png);}
+#wrap h5.uz{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/uz.png);}
+#wrap h5.va{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/va.png);}
+#wrap h5.vc{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/vc.png);}
+#wrap h5.ve{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ve.png);}
+#wrap h5.vg{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/vg.png);}
+#wrap h5.vi{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/vi.png);}
+#wrap h5.vn{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/vn.png);}
+#wrap h5.vu{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/vu.png);}
+#wrap h5.wales{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/wales.png);}
+#wrap h5.wf{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/wf.png);}
+#wrap h5.ws{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ws.png);}
+#wrap h5.ye{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/ye.png);}
+#wrap h5.yt{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/yt.png);}
+#wrap h5.za{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/za.png);}
+#wrap h5.zm{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/zm.png);}
+#wrap h5.zw{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flags/zw.png);}
 .columns .teaser{border-top:none;}
 #wrap .columns .teaser h3,#wrap .columns .teaser p,#wrap .columns .teaser dl{margin-left:0;margin-bottom:1em;}
 #wrap div.columns div.firstCol{width:30.4em;margin-right:1em;border-right:solid 1px #E0ECF8;}
 .col9 a.ie5Block{display:block;position:static;}
 #rooms{background:#e0ecf8;color:#145ca3;font-size:1.2em;font-weight:bold;border-top:solid 1px #d7d7d7;margin:0 0 1em -1em;_margin:0 -.5em 0 -.5em;width:53.2em;float:left;height:2.54em;}
 #rooms li{float:left;padding:.45em .9em;}
-#rooms li input{display:inline;color:#cc092f;background:url(../../images/wide/_general/_general/icons/singleRoom.png) no-repeat center right;border:none;font-weight:bold;cursor:pointer;padding-right:25px;}
-#rooms li.doubleRoom input{background:url(../../images/wide/_general/_general/icons/doubleRoom.png) no-repeat center right;}
-#rooms li.active{background:#fff url(../../images/wide/_general/_general/elements/roomOffer_corner.png) -1px -1px repeat-x;margin-top:-4px;position:relative;border:solid 1px #d7d7d7;border-bottom:none;padding-top:.8em;}
-#rooms li strong{background:url(../../images/wide/_general/_general/icons/singleRoom_active.png) no-repeat center right;display:block;}
-#rooms li.doubleRoom strong{background:url(../../images/wide/_general/_general/icons/doubleRoom_active.png) no-repeat center right;}
-#rooms li.active .corner{background:url(../../images/wide/_general/_general/elements/roomOffer_corner.png) right top no-repeat;width:3px;height:3px;position:absolute;top:-1px;right:-1px;}
+#rooms li input{display:inline;color:#cc092f;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/singleRoom.png) no-repeat center right;border:none;font-weight:bold;cursor:pointer;padding-right:25px;}
+#rooms li.doubleRoom input{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/doubleRoom.png) no-repeat center right;}
+#rooms li.active{background:#fff url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/roomOffer_corner.png) -1px -1px repeat-x;margin-top:-4px;position:relative;border:solid 1px #d7d7d7;border-bottom:none;padding-top:.8em;}
+#rooms li strong{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/singleRoom_active.png) no-repeat center right;display:block;}
+#rooms li.doubleRoom strong{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/doubleRoom_active.png) no-repeat center right;}
+#rooms li.active .corner{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/roomOffer_corner.png) right top no-repeat;width:3px;height:3px;position:absolute;top:-1px;right:-1px;}
 .mmheadline{border-bottom:1px solid;border-color:#b0b7bd;font-size:10px;padding:3px 0 4px 3px;}
 .suggInputHeader{font-size:10px;font-weight:bold;width:100%;color:#000;margin-top:3px;padding-left:3px;margin-bottom:2px;}
 .suggBox{border:1px solid #b0b7bd;visibility:hidden;position:absolute;background-color:#FFF;z-index:100;width:440px;opacity:.95;-moz-opacity:.95;-khtml-opacity:.95;filter:alpha(opacity = 95);padding:0;}
@@ -1470,8 +1470,8 @@ ul.tagCloud a.step11{font-size:2.0em!important;}
 .suggGroupCat{font-size:10px;max-width:35%;overflow:visible;white-space:nowrap;float:right;text-align:right;color:green;padding-top:3px;}
 .suggGroupProductOnly{font-size:10px;max-width:100%;overflow:hidden;white-space:nowrap;float:left;text-align:left;padding-left:3px;padding-right:3px;}
 #welcomeLayer{color:#e66f00;background:#fff9b4;padding:0 10px 6px 10px;border-right:1px solid #f5ae2f;border-left:1px solid #ffec83;z-index:1050;display:none!important;}
-#welcomeLayer .close{cursor:pointer;position:absolute;top:5px;right:8px;background:url(../../images/wide/_general/_general/icons/close.png) no-repeat;width:14px;height:14px;}
-#welcomeLayer .top,#welcomeLayer .bottom{overflow:hidden;display:block;position:absolute;left:0;background:url(../../images/wide/_general/_general/elements/layer.png) no-repeat 0 0;width:429px;height:4px;}
+#welcomeLayer .close{cursor:pointer;position:absolute;top:5px;right:8px;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/close.png) no-repeat;width:14px;height:14px;}
+#welcomeLayer .top,#welcomeLayer .bottom{overflow:hidden;display:block;position:absolute;left:0;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/layer.png) no-repeat 0 0;width:429px;height:4px;}
 #welcomeLayer .top{top:-3px;}
 #welcomeLayer .bottom{bottom:-4px;background-position:0 -4px;}
 #welcomeLayer h5{font-weight:bold;}
@@ -1509,13 +1509,13 @@ table.chainData span.totalRating{position:static;float:left;top:auto;}
 table.chainData p.totalRating{padding:0 0 5px 1em!important;white-space:normal!important;margin:0;min-height:30px;_height:30px;}
 table.chainData p.totalRating i{font-size:.9em!important;font-style:normal;}
 table.chainData td.setRight{padding-right:.8em!important;}
-table.bookingProcessView label strong{background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 50% -1197px!important;color:#fff;padding:5px 6px;text-align:center;}
+table.bookingProcessView label strong{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 50% -1197px!important;color:#fff;padding:5px 6px;text-align:center;}
 div.exclusivePriceMotionHead #head{float:left;padding:0;margin:0;height:auto;background-color:#28518D;background-position:0 -300px;}
 div.exclusivePriceMotionHead #head h1{float:left;padding:5px 1em .8em 10px;}
 div.exclusivePriceMotionHead #head h1 img{height:5em;width:16em;}
 .popup div#contentNav{margin:1.25em 0 2em 0!important;}
 div.exclusivePriceMotionHead div#contentNav{margin:-1px 0 2em 0!important;}
-div.exclusivePriceTeaser{width:204px;float:right;margin:0 0 2em 2em;background:#FFF url(../../images/wide/_general/_general/elements/teaser.png) no-repeat 0 0;border:1px solid #C8C8C8;padding:1px 1px 10px 1px;}
+div.exclusivePriceTeaser{width:204px;float:right;margin:0 0 2em 2em;background:#FFF url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/teaser.png) no-repeat 0 0;border:1px solid #C8C8C8;padding:1px 1px 10px 1px;}
 div.exclusivePriceTeaser div.teasertext{padding:.5em;}
 div.exclusivePriceTeaser div.teasertext h4,div.exclusivePriceTeaser div.teasertext p{padding:.5em 0 0 0;}
 div.exclusivePriceDescription h4{float:none!important;clear:none!important;}
@@ -1576,10 +1576,10 @@ p.addRoom{*xxyheight:1%;margin-top:-.5em;}
 p.addRoom span.button{float:left;margin-left:0;}
 #routingAddress dt{font-weight:normal;float:none;margin-bottom:.4em;}
 #routingAddress dd{font-weight:bold;float:none;height:1.7em;}
-.endRoute,a.endRoute{background:url(../../images/wide/_general/_general/dashBoard/endRoute.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src ='images/wide/_general/_general/dashBoard/endRoute.png',sizingMethod ='crop');padding-left:20px;}
-.startRoute,a.startRoute{background:url(../../images/wide/_general/_general/dashBoard/startRoute.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src ='images/wide/_general/_general/dashBoard/startRoute.png',sizingMethod= 'crop');padding-left:20px;}
-.officeBubble a.startRoute,.infoBoxStyle2 a.startRoute,.imgBox a.startRoute{background:url(../../images/wide/_general/_general/dashBoard/startRoute.gif) no-repeat 0 0;_filter:none;}
-.officeBubble a.endRoute,.infoBoxStyle2 a.endRoute,.imgBox a.endRoute{background:url(../../images/wide/_general/_general/dashBoard/endRoute.gif) no-repeat 0 0;_filter:none;}
+.endRoute,a.endRoute{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/dashBoard/endRoute.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src ='images/wide/_general/_general/dashBoard/endRoute.png',sizingMethod ='crop');padding-left:20px;}
+.startRoute,a.startRoute{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/dashBoard/startRoute.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src ='images/wide/_general/_general/dashBoard/startRoute.png',sizingMethod= 'crop');padding-left:20px;}
+.officeBubble a.startRoute,.infoBoxStyle2 a.startRoute,.imgBox a.startRoute{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/dashBoard/startRoute.gif) no-repeat 0 0;_filter:none;}
+.officeBubble a.endRoute,.infoBoxStyle2 a.endRoute,.imgBox a.endRoute{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/dashBoard/endRoute.gif) no-repeat 0 0;_filter:none;}
 #routingDirections .count{width:2em;}
 #routingDirections .length{width:5em;}
 #routingDirections td{padding:.72em .418em;}
@@ -1591,8 +1591,8 @@ p.addRoom span.button{float:left;margin-left:0;}
 #content .help-layer .bookingRestrictions{margin-top:1em;border:none;}
 .help-layer iframe{position:absolute;top:0;left:0;width:100%!important;z-index:-1;}
 .help-layer{z-index:20000;}
-.help-layer .top{background:transparent url(../../images/wide/_general/_general/elements/helpLayer.png) right -900px no-repeat;height:3px;margin-left:3px;z-index:15;}
-.help-layer .top span{background:transparent url(../../images/wide/_general/_general/elements/helpLayer.png) -50px 0 no-repeat;display:block;height:3px;left:0;overflow:hidden;position:absolute;width:3px;}
+.help-layer .top{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/helpLayer.png) right -900px no-repeat;height:3px;margin-left:3px;z-index:15;}
+.help-layer .top span{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/helpLayer.png) -50px 0 no-repeat;display:block;height:3px;left:0;overflow:hidden;position:absolute;width:3px;}
 .help-layer .content{background:#F0F7FF none repeat scroll 0 0;border-left:2px solid #779FCF;border-right:2px solid #779FCF;padding:1.2em;z-index:15;_height:1%;}
 .errorLayer .content{color:#cc092f;background:#ffe0e0;border-left:2px solid #cc092f;border-right:2px solid #cc092f;}
 .errorLayer .content h4{color:#cc092f;}
@@ -1606,19 +1606,19 @@ body .noClose .help-text{margin:0 -10px 0 0;}
 .help-layer .help-text div{padding:0 14px 0 0;_padding:0 4px 0 0;overflow-x:hidden;}
 ul.helpList li{border-bottom:1px solid #d7d7d7;padding:2px 0 5px 0;margin-bottom:3px;display:block;}
 .help-layer .help-text div a.link{*display:inline-block;}
-.help-layer .bottom{background:transparent url(../../images/wide/_general/_general/elements/helpLayer.png) right -850px no-repeat;height:3px;margin-left:3px;z-index:15;position:relative;}
-.help-layer .bottom span{background:transparent url(../../images/wide/_general/_general/elements/helpLayer.png) 0 0;display:block;height:3px;margin-top:0;left:-3px;overflow:hidden;position:absolute;width:3px;}
-.help-layer .close{background:transparent url(../../images/wide/_general/_general/icons/sprite.png) no-repeat scroll 5px -1050px;cursor:pointer;height:20px;position:absolute;right:5px;top:5px;_right:11px;padding:0 0 0 25px;z-index:15;color:#cc092f;}
-.help-layer .pike{background:transparent url(../../images/wide/_general/_general/elements/helpLayer.png) no-repeat;display:block;height:21px;position:absolute;width:21px;z-index:15;}
+.help-layer .bottom{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/helpLayer.png) right -850px no-repeat;height:3px;margin-left:3px;z-index:15;position:relative;}
+.help-layer .bottom span{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/helpLayer.png) 0 0;display:block;height:3px;margin-top:0;left:-3px;overflow:hidden;position:absolute;width:3px;}
+.help-layer .close{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat scroll 5px -1050px;cursor:pointer;height:20px;position:absolute;right:5px;top:5px;_right:11px;padding:0 0 0 25px;z-index:15;color:#cc092f;}
+.help-layer .pike{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/helpLayer.png) no-repeat;display:block;height:21px;position:absolute;width:21px;z-index:15;}
 .help-layer .pikeTop{background-position:-300px 0;left:50%;margin-left:-11px;bottom:-4px;_bottom:-6px;height:13px;}
 .help-layer .pikeRight{background-position:-150px 0;left:-11px;margin-top:-11px;top:50%;}
 .help-layer .pikeBottom{background-position:-250px 0;left:50%;margin-left:-11px;top:-11px;}
 .help-layer .pikeLeft{background-position:-200px 0;margin-top:-11px;right:-19px;_right:-13px;top:50%;}
-.help-layer .shadowRight{background:transparent url(../../images/wide/_general/_general/elements/helpLayer.png) top right no-repeat;width:100%;padding-right:7px;}
-.help-layer .shadowCorner{background:transparent url(../../images/wide/_general/_general/elements/helpLayer.png) -100px 0 no-repeat;height:10px;width:10px;z-index:1;position:absolute;right:-10px;}
-.help-layer .shadowBottom{background:url(../../images/wide/_general/_general/elements/helpLayer.png) left -950px no-repeat;height:10px;z-index:1;margin-right:3px;margin-top:-3px;position:relative;}
-.errorLayer .top,.errorLayer .bottom,.errorLayer .pike,.errorLayer .bottom span,.errorLayer .top span{background-image:url(../../images/wide/_general/_general/elements/helpLayerError.png);}
-.successLayer .top,.successLayer .bottom,.successLayer .pike,.successLayer .bottom span,.successLayer .top span{background-image:url(../../images/wide/_general/_general/elements/helpLayerSuccess.png);}
+.help-layer .shadowRight{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/helpLayer.png) top right no-repeat;width:100%;padding-right:7px;}
+.help-layer .shadowCorner{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/helpLayer.png) -100px 0 no-repeat;height:10px;width:10px;z-index:1;position:absolute;right:-10px;}
+.help-layer .shadowBottom{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/helpLayer.png) left -950px no-repeat;height:10px;z-index:1;margin-right:3px;margin-top:-3px;position:relative;}
+.errorLayer .top,.errorLayer .bottom,.errorLayer .pike,.errorLayer .bottom span,.errorLayer .top span{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/helpLayerError.png);}
+.successLayer .top,.successLayer .bottom,.successLayer .pike,.successLayer .bottom span,.successLayer .top span{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/helpLayerSuccess.png);}
 div.help-layer .data tfoot td{background:#f8f8f8!important;border-top:.1em solid #D0DEED;color:#000;font-size:1.2em!important;font-weight:900;text-align:right;}
 div.help-layer .data tfoot tr.priceWithoutTax td{background:#fff!important;}
 div.help-layer .data tfoot tr.priceWithoutTax td{font-size:1em!important;}
@@ -1630,14 +1630,14 @@ div.help-layer .data tfoot td.price{white-space:nowrap;}
 #footerMenuWrap h4{margin-bottom:2.4em;color:#7e7e7e;font-size:1.2em;}
 #footerMenuWrap .footerMenu{background:#d7d7d7;list-style:none;border:1px solid #a3a3a3;position:absolute;bottom:1.1em;width:96.2em;height:auto;}
 #footerMenuWrap .footerMenu li{background:transparent;float:left;display:block;overflow:visible;margin:0 0 0 -1px;}
-#footerMenuWrap .footerMenu li a{display:block;color:#7e7e7e;position:relative;padding:4px 12px;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9847px;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -10041px;position:relative;}
-#footerMenuWrap .footerMenu li a span{font-weight:bold;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 100% -9793px;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 100% -10151px;padding-right:12px;}
+#footerMenuWrap .footerMenu li a{display:block;color:#7e7e7e;position:relative;padding:4px 12px;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9847px;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -10041px;position:relative;}
+#footerMenuWrap .footerMenu li a span{font-weight:bold;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 100% -9793px;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 100% -10151px;padding-right:12px;}
 #footerMenuWrap .footerMenu li a:hover,#footerMenuWrap .footerMenu li a.active{background:#f0f0f0;border-right:1px solid #a3a3a3;border-left:1px solid #a3a3a3;padding:4px 11px;color:#a3a3a3;}
 #footerMenuWrap .footerMenu li a.active span{background-position:100% -9743px;background-position:100% -10101px;}
 #footerMenuWrap .footerMenu li a.active{padding-bottom:5px;margin-top:-1px;}
 div#footerMenuWrap div ul li a:link,div#footerMenuWrap div ul li a:hover,div#footerMenuWrap div ul li a:active,div#footerMenuWrap div ul li a:visited,div#footerMenuWrap div ul li a:focus{color:#145CA3;}
 div#footerMenuWrap div div p a:link,div#footerMenuWrap div div p a:hover,div#footerMenuWrap div div p a:active,div#footerMenuWrap div div p a:visited,div#footerMenuWrap div div p a:focus{color:#003;}
-#footerMenuWrap div li a{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9695px;padding:0 5px 0 8px;display:block;color:#a3a3a3;}
+#footerMenuWrap div li a{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9695px;padding:0 5px 0 8px;display:block;color:#a3a3a3;}
 #footerMenuWrap div li a:hover,#footerMenuWrap div p a{text-decoration:underline;color:#a3a3a3;}
 #footerMenuWrap div p a:hover{text-decoration:none;}
 #footerMenuWrap div{clear:both;border-style:solid;border-color:#a3a3a3;border-width:1px 1px 0;background:#f0f0f0;padding:1.2em 0;}
@@ -1653,7 +1653,7 @@ div#ICP-License a{color:#A4A4A4;font-size:12px;text-decoration:none;}
 #calTab{position:absolute;top:-1000000px;z-index:30000;background:#fff;}
 #calHead{background:#145CA3;color:#fff;border-right:none;}
 #calFooter td{background:#FFF;text-align:left;padding:3px 4px;border:none!important;}
-#calFooter td a{color:#cc092f;padding:1px 0 1px 25px;background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -1050px;}
+#calFooter td a{color:#cc092f;padding:1px 0 1px 25px;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -1050px;}
 #calFooter td a:hover{background-color:transparent;}
 #monthHeader{margin:0 12px;text-align:center;display:block;white-space:nowrap;color:#fff;background:#145CA3;font-weight:bold;}
 #prevM,#nextM{width:12px;height:1em;float:right;text-align:right;position:relative;display:block;}
@@ -1736,7 +1736,7 @@ div#wrap .col3 .teaser.marginal .contactInfos h4{margin:.4em .2em .4em 0;}
 div#wrap .teaser form#sendSmsForm{margin-top:1em;}
 div#wrap div.col3 .teaser.tCol3.marginal.carRentalMarginal p img{margin-bottom:5px;}
 div#wrap div.col3 .marginal p strong img{margin:1px 1px 5px 0;}
-#hrsVideoplayerWrap{background:url(../../images/wide/_general/_general/icons/spinner.gif) center center no-repeat;min-height:416px;}
+#hrsVideoplayerWrap{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/spinner.gif) center center no-repeat;min-height:416px;}
 .videoPlaylistWrap{margin-top:1em;}
 .videoPlaylistWrap .contextHelp{float:right;margin-right:.8em;}
 #videoPlaylist{background:#f8f8f8;margin-right:.8em;border-top:#d7d7d7 1px solid;border-bottom:#d7d7d7 1px solid;overflow:hidden;padding-bottom:.7em;}
@@ -1745,21 +1745,21 @@ div#wrap div.col3 .marginal p strong img{margin:1px 1px 5px 0;}
 #videoPlaylist .slideShow{overflow:auto;margin:0 1em;}
 #videoPlaylist .jsSlide{overflow:hidden;position:relative;width:576px;margin:0 4px 0 0;}
 #videoPlaylist ul{width:1000px;height:98px;overflow:visible;position:relative;}
-#videoPlaylist .prev{background:url(../../images/wide/_general/_general/elements/scrollLeft.png) no-repeat;float:left;width:16px;height:50px;cursor:pointer;margin-top:28px;margin-left:12px;margin-right:4px;}
-#videoPlaylist .next{background:url(../../images/wide/_general/_general/elements/scrollRight.png) no-repeat;float:left;width:16px;height:50px;cursor:pointer;margin-top:28px;}
+#videoPlaylist .prev{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/scrollLeft.png) no-repeat;float:left;width:16px;height:50px;cursor:pointer;margin-top:28px;margin-left:12px;margin-right:4px;}
+#videoPlaylist .next{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/scrollRight.png) no-repeat;float:left;width:16px;height:50px;cursor:pointer;margin-top:28px;}
 #videoPlaylist .inactive{cursor:default;opacity:.2;}
 #externVideoIframe{border:0;}
 #externVideoIframe body{overflow:hidden;}
 .slideShow li.videoPlaylistItem{height:90px;width:128px;float:left;cursor:pointer;padding:4px 8px;}
-#videoPlaylist li.jsHover{background:url(../../images/wide/_general/_general/elements/video_hover.png);}
+#videoPlaylist li.jsHover{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/video_hover.png);}
 .videoPlaylistItem a{color:#a3a3a3;overflow:hidden;float:left;width:100%;}
 #videoPlaylist li.jsHover a{color:#fff;}
 .videoPlaylistItem a span{float:right;}
 .videoPlaylistItemImg{width:128px;height:72px;display:block;border:1px solid #a3a3a3;background-color:black;background-position:50% 50%;background-repeat:no-repeat;}
-.a360Degree{background:url(../../images/wide/_general/_general/elements/video_360.png);}
-.externVideos{background:url(../../images/wide/_general/_general/elements/video_extern.png);}
-#videoPlaylist li.jsHover .a360Degree{background:url(../../images/wide/_general/_general/elements/video_360_h.png);}
-#videoPlaylist li.jsHover .externVideos{background:url(../../images/wide/_general/_general/elements/video_extern_h.png);}
+.a360Degree{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/video_360.png);}
+.externVideos{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/video_extern.png);}
+#videoPlaylist li.jsHover .a360Degree{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/video_360_h.png);}
+#videoPlaylist li.jsHover .externVideos{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/video_extern_h.png);}
 span.videoPlayerViewCount{display:none;}
 #contextSensitiveHelpForm{background:#F0F7FF;margin:0 18px 0 0;width:418px;padding:0;}
 #contextSensitiveHelpForm p{margin:.1em 0 1.4em 0;}
@@ -1787,7 +1787,7 @@ div.box .pushSms label.check{width:15.2em;}
 div.box p.pushSms label.check{width:13em;}
 .flashPlayerMsg{background:#fff9b4!important;padding:1em;border-top:1px solid #ef8202!important;border-bottom:1px solid #ef8202!important;color:#cc092f;margin:1em .8em 1em 0;_margin-top:2em;clear:left;overflow:hidden;}
 .flashPlayerMsg h4{color:#cc092f;}
-.flashIcon{width:28px;height:28px;float:right;background:url(../../images/wide/_general/_general/icons/flash.png) no-repeat;}
+.flashIcon{width:28px;height:28px;float:right;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/flash.png) no-repeat;}
 li.lastListItem{height:20px;}
 #sendSmsForm .countryPrefix #countryCode{display:block;width:10.5em;}
 div.pseudoSelect dl,div.pseudoSelect dt,div.pseudoSelect dd{font-weight:normal;margin:0;width:auto;}
@@ -1812,8 +1812,8 @@ div.pseudoSelect dl dl{background:0;border:0;margin:0;padding:0;position:static;
 div.pseudoSelect dl dl dt{display:inline;padding:0;width:auto;z-index:701;position:static;}
 div.pseudoSelect dl dl dd{border:0;background:0;padding:0;position:static;margin:0;width:auto;z-index:699;}
 div.pseudoSelect dd span{font-style:normal;display:block;margin-top:1em;}
-#wrap .dehoga{background:url(../../images/wide/_general/_general/icons/sprite_loh.png) no-repeat 0 -1218px;}
-.dehoga_star{display:inline-block;background:url(../../images/wide/_general/_general/icons/sprite_loh.png) no-repeat 100% -1279px;}
+#wrap .dehoga{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite_loh.png) no-repeat 0 -1218px;}
+.dehoga_star{display:inline-block;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite_loh.png) no-repeat 100% -1279px;}
 #wrap p.dehoga_star{margin-bottom:0;}
 .dehoga a{display:block;float:left;margin:0 0 5px 25px;padding:1px 19px 2px 0;}
 .dehoga a.contextHelpFake{margin:0;padding:0 18px 0 0;width:13.2em;}
@@ -1824,17 +1824,17 @@ div.pseudoSelect dd span{font-style:normal;display:block;margin-top:1em;}
 .st1{padding-left:19px;background-position:0 -1277px;}
 ul.helpList{_width:26em!important;}
 ul.helpList li.dehoga_star{padding-left:75px;display:block;}
-.buttonGlobal02,.buttonLocal02{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -4950px;float:right;display:block;padding:0 0 0 2px;_position:relative;}
+.buttonGlobal02,.buttonLocal02{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -4950px;float:right;display:block;padding:0 0 0 2px;_position:relative;}
 div#wrap #layout01 .buttonGlobal02 *,div#wrap #layout01 .buttonLocal02 *{line-height:1.3em!important;}
 div#wrap #layout01 .buttonGlobal02 .setLh,div#wrap #layout01 .buttonLocal02 .setLh{line-height:1.2em!important;}
-.buttonGlobal02 span,.buttonLocal02 span{color:#FFF;display:block;background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 100% -4950px;position:relative;right:-2px;}
+.buttonGlobal02 span,.buttonLocal02 span{color:#FFF;display:block;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 100% -4950px;position:relative;right:-2px;}
 .buttonGlobal02 span *,.buttonLocal02 span *{padding:2px 10px 4px 10px;display:block;cursor:pointer;overflow:visible;color:#FFF;font-weight:bold;}
-.buttonGlobal02 span .select{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 4px -5147px;padding:2px 10px 4px 24px;}
-.buttonGlobal02 span .open{background:url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 4px -5197px;}
+.buttonGlobal02 span .select{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 4px -5147px;padding:2px 10px 4px 24px;}
+.buttonGlobal02 span .open{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 4px -5197px;}
 .buttonLocal02{background-position:0 -5025px;}
 .buttonLocal02 span{background-position:100% -5025px;}
 .buttonLocal02 span *{padding:2px 6px 4px 4px;}
-.buttonLocal02 span .select{background:url(../../images/wide/_general/_general/icons/sprite_loh.png) no-repeat 100% -1062px;padding:2px 20px 4px 4px;}
+.buttonLocal02 span .select{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite_loh.png) no-repeat 100% -1062px;padding:2px 20px 4px 4px;}
 .btnDisabled{background-position:0 -5100px;}
 .btnDisabled span{background-position:100% -5100px;}
 .btnDisabled span .select{background-position:4px -5247px;}
@@ -1843,21 +1843,21 @@ div#wrap #layout01 .buttonGlobal02 .setLh,div#wrap #layout01 .buttonLocal02 .set
 .travelData .btnDisabled{margin-left:1em;_margin:0 0 0 .5em!important;}
 #searchForm div.clearFix{padding:.8em 5px 0 5px;}
 .tracking{position:absolute;top:-10000px;}
-.packageBeauty{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9050px;padding:.1em 0 .1em 21px;display:block;}
-.packageCulture{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -8750px;padding:.1em 0 .1em 21px;display:block;}
-.packageEvent{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9100px;padding:.1em 0 .1em 21px;display:block;}
-.packageGourmet{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9000px;padding:.1em 0 .1em 21px;display:block;}
-.packageOther{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -8900px;padding:.1em 0 .1em 21px;display:block;}
-.packageSaison{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9150px;padding:.1em 0 .1em 21px;display:block;}
-.packageSport{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -8850px;padding:.1em 0 .1em 21px;display:block;}
-.packageWeekend{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -8950px;padding:.1em 0 .1em 21px;display:block;}
-.packageWellness{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -8800px;padding:.1em 0 .1em 21px;display:block;}
-.seniorsRate{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9650px;padding:.1em 0 .1em 21px;display:block;}
-.packageHRSSpecial{background:url(../../images/wide/_general/_general/icons/sprite_loh.png) no-repeat 0 -1526px;padding:.1em 0 .1em 21px;display:block;}
+.packageBeauty{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9050px;padding:.1em 0 .1em 21px;display:block;}
+.packageCulture{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -8750px;padding:.1em 0 .1em 21px;display:block;}
+.packageEvent{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9100px;padding:.1em 0 .1em 21px;display:block;}
+.packageGourmet{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9000px;padding:.1em 0 .1em 21px;display:block;}
+.packageOther{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -8900px;padding:.1em 0 .1em 21px;display:block;}
+.packageSaison{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9150px;padding:.1em 0 .1em 21px;display:block;}
+.packageSport{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -8850px;padding:.1em 0 .1em 21px;display:block;}
+.packageWeekend{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -8950px;padding:.1em 0 .1em 21px;display:block;}
+.packageWellness{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -8800px;padding:.1em 0 .1em 21px;display:block;}
+.seniorsRate{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite.png) no-repeat 0 -9650px;padding:.1em 0 .1em 21px;display:block;}
+.packageHRSSpecial{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite_loh.png) no-repeat 0 -1526px;padding:.1em 0 .1em 21px;display:block;}
 #bookmarkSelection p,#mobileDevices p{margin:.225em 0;padding:0;}
 #bookmarkSelection div.button,#mobileDevices div.button{float:left;border-bottom:1px solid #769dce;border-top:1px solid #769dce;cursor:pointer;margin:0;padding:0 0 4px 0;}
 #bookmarkSelection div.button span,#mobileDevices div.button span{float:left;border-left:1px solid #769dce;border-right:1px solid #769dce;display:block;left:-2px;margin:0 -4px -2px 0!important;padding:0!important;top:1px!important;}
-#bookmarkSelection div.socialBookmarks a,#mobileDevices div.mobileDevice a{background:transparent url(../../images/wide/_general/_general/elements/sprite.png) no-repeat 0 -6050px!important;white-space:nowrap;font-weight:bold;color:#FFF!important;line-height:25px;padding:0 1em 0 2.75em;margin:0 0 -2px 0;border:0;}
+#bookmarkSelection div.socialBookmarks a,#mobileDevices div.mobileDevice a{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/sprite.png) no-repeat 0 -6050px!important;white-space:nowrap;font-weight:bold;color:#FFF!important;line-height:25px;padding:0 1em 0 2.75em;margin:0 0 -2px 0;border:0;}
 #bookmarkSelection div.socialBookmarks a{background-position:0 -6100px!important;}
 fieldset#wizardForm p{margin:0 1em .5em .25em!important;}
 .inputInfoOverlayWrap{position:relative;}
@@ -1879,7 +1879,7 @@ div.moreMobileFeatures{display:block;border-top:1px solid #D7D7D7;padding:1em 0 
 ul#mobileCollection_qcms li.jsHover a{text-decoration:underline!important;}
 ul#mobileCollection_qcms li.jsHover a img{visibility:hidden;}
 .angularly .content{background:#FFF;border-left:1px solid #a3a3a3;border-right:1px solid #a3a3a3;padding:1.2em;z-index:15;*height:1%;}
-.angularly .shadowBottom{background:transparent url(../../images/wide/_general/_general/elements/helpLayer.png) no-repeat scroll left -950px;height:10px;margin-right:3px;margin-top:-3px;position:relative;z-index:1;}
+.angularly .shadowBottom{background:transparent url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/helpLayer.png) no-repeat scroll left -950px;height:10px;margin-right:3px;margin-top:-3px;position:relative;z-index:1;}
 .angularly .bottom{border-top:1px solid #a3a3a3;background:none;height:2px;margin-left:0;}
 .angularly .top{background:none;border-bottom:1px solid #a3a3a3;height:1px;margin-left:0;}
 .angularly .bottom span,.angularly .top span{display:none;}
@@ -1896,33 +1896,33 @@ ul#mobileCollection_qcms li.jsHover a img{visibility:hidden;}
 #tablehead .mm span.number{margin:0;}
 .content .help-text ul{overflow:auto;}
 .angularly ul.toggleMenu{width:100%;border-bottom:1px solid #a3a3a3;height:24px;margin-top:12px;_padding-top:2px;}
-.angularly ul.toggleMenu li{background:url(../../images/wide/_general/_general/elements/toggleMenuLeft.png) no-repeat left top;padding:0;border-bottom:1px solid #a3a3a3;float:left;margin-right:4px;_margin-bottom:-1px;}
-.angularly ul.toggleMenu li.act{background-image:url(../../images/wide/_general/_general/elements/toggleMenuLeftAct.png);border-bottom-color:#fff;margin-top:-2px;}
-.angularly ul.toggleMenu li span{background:url(../../images/wide/_general/_general/elements/toggleMenuRight.png) no-repeat right top;float:left;padding:5px 10px 4px 10px;font-weight:bold;color:#a3a3a3;cursor:pointer;}
-.angularly ul.toggleMenu li.act span{background-image:url(../../images/wide/_general/_general/elements/toggleMenuRightAct.png);color:#145ca3;padding-top:7px;}
+.angularly ul.toggleMenu li{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/toggleMenuLeft.png) no-repeat left top;padding:0;border-bottom:1px solid #a3a3a3;float:left;margin-right:4px;_margin-bottom:-1px;}
+.angularly ul.toggleMenu li.act{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/toggleMenuLeftAct.png);border-bottom-color:#fff;margin-top:-2px;}
+.angularly ul.toggleMenu li span{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/toggleMenuRight.png) no-repeat right top;float:left;padding:5px 10px 4px 10px;font-weight:bold;color:#a3a3a3;cursor:pointer;}
+.angularly ul.toggleMenu li.act span{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/toggleMenuRightAct.png);color:#145ca3;padding-top:7px;}
 .angularly div.toggleWrap{position:relative;height:293px;}
 .angularly div.toggleWrap div.itemWrap{background:#fff;position:absolute;top:0;z-index:16;height:271px;width:100%;}
-#mediacenterVideoWrap{height:271px;background:url(../../images/wide/_general/_general/icons/mediathekLoader.gif) no-repeat center center;}
+#mediacenterVideoWrap{height:271px;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/mediathekLoader.gif) no-repeat center center;}
 .angularly div.toggleWrap div.act{z-index:17;}
-.mediathek .content{padding-bottom:.8em;padding-top:.9em;background:url(../../images/wide/_general/_general/elements/teaser.png) no-repeat #fff;}
+.mediathek .content{padding-bottom:.8em;padding-top:.9em;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/teaser.png) no-repeat #fff;}
 .mediathek .close{top:1em;}
 .mediathek .content h4{color:#003;width:28em;}
 .mediathek .content h4 span{font-weight:normal;}
-.mediathek .content p{background:url(../../images/wide/_general/_general/elements/dot_04.png) repeat-x #fff;margin:0;padding:.7em 0 0;clear:left;height:1.6em;}
+.mediathek .content p{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/dot_04.png) repeat-x #fff;margin:0;padding:.7em 0 0;clear:left;height:1.6em;}
 .mediathek .content p:after{content:"";display:block;clear:both;height:1px;}
 .mediathek .content p a{float:right;background-position:0 -44px;}
 .mediathek .content p a:hover{text-decoration:underline;}
 .mediathek .content p a.largerPics{float:left;}
-.mediathek .content p a.largerVideo{float:left;background:url("../../images/wide/_general/_general/icons/sprite_loh.png") no-repeat scroll -284px -242px;padding-left:20px;font-weight:normal;color:#145ca3;}
+.mediathek .content p a.largerVideo{float:left;background:url("http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/sprite_loh.png") no-repeat scroll -284px -242px;padding-left:20px;font-weight:normal;color:#145ca3;}
 .mediathek .caption,.mediathek .loader{position:relative;text-align:center;top:16.2em;font-size:1.2em;z-index:101;}
-.mediathek .loader{top:9em;padding-bottom:20px;background:url(../../images/wide/_general/_general/icons/mediathekLoader.gif) no-repeat center bottom;}
-.noVideoPlayer{display:block;width:418px;height:256px;margin:7px auto;border:solid 1px #c8c8c8;background:#f0f0f0 url(../../images/wide/_general/_general/content/mediathek_dummy.jpg) no-repeat;position:relative;}
+.mediathek .loader{top:9em;padding-bottom:20px;background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/mediathekLoader.gif) no-repeat center bottom;}
+.noVideoPlayer{display:block;width:418px;height:256px;margin:7px auto;border:solid 1px #c8c8c8;background:#f0f0f0 url(http://www.hrsstatic.com/web3/images/wide/_general/_general/content/mediathek_dummy.jpg) no-repeat;position:relative;}
 .noVideoPlayer span{position:absolute;bottom:0;left:12px;}
 #videoContent object{margin:7px 21px;}
-#mt_forward,#mt_back{background:url(../../images/wide/_general/_general/elements/mediathekForward.png) no-repeat;width:22px;height:72px;float:left;cursor:pointer;margin:7.5em 0 0;}
-#mt_back{background-image:url(../../images/wide/_general/_general/elements/mediathekBack.png);clear:left;}
+#mt_forward,#mt_back{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/mediathekForward.png) no-repeat;width:22px;height:72px;float:left;cursor:pointer;margin:7.5em 0 0;}
+#mt_back{background-image:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/mediathekBack.png);clear:left;}
 .browserIcon{position:relative;top:4px;margin-left:2px;}
-.loader{background:url(../../images/wide/_general/_general/icons/loader.gif) no-repeat top center;padding-top:60px;text-align:center;}
+.loader{background:url(http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/loader.gif) no-repeat top center;padding-top:60px;text-align:center;}
 .list .loader,th .loader{background-position:top left;height:60px;padding:10px 90px 0 60px;text-align:left;top:9px;}
 #content table.data th p.loader{margin-top:8px;margin-left:2px;width:50%;font-weight:normal;}
 #content table.data tbody td.hp span.bookingLink{margin-top:1em;}
