@@ -1,0 +1,129 @@
+/* = head
+-------------------------------------------------- */
+#head h1 {
+    _padding: 1em 1em 1.325em 1em;
+}
+#head h1 img {
+    width: 20.7em;
+    height: 6.1em;
+}
+.popup #head h1 img {
+	width:13.3em;
+	height:3.9em;
+}
+#head {
+	background: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/head_gradient_IE6.gif) #901517 repeat-x left top;
+	voice-family: "\"}\"";
+ 	voice-family:inherit;
+   background: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/sprite.png) #901517 repeat-x 0 -300px;
+}
+#oldpage {
+	 left: 22.7em;
+	 background-image: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/oldpage2.png);
+	 _background-image: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/oldpage2-IE6.png);
+}
+.smallHead #head h1 img  {
+	width:14.9em;
+	height: 4.4em;
+}
+.hoteldetail #head h1 img  {
+	width:13.4em;
+	height: 3.9em;
+}
+/* = navigation
+-------------------------------------------------- */
+#nav,
+#nav li,
+#nav li.first,
+#nav li a:hover,
+#nav li a:active,
+#nav li a:focus,
+#nav li.active a,
+#nav li.jsHover a,
+#nav li a:hover span,
+#nav li a:active span,
+#nav li a:focus span,
+#nav li.jsHover a span,
+#nav li.active a span,
+#changeLanguage {
+	 background-image: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/sprite.png);
+}
+
+#nav li.logout,
+#nav li.login {
+ 	 background: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/sprite.png) #BB1514 no-repeat 100% -750px;
+}
+
+
+/* = meta
+-------------------------------------------------- */
+#meta,
+#meta #fontSize,
+#meta #fontSize ul,
+#meta li ul,
+#meta li ul li {
+  	 border-color:#F7ADAE;
+}
+#meta li {
+    font-size: 1.1em;
+	 *font-size: 1.025em;
+ 	 _font-size: 1.125em;	
+    background: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/meta.png) no-repeat;
+	 _background: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/meta-IE6.png) no-repeat;
+}
+
+#meta li.sub a:hover span span,
+#meta li.sub a:active span span,
+#meta li.sub a:focus span span,
+#meta li.sub a span span,
+#meta li.sub b span span,
+#meta li#fontSize b span span,
+#meta li a:hover span,
+#meta li a:active span,
+#meta li a:focus span,
+#meta li.jsHover a span,
+#meta li.jsHover b span,
+#meta li.active a span {
+	 background-image: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/sprite.png);
+}
+
+#meta li a,
+#meta li b,
+#meta li label{
+	 background: #BB1514 url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/meta.png) no-repeat left bottom; 	
+	 _background: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/meta-IE6.png) no-repeat left bottom; 	
+    color: #FFFFFF;
+	 padding:2px 7px 3px 7px;	 
+}
+#meta li a:hover,
+#meta li a:active,
+#meta li a:focus,
+#meta li.jsHover a,
+#meta li.jsHover b,
+#meta li.active a {
+	color: #BB1514;
+	text-decoration: none;
+	background-image: none;
+	background-color: #FCE4E2;
+	margin-top:0;
+	padding-bottom:1px;
+}
+
+#meta li.sub a:hover span span,
+#meta li.sub a:active span span,
+#meta li.sub a:focus span span,
+#meta li.sub a span span,
+#meta li.sub b span span {
+    background: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/sprite.png) transparent no-repeat 100% -595px;
+}
+
+
+/* = detailsNavigation
+-------------------------------------------------- */
+#head #nav li.active a input,
+#head #nav li a:hover input,
+#head #nav li a:focus input,
+#head #nav li a:active input {
+    background: url(http://www.hrsstatic.com/web3/images/wide/_general/_general/elements/hrscn/nav_active.png) no-repeat right top;
+}
+
