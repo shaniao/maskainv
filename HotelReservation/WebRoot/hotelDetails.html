@@ -5,22 +5,24 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
-		<meta name="robots" content="noodp" />
-		<meta name="description"
-			content="世界各地的酒店含信息、评价和图片。在HRS - The Hotel Portal上进行酒店预订便宜且快捷。" />
-		<title>HRS - Hotel Reservation Service | 酒店预订在线 - 在 -
-			上查找世界各地的酒店</title>
-		<link rel="shortcut icon" href="/web3/favicon.ico" />
+		<title>全球订房网 HRS.cn | 全球领先的专业在线酒店预订系统 - 武汉市 - 江岸区 - 如家快捷酒店
+			武汉台北一路店</title>
 		<!--[if gt IE 7 ]><!-->
 		<link rel="stylesheet" type="text/css"
-			href="http://www.hrsstatic.com/web3/css/wide/hoverCompressed.css"
+			href="./themes/css/hoverCompressed.css"
 			media="screen" />
 		<!--<![endif]-->
 		<link rel="stylesheet" type="text/css"
-			href="http://www.hrsstatic.com/web3/css/wide/mainCompressed.css"
+			href="./themes/css/mainCompressed.css"
 			media="screen" />
 		<link rel="stylesheet" type="text/css"
-			href="http://www.hrsstatic.com/web3/css/wide/teaser_startCompressed.css"
+			href="./themes/css/hoteldataCompressed.css"
+			media="screen" />
+		<link rel="stylesheet" type="text/css"
+			href="./themes/css/hoteldetailCompressed.css"
+			media="screen" />
+		<link rel="stylesheet" type="text/css"
+			href="http://www.hrsstatic.com/web3/css/wide/offerCompressed.css"
 			media="screen" />
 		<link rel="stylesheet" type="text/css"
 			href="http://www.hrsstatic.com/web3/css/wide/browser.css"
@@ -45,3164 +47,549 @@
 }
 </style>
 		<script type="text/javascript"
+			src="http://www.hrsstatic.com/web3/js/engineCompressed.js"></script>
+		<script type="text/javascript">
+		//<![CDATA[
+		window.opera8 = false;
+		var onloadJS = 'http://www.hrsstatic.com/web3/js/empty.js';
+		dwr.engine._origScriptSessionId = "EC5C211F5353F536C8058AEA3326302F.7-4";
+		dwr.engine._defaultPath = "/web3/dwr";
+		dwr.engine._sessionCookieName = "JSESSIONID";
+		dwr.engine._allowGetForSafariButMakeForgeryEasier = "false";
+		dwr.engine._scriptTagProtection="throw 'allowScriptTagRemoting is false.';";
+		//]]>
+	</script>
+		<script type="text/javascript"
+			src="http://www.hrsstatic.com/web3/dwr/interface/MyHRSLogin.js"></script>
+		<script type="text/javascript"
 			src="http://www.hrsstatic.com/web3/dwr/interface/MediaCenter.js"></script>
 		<script type="text/javascript"
 			src="http://www.hrsstatic.com/web3/dwr/interface/HotelAvailabilityCheck.js"></script>
 		<script type="text/javascript"
 			src="http://www.hrsstatic.com/web3/dwr/interface/HotelListViewTracker.js"></script>
-		<script type="text/javascript">
-		//<![CDATA[
-		var ms = 0,
-				state = 0,
-				now,
-				then;
-		function stopWatch() {
-			if (state == 0) {
-				state = 1;
-				then = new Date();
-				then.setTime(then.getTime() - ms);
-			} else {
-				state = 0;
-				now = new Date();
-				ms = now.getTime() - then.getTime();
-				if (document.searchForm.stopWatchTime)
-					document.searchForm.stopWatchTime.value = ms;
-			}
-		}
-		function display() {
-			setTimeout("display();", 50);
-			if (state == 1) {
-				now = new Date();
-				ms = now.getTime() - then.getTime();
-				if (document.searchForm.stopWatchTime) document.searchForm.stopWatchTime.value = ms;
-			}
-		}
-		stopWatch();
-		//]]>
-	</script>
+		<script type="text/javascript"
+			src="http://www.hrsstatic.com/web3/js/hrsCompressed.js"></script>
 		<script type="text/javascript">
 	//<![CDATA[
 	window.mapBrowser = ((window.ie) || (window.opera) || (window.gecko) || (window.webkit420));
-	var flyoutIframeUrl = '/web3/showPage.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&cid=6-1&page=spacer';
+	var flyoutIframeUrl = '/web3/showPage.do;jsessionid=EC5C211F5353F536C8058AEA3326302F.7-4?clientId=emhfQ05fTkVYVA--&cid=7-4&page=spacer';
 	var calCloseMsg = '\u5173\u95ED';
 
 
 	
+		window.addEvent('domready', function() {
+			var s = new Date().getTime();
+
+		
+
+
+
+
+
+
+
+
+
+
+    if (window.ie6) {
+        var p = new ContextSensitiveHelp($$('.comfort'), {container: $('content'), scrollEl: (window.ie6 ? $('content') : window), directions: ['bottom', 'right', 'top', 'left'], toggle: true});
+        var p = new ContextSensitiveHelp($$('.detailRate'), {container: $('content'), scrollEl: (window.ie6 ? $('content') : window), toggle: true})
+    }else{
+         var p = new ContextSensitiveHelp($$('.layerContent'), {container: $('content'), scrollEl: (window.ie6 ? $('content') : window), toggle: true});
+    }
+if ($('pic')) {
+    var hg = new HotelphotoGallerie($('pic'), [
+    
+        
+        {
+            url:    'http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_a_1313378.jpg',
+            height: 29.0
+        }
+    
+        ,
+        {
+            url:    'http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_z_1313377.jpg',
+            height: 29.0
+        }
+    
+        ,
+        {
+            url:    'http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_z_1478946.jpg',
+            height: 30.5
+        }
+    
+        ,
+        {
+            url:    'http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_rt_1478943.jpg',
+            height: 31.5
+        }
+    
+        ,
+        {
+            url:    'http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_h_1313381.jpg',
+            height: 29.0
+        }
+    
+        ,
+        {
+            url:    'http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_d_1478944.jpg',
+            height: 31.0
+        }
+    
+    ]);
+}
+
+var t = new Toggler('.jsAmenities .jsToggleLocal', '.jsAmenities .jsTogglerLocal', {
+	toggleText: ['\u663E\u793A\u66F4\u591A\u8BBE\u65BD\u548C\u8BE6\u60C5', '\u9690\u85CF\u66F4\u591A\u8BBE\u65BD\u548C\u8BE6\u60C5'],
+	toggleTextType: 'innerHTML'
+	});
+
+var t = new Toggler('.jsServices .jsToggleLocal', '.jsServices .jsTogglerLocal', {
+	toggleText: ['\u663E\u793A\u66F4\u591A\u670D\u52A1\u548C\u8BE6\u60C5', '\u9690\u85CF\u66F4\u591A\u670D\u52A1\u548C\u8BE6\u60C5'],
+	toggleTextType: 'innerHTML'
+});
+
+if($('submitAltCurr')){var ac = new SubmitOnChange($('submitAltCurr'));}
+if($('submitChangeDimension')){var cd = new SubmitOnChange($('submitChangeDimension'));}
+if($('changeHotelRating')){var cr = new SubmitOnChange($('changeHotelRating'));}
+if($('changeHotelRatingComment')){var cr = new SubmitOnChange($('changeHotelRatingComment'));}
+
+
+
+
+
+
+
+
+
+
+
+
+if ($('jsContentForm')) {
+	var p = new Popup($$('.jsPopup, .sendEmail'), {name: 'glossar', width: 680, height: 648});
+    var p = new Popup($$('.print'), {name: 'print', width: 740, height: 648});
+	var basket = new Hsv3Basket($('basket'),{
+		properties: {
+			bookingConditions: '\u8BF7\u9075\u5B88\u4E0B\u8FF0\u9884\u8BA2\u6761\u4EF6',
+			bookingType: '\u9884\u8BA2\u7C7B\u578B',
+			cancelationConditions: '\u53D6\u6D88',
+			paymentConditions: '\u652F\u4ED8\u65B9\u6CD5',
+			additionalBookingConditions: '\u66F4\u591A\u6761\u4EF6',
+			specialCancelationConditions: '\u7279\u5B9A\u7684\u53D6\u6D88\u6761\u4EF6',			
+			roomCategory: '\u623F\u95F4\u7C7B\u522B\uFF1A',
+			averagePrice: '\u5E73\u5747\u4EF7\u683C',
+			period: '\u65F6\u6BB5',
+			board: '\u81B3\u98DF<span>\uFF08\u6BCF\u4EBA/\u6BCF\u665A\uFF09</span>',
+			price: '\u4EF7\u683C',
+			roomPrice: '\u6574\u4E2A\u623F\u4EF7',
+			withTax: '\uFF08\u542B\u7A0E\uFF09',
+			withoutTax: '\uFF08\u4E0D\u542B\u7A0E\uFF09',
+			roomDescription: '\u9152\u5E97\u623F\u95F4\u63CF\u8FF0:',
+			rateDescription: '\u4EF7\u683C:',
+			noticeTaxes: '<p class="rateTaxDescription"><strong>\u8BF7\u6CE8\u610F: </strong><a href="#taxDescription" class="contextHelp">\u7A0E\u52A1\u4FE1\u606F</a></p>',
+			taxDescription: '\u7A0E\u52A1\u4FE1\u606F',
+			beforeAndAfterPriceDetailsPerDay: '\u7EC4\u5408\u62A5\u4EF7\u91CC\u672A\u5305\u542B\u7684\u51E0\u4E2A\u665A\u4E0A\u53EF\u4EE5\u901A\u8FC7\u5982\u4E0B\u65B9\u5F0F\u9884\u8BA2\uFF1A',
+			hotdealHint: '\u53EF\u80FD\u9700\u8981\u9884\u4ED8\u6B3E\u9879\u548C\u9884\u8BA2\u53D6\u6D88\u8D39'
+		},
+		toggle: {
+			size: 8,
+			showMore: '\u663E\u793A\u66F4\u8FDB\u4E00\u6B65\u7684\u62A5\u4EF7',
+			hideMore: '\u9690\u85CF\u66F4\u8FDB\u4E00\u6B65\u7684\u62A5\u4EF7',
+			separator: '\u66F4\u8FDB\u4E00\u6B65\u7684\u62A5\u4EF7',
+			separatorText: '<h5>\u66F4\u8FDB\u4E00\u6B65\u7684\u62A5\u4EF7</h5> <p>\u4E86\u89E3\u66F4\u5438\u5F15\u4EBA\u7684HRS\u62A5\u4EF7\uFF0C\u5982\u7EC4\u5408\u6700\u4F4E\u4EF7\u683C\u7684\u4E0D\u540C\u670D\u52A1\u6784\u6210\u7684\u7EC4\u5408\u62A5\u4EF7\u3002</p>',
+			hideClass: 'nonTopOffer'
+		}
+	});
+};
+
+
+var link = $$('p a.link')[0];
+if(link){
+
+	link.addEvent('click', function(e){
+		if ($('otherDeals')) {
+
+			var theHeadline = $('otherDeals');
+			var theHeadlinePos = theHeadline.getPosition().y;
+			new Event(e).stop();
+			
+			if(window.ie6){
+				$(content).scrollTo(0, theHeadlinePos-105);
+			} else {
+				window.scrollTo(0, theHeadlinePos-100);
+			};
+		};
+	})
+}
+
+var p = new Popup($$('#bestpriceGuaranteed'), {width: 750,height: 780,name: 'bestPriceGuaranteed'});
+
+
+var t = new Tips($$('.jsTooltip'));
+
+var z = new ContextSensitiveHelp($$('.jsHelpNoCloseBtn'), {container: $('content'), scrollEl: (window.ie6 ? $('content') : window), firstDirection: 'top', closeButton: true, closeText:'关闭', timerDelay:300, openEvent: 'mouseenter', maxWidth: 300, varClassName: ' noWrap'});
+
+		var tooltips = new Tips($$('.tooltip'));
+
+		
+			var ff = new Fontsize($('fontSize'));
+		
+		if ($('oldVersionWrap')) {
+			$('oldVersionWrap').addClass('sub loaded');
+			$('oldVersionWrap').getElement('.hideOnLoad').remove();
+		}
+
+		var hotline = new Popup($$('.jsHotline'), {width: '465', height: '560'});
+
+		if ((window.mapBrowser) && $('veMapSearch')) {
+			$('veMapSearch').value = 'true';
+		}
+		
+			if ((window.ie && !window.opera)) {
+				var flyOut1 = new Flyout($$('#meta li', '#nav li'), 'jsHover');
+				var flyOut2 = new Flyout($$('#meta li.first'), 'jsFirstHover');
+			} else {
+				var flyOut = new Flyout($$('#nav li.login'), 'jsHover');
+			}
+		
+		var t = new ClickTracker({checkClass: 'jsTrackLink'});
+		var l = new DWRLogin({
+			properties: {hallo: '\u60A8\u597D'},
+			sendBookingForm: false,
+			reload: false
+		});
+		var c = new ContextSensitiveHelp($$('.jsHelp'), {firstDirection: 'top'});
+		var bl = new ContextSensitiveHelp.Bookmarks($$('.bookmarkLayer'), {firstDirection: 'top', maxWidth:265, minWidth:265, closeText: '\u5173\u95ED'});
+        if($('footerMenuWrap')){
+            var fm = new FooterMenu($('footerMenuWrap'));
+        }
+	});
+	
 
 	var CLIENTNAME = "NEXT";
 	var MAXROOMCOUNT = 6;
-	var HELPSATELLITE = "/web3/showPage.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&cid=6-1&page=userHelpSat&sat=manyrooms&satBundle=content.home.help";
+	var HELPSATELLITE = "/web3/showPage.do;jsessionid=EC5C211F5353F536C8058AEA3326302F.7-4?clientId=emhfQ05fTkVYVA--&cid=7-4&page=userHelpSat&sat=manyrooms&satBundle=content.home.help";
 	var HELPSATELLITENAME = "帮助";
-	var GROUPSFAIRS = "/web3/showConferencesGroupsFairs.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&cid=6-1&activity=showGroupTravels&treeID=5094&levelFirstItem=1&levelSecondItem=1&roomCountSingle='+singleRooms+'&roomCountDouble='+doubleRooms";
-	var CHANGE_LANGUAGE_URL = "/web3/showHomepage.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1";
-	var cid = "cid=6-1";
-	var dwrSessionId = "F75596CA34E9F6F342D70041D6C74A26.6-1";
+	var GROUPSFAIRS = "/web3/showConferencesGroupsFairs.do;jsessionid=EC5C211F5353F536C8058AEA3326302F.7-4?clientId=emhfQ05fTkVYVA--&cid=7-4&activity=showGroupTravels&treeID=5094&levelFirstItem=1&levelSecondItem=1&roomCountSingle='+singleRooms+'&roomCountDouble='+doubleRooms";
+	var CHANGE_LANGUAGE_URL = "/web3/showHomepage.do;jsessionid=EC5C211F5353F536C8058AEA3326302F.7-4";
+	var cid = "cid=7-4";
+	var dwrSessionId = "EC5C211F5353F536C8058AEA3326302F.7-4";
 	//]]>
 </script>
-		<script type="text/javascript">
-		//<![CDATA[
-		document.write('<script type="text/javascript" src="/web3/media;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&mediaID=-1"><\/script>');
-		//]]>
-	</script>
 		<link rel="stylesheet" type="text/css"
 			href="http://www.hrsstatic.com/web3/css/wide/hrscn/customized.css" />
 	</head>
 	<body>
-		<script type="text/javascript">
-		//<![CDATA[
-			function check () {
-				stopWatch();
-			}
-
-			window.onload=function(){
-				check();
-			}
-		//]]>
-
-	</script>
-		<div id="wrap" class="start">
+		<div class="tracking">
+		</div>
+		<div id="wrap" class="hoteldetail">
 			<!--[if IE 7 ]><input type="submit" value="" name="" style="position:absolute; left:-30px; top: -100px" /><![endif]-->
 			<div id="layout01">
 				<div id="layout02">
-					<div id="footerMenuWrap" class="footerMenuWrap">
-						<h4>
-						</h4>
-						<ul class="footerMenu">
-							<li>
-								<a href="#unitedKingdom"><span>United Kingdom</span>
-								</a>
-							</li>
-							<li>
-								<a href="#deutschland"><span>Deutschland</span>
-								</a>
-							</li>
-							<li>
-								<a href="#france"><span>France</span>
-								</a>
-							</li>
-							<li>
-								<a href="#italia"><span>Italia</span>
-								</a>
-							</li>
-							<li>
-								<a href="#polska"><span>Polska</span>
-								</a>
-							</li>
-							<li>
-								<a href="#russia"><span>Россия</span>
-								</a>
-							</li>
-						</ul>
-						<div id="unitedKingdom">
-							<ul>
-								<li class="head">
-									<h5>
-										National
-									</h5>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/england/london/">Hotels
-										in London</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/england/birmingham/">Hotels
-										in Birmingham</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/england/brighton/">Hotels
-										in Brighton</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/england/bristol/">Hotels
-										in Bristol</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/england/manchester/">Hotels
-										in Manchester</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/england/coventry/">Hotels
-										in Coventry</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/england/southampton/">Hotels
-										in Southampton</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/england/leeds/">Hotels in
-										Leeds</a>
-								</li>
-							</ul>
-							<ul>
-								<li class="head">
-									<h5>
-										International
-									</h5>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/france/paris/">Hotels in
-										Paris</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/france/nice/">Hotels in
-										Nice</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/france/toulouse/">Hotels
-										in Toulouse</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/germany/munich/">Hotels
-										in Munich</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/germany/hamburg/">Hotels
-										in Hamburg</a>
-								</li>
-								<li>
-									<a href="http://uk.hrs.com/europe/germany/berlin/">Hotels
-										in Berlin</a>
-								</li>
-							</ul>
-							<div>
-								<h5>
-									HRS UK
-								</h5>
-								<p>
-									Are you looking for a hotel in Paris, London or Munich. Are you
-									planning a business trip to Moscow, Vienna or Oslo. Would you
-									like to go on a shopping trip to New York, Madrid or Barcelona?
-									No matter where you want to go
-									<a href="http://uk.hrs.com">HRS</a> offers you the best hotels
-									for the cheapest prices with over
-									<a href="http://uk.hrs.com/booking/en/">230.000 Hotels</a> all
-									over the world. Book a charming hotel at HRS.com
-								</p>
-							</div>
-						</div>
-						<div id="deutschland">
-							<ul>
-								<li class="head">
-									<h5>
-										National
-									</h5>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/de/berlin/">Hotel Berlin</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/de/bayern/muenchen/">Hotel
-										München</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/de/nordrhein-westfalen/koeln/">Hotel
-										Köln</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/de/hamburg/">Hotel Hamburg</a>
-								</li>
-								<li>
-									<a
-										href="http://www.hrs.de/hotel/de/nordrhein-westfalen/duesseldorf/">Hotel
-										Düsseldorf</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/de/sachsen/dresden/">Hotel
-										Dresden</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/de/niedersachsen/hannover/">Hotel
-										Hannover</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/de/bremen/">Hotel Bremen</a>
-								</li>
-							</ul>
-							<ul>
-								<li class="head">
-									<h5>
-										International
-									</h5>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/grossbritannien/london/">Hotel
-										London</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/frankreich/paris/">Hotel
-										Paris</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/oesterreich/wien/">Hotel
-										Wien</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/italien/latium/rom/">Hotel
-										Rom</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/italien/venetien/venedig/">Hotel
-										Venedig</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/italien/toskana/florenz/">Hotel
-										Florenz</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/usa/new-york/new-york-city/">Hotel
-										New York</a>
-								</li>
-								<li>
-									<a href="http://www.hrs.de/hotel/tuerkei/istanbul/">Hotel
-										Istanbul</a>
-								</li>
-							</ul>
-							<div>
-								<h5>
-									HRS Deutschland
-								</h5>
-								<p>
-									Planen Sie eine Geschäftsreise nach London, Hamburg oder Wien?
-									Suchen Sie für einen Shopping-Trip das passende Hotel in New
-									York? Ganz gleich wohin Sie fahren möchten - Italien, Spanien,
-									England oder Frankreich -
-									<a href="http://www.hrs.de/hotel/">HRS</a> bietet Ihnen unter
-									Garantie das richtige Hotel! Hotel Reservation Services verfügt
-									über mehr als 230.000 Hotels weltweit. Buchen Sie ein günstiges
-									und komfortables Hotel mit HRS!
-								</p>
-							</div>
-						</div>
-						<div id="france">
-							<ul>
-								<li class="head">
-									<h5>
-										Destinations nationales
-									</h5>
-								</li>
-								<li>
-									<a href="http://fr.hrs.com/europe/france/paris/">Hôtel
-										Paris</a>
-								</li>
-								<li>
-									<a
-										href="http://fr.hrs.com/europe/france/provence-alpes-cote-dazur/nice/">Hôtel
-										Nice</a>
-								</li>
-								<li>
-									<a
-										href="http://fr.hrs.com/europe/france/midi-pyrenees/toulouse/">Hôtel
-										Toulouse</a>
-								</li>
-								<li>
-									<a
-										href="http://fr.hrs.com/europe/france/languedoc-roussillon/montpellier/">Hôtel
-										Montpellier</a>
-								</li>
-								<li>
-									<a
-										href="http://fr.hrs.com/europe/france/midi-pyrenees/lourdes/">Hôtel
-										Lourdes</a>
-								</li>
-								<li>
-									<a href="http://fr.hrs.com/europe/france/alsace/strasbourg/">Hôtel
-										Strasbourg</a>
-								</li>
-								<li>
-									<a href="http://fr.hrs.com/europe/france/corse/">Hôtel
-										Corse</a>
-								</li>
-								<li>
-									<a
-										href="http://fr.hrs.com/europe/france/provence-alpes-cote-dazur/cannes/">Hôtel
-										Cannes</a>
-								</li>
-							</ul>
-							<ul>
-								<li class="head">
-									<h5>
-										Destinations internationales
-									</h5>
-								</li>
-								<li>
-									<a href="http://fr.hrs.com/europe/angleterre/londres/">Hôtel
-										Londres</a>
-								</li>
-								<li>
-									<a href="http://fr.hrs.com/europe/allemagne/hambourg/">Hôtel
-										Hambourg</a>
-								</li>
-								<li>
-									<a href="http://fr.hrs.com/europe/allemagne/berlin/">Hôtel
-										Berlin</a>
-								</li>
-								<li>
-									<a href="http://fr.hrs.com/europe/espagne/barcelone/">Hôtel
-										Barcelone</a>
-								</li>
-								<li>
-									<a href="http://fr.hrs.com/europe/autriche/vienne/">Hôtel
-										Vienne</a>
-								</li>
-								<li>
-									<a href="http://fr.hrs.com/europe/belgique/bruges/">Hôtel
-										Bruges</a>
-								</li>
-								<li>
-									<a href="http://fr.hrs.com/europe/belgique/bruxelles/">Hôtel
-										Bruxelles</a>
-								</li>
-								<li>
-									<a href="http://fr.hrs.com/europe/italie/rome/">Hôtel Rome</a>
-								</li>
-							</ul>
-							<div>
-								<h5>
-									HRS France
-								</h5>
-								<p>
-									HRS.com vous offre plus de
-									<a href="http://fr.hrs.com/booking/fr/">230.000 d'hôtels
-										dans le monde entier</a> ! Vous voulez passer un week-end à
-									Londres, Munich ou à Barcelone? Vous envisagez un voyage
-									d'affaire à Moscou, Hong Kong ou Oslo? Sur HRS.com vous pouvez
-									réserver d'hôtels confortables à un prix très favorable. Tapez
-									<a href="http://fr.hrs.com">HRS.com</a> et réservez en ligne,
-									c'est facile et pas cher !
-								</p>
-							</div>
-						</div>
-						<div id="italia">
-							<ul>
-								<li class="head">
-									<h5>
-										Destinazioni in Italia
-									</h5>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/italia/roma/">Hotel Roma</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/italia/firenze/">Hotel
-										Firenze</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/italia/milano/">Hotel
-										Milano</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/italia/bologna/">Hotel
-										Bologna</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/italia/genova/">Hotel
-										Genova</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/italia/padova/">Hotel
-										Padova</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/italia/rimini/">Hotel
-										Rimini</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/italia/pisa/">Hotel Pisa</a>
-								</li>
-							</ul>
-							<ul>
-								<li class="head">
-									<h5></h5>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/austria/vienna/">Hotel
-										Vienna</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/belgio/brussel/">Hotel
-										Brussel</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/germania/amburgo/">Hotel
-										Amburgo</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/germania/berlino/">Hotel
-										Berlino</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/germania/stoccarda/">Hotel
-										Stoccarda</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/spagna/barcellona/">Hotel
-										Barcellona</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/spagna/valencia/">Hotel
-										Valencia</a>
-								</li>
-								<li>
-									<a href="http://it.hrs.com/europa/austria/salisburgo/">Hotel
-										Salisburgo</a>
-								</li>
-							</ul>
-							<div>
-								<h5>
-									HRS Italia
-								</h5>
-								<p>
-									Cerchi offerte di hotel per il tuo prossimo viaggio d'affari o
-									per una vacanza romantica? Non importa dove ti porterà il tuo
-									viaggio: con una banca dati di oltre
-									<a href="http://it.hrs.com/booking/it/">230.000 alberghi</a> di
-									tutte le categorie di prezzo, su
-									<a href="http://it.hrs.com">HRS.com</a> potrai prenotare
-									gratuitamente hotel economici e di lusso in tutto il mondo!
-								</p>
-							</div>
-						</div>
-						<div id="polska">
-							<ul>
-								<li class="head">
-									<h5>
-										Najpopularniejsze kierunki w kraju
-									</h5>
-								</li>
-								<li>
-									<a href="http://pl.hrs.com/europa/polska/warszawa/">Hotele
-										Warszawa</a>
-								</li>
-								<li>
-									<a href="http://pl.hrs.com/europa/polska/krakow/">Hotele
-										Kraków</a>
-								</li>
-								<li>
-									<a href="http://pl.hrs.com/europa/polska/katowice/">Hotele
-										Katowice</a>
-								</li>
-								<li>
-									<a href="http://pl.hrs.com/europa/polska/poznan/">Hotele
-										Poznan</a>
-								</li>
-							</ul>
-							<ul>
-								<li class="head">
-									<h5></h5>
-								</li>
-								<li>
-									<a href="http://pl.hrs.com/europa/anglia/londyn/">Hotele
-										Londyn</a>
-								</li>
-								<li>
-									<a href="http://pl.hrs.com/europa/niemcy/kolonia/">Hotele
-										Kolonia</a>
-								</li>
-								<li>
-									<a href="http://pl.hrs.com/europa/czechy/brno/">Hotele Brno</a>
-								</li>
-								<li>
-									<a href="http://pl.hrs.com/europa/czechy/karpacz/">Hotele
-										Karpacz</a>
-								</li>
-							</ul>
-							<div>
-								<h5>
-									HRS Polska - Sprawdz, rezerwuj i oszczedzaj!
-								</h5>
-								<p>
-									Na stronach HRS.com znajdziesz i zarezerwujesz hotel w Polsce i
-									na calym swiecie.
-									<a href="http://pl.hrs.com">HRS</a> to oferta ponad
-									<a href="http://pl.hrs.com/booking/pl/">230.000 hoteli</a> po
-									promocyjnych cenach w kraju i za granica, która napewno spelni
-									wszelkie Twoje oczekiwania. Planujesz podróz sluzbowa albo
-									krótkie wakacje? - HRScom pomoze dokonac Ci trafnego wyboru.
-									HRS - HOTEL RESRVATION SERVICE!
-								</p>
-							</div>
-						</div>
-						<div id="russia">
-							<ul>
-								<li class="head">
-									<h5>
-										Направления
-									</h5>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/rossija/moskva/">Отель
-										Москва</a>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/finljandija/khelsinki/">Отель
-										Хельсинки </a>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/irlandija/dublin/">Отель
-										Дублин</a>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/niderlandy/amsterdam/">Отель
-										Амстердам</a>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/avstrija/vena/">Отель
-										Вена</a>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/italija/rim/">Отель Рим</a>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/ispanija/barselona/">Отель
-										Барселона</a>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/chekhija/praga/">Отель
-										Прага</a>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/grecija/afiny/">Отель
-										Афины</a>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/danija/kopengagen/">Отель
-										Копенгаген</a>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/shveicarija/bazel/">Отель
-										Базель</a>
-								</li>
-								<li>
-									<a href="http://ru.hrs.com/evropa/germanija/berlin/">Отель
-										Берлин</a>
-								</li>
-							</ul>
-							<div>
-								<h5>
-									HRS Россия
-								</h5>
-								<p>
-									Вам предстоит командировка в Лондон, Гамбург или Вену? Вы
-									хотите отправиться за покупками в Нью-Йорк и ищете подходящий
-									отель? Совершенно неважно, куда вы хотели бы поехать- в Италию,
-									Испанию, Великобританию или Францию,
-									<a href="http://ru.hrs.com/"> HRS</a> гарантируeт Вам самые
-									выгодные гостиницы. Hotel Reservation Service предлагает услуги
-									бронирования для более чем 230.000 отелей по всему миру.
-									Бронируйте недорогие и комфортные отели через HRS!
-								</p>
-							</div>
-						</div>
-					</div>
-					<div id="head">
-						<h1>
-							<a href="http://www.hrs.cn"><img
-									src="http://www.hrsstatic.com/web3/images/wide/_general/zh_CN/logo_hrs.png"
-									alt="回至HRS主页" />
-							</a>
-						</h1>
-						<script type="text/javascript"
-							src="http://www.hrsstatic.com/web3/js/labCompressed.js"></script>
-						<script type="text/javascript">
-			//<![CDATA[
-			buildCalIframe = function() {
-			};
-			$LAB.script('http://www.hrsstatic.com/web3/js/engineCompressed.js')
-				.wait(function() {
-					window.opera8 = false;
-					var onloadJS = 'http://www.hrsstatic.com/web3/js/empty.js';
-					dwr.engine._origScriptSessionId = "F75596CA34E9F6F342D70041D6C74A26.6-1";
-					dwr.engine._defaultPath = "/web3/dwr";
-					dwr.engine._sessionCookieName = "JSESSIONID";
-					dwr.engine._allowGetForSafariButMakeForgeryEasier = "false";
-					dwr.engine._scriptTagProtection = "throw 'allowScriptTagRemoting is false.';";
-				})
-				.script('http://www.hrsstatic.com/web3/dwr/interface/MyHRSLogin.js')
-				.wait(function() {
-					var jsPath = 'http://www.hrsstatic.com/web3/js/';
-				})
-				
-					
-					
-						.script('http://www.hrsstatic.com/web3/js/hrsCompressed.js')
-					
-				
-				.wait(function() {
-					var notFired = true;
-					window.addEvent('domready', function() {
-						notFired = false;
-						var s = new Date().getTime();
-						var tooltips = new Tips($$('.tooltip'));
-						
-							var ff = new Fontsize($('fontSize'));
-						
-						var t = new ClickTracker({checkClass: 'jsTrackLink'});
-						var hotline = new Popup($$('.jsHotline'), {width: '465', height: '560'});
-						if ((window.mapBrowser) && $('veMapSearch')) {
-							$('veMapSearch').value = 'true';
-						}
-						if ((window.ie && !window.opera)) {
-							var flyOut1 = new Flyout($$('#meta li', '#nav li'), 'jsHover');
-							var flyOut2 = new Flyout($$('#meta li.first'), 'jsFirstHover');
-						} else {
-							var flyOut = new Flyout($$('#nav li.login'), 'jsHover');
-						}
-						initDateContainer();
-
-						window.mapBrowser = ((window.ie) || (window.opera) || (window.gecko) || (window.webkit420));
-						if ((window.mapBrowser) && $('veMapSearch')) {
-							$('veMapSearch').value = 'true';
-						}
-
-						var lang = new SelectLanguage('language');
-						var g = new Gallery($('gallery'));
-						var hs = new HotelSearch($('searchForm'));
-						var pu = new Popup($$('.jsPopup'));
-						var fm = new FooterMenu($('footerMenuWrap'));
-						var c = new ContextSensitiveHelp($$('.jsHelp'), {firstDirection: 'top'});
-						var bl = new ContextSensitiveHelp.Bookmarks($$('.bookmarkLayer'), {firstDirection: 'top', maxWidth:265, minWidth:265, closeText: '\u5173\u95ED'});
-						var l = new DWRLogin({
-							properties: {hallo: '\u60A8\u597D'},
-							reload: false,
-							sessionId: 'F75596CA34E9F6F342D70041D6C74A26.6-1'
-						});
-
-						
-
-						if ($('fontSize')) {
-							$('fontSize').style.display = '';
-						}
-						if ($('oldVersionWrap')) {
-							$('oldVersionWrap').addClass('sub loaded');
-							$('oldVersionWrap').getElement('.hideOnLoad').remove();
-						}
-						if (window.intNewsletter) {
-							intNewsletter();
-						}
-					});
-					if (notFired) {
-						window.checkLoadStatusInterval = window.setInterval('checkLoadStatus()', 100);
-						window.checkLoadStatus = function() {
-							if (window.loaded && notFired) {
-								window.fireEvent('domready');
-								checkLoadStatusInterval = $clear(checkLoadStatusInterval);
-							}
-							if (window.loaded && !notFired) {
-								checkLoadStatusInterval = $clear(checkLoadStatusInterval);
-							}
-						}
-					}
-				});
-				
-				if (window.attachEvent) {
-					window.attachEvent("onload", function() {
-						window.loaded = true
-					});
-				}
-			//]]>
-		</script>
-						<div style="position: absolute; top: -1000em;">
-						</div>
-						<p class="tooltip" title="周一至周日  每天24小时">
-							<a
-								href="/web3/selectHotline.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=showHotlines"
-								class="jsHotline hotlineInfo" title="周一至周日  每天24小时"> 800
-								7201388* </a>
-							<a
-								href="/web3/selectHotline.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=showHotlines"
-								class="jsHotline">全球24小时全天候服务 </a>
-						</p>
-						<ul id="meta">
-							<li class="first hide sub fontSize" id="fontSize">
-								<b> <span> <span> 字号 </span> </span> </b>
-								<ul>
-									<li>
-										<a href="javascript:void(0)" class="increase">加大字号</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" class="decrease">减少字号</a>
-									</li>
-									<li>
-										<a href="javascript:void(0)" class="normal">正常字号</a>
-									</li>
-								</ul>
-							</li>
-							<li id="oldVersionWrap">
-								<a
-									href="/web3/?client=zh_CN_HRS&amp;lid=ToWeb3&amp;DCMP=ILC-SLOW"
-									target="_self" class="hideOnLoad"> <span>
-										转至针对拨号上网用户的HRS网站 </span> </a>
-								<b class="showOnLoad"> <span> <span>
-											用于netbook和modem </span> </span> </b>
-								<ul class="infoMetaNav showOnLoad">
-									<li class="seperator">
-										<p class="heading">
-											关于小屏幕下notebooks/netbooks的更多信息一瞥：
-										</p>
-										<p class="f11Key">
-											使用全屏模式。按下
-											<strong>F11</strong>功能键激活/去活全屏模式。
-										</p>
-									</li>
-									<li>
-										<p class="heading">
-											快速加载页面，即使网速很慢：
-										</p>
-										<p>
-											在这里您将发现优化了的版本。
-											<br />
-											<a href="/web3/?client=zh_CN_HRS&amp;lid=ToWeb3"
-												target="_self" class="link">HRS针对拨号上网的用户</a>
-										</p>
-									</li>
-								</ul>
-							</li>
-							<li class="first sub">
-								<a
-									href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;applicationFeature=about">
-									<span> <span> 关于HRS </span> </span> </a>
-								<ul>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=0&amp;treeID=1172">HRS一瞥</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=1&amp;treeID=1175">事实+数据</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=2&amp;treeID=719633">HRS最低价格保证</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=3&amp;treeID=1184">HRS荣誉</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=4&amp;treeID=1181">工作机会</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=5&amp;treeID=8">HRS新闻</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=6&amp;treeID=445070">HRS全球办事处</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=7&amp;treeID=816237">Advertising
-											on HRS</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a
-									href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;treeID=1960">
-									<span> 酒店合作伙伴 </span> </a>
-							</li>
-							<li>
-								<a href="http://corp3.hrs.de/portal?lang=zh_CN" target="_blank">
-									<span> 企业客户 </span> </a>
-							</li>
-							<li>
-								<a
-									href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;treeID=586140">
-									<span> 加盟合作伙伴 </span> </a>
-							</li>
-							<li class="language sub">
-								<form name="languageForm"
-									action="/web3/changeLanguage.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1"
-									method="post">
-									<label for="language">
-										<span>语言选择器</span>
-										<input type="hidden" name="activity" value="changeLanguage" />
-										<select name="localeString" size="1"
-											onchange="document.languageForm.submit()" id="language">
-											<option value="32 languages">
-												32 languages
-											</option>
-											<option value="de">
-												Deutsch
-											</option>
-											<option value="en">
-												English
-											</option>
-											<option value="en_US">
-												English US
-											</option>
-											<option value="es">
-												Español
-											</option>
-											<option value="fr">
-												Français
-											</option>
-											<option value="it">
-												Italiano
-											</option>
-											<option value="zh_CN" selected="selected">
-												中文简体
-											</option>
-											<option value="zh_TW">
-												中文繁體
-											</option>
-											<option value="pl">
-												Polski
-											</option>
-											<option value="separator">
-												---------------------
-											</option>
-											<option value="af">
-												Afrikaans
-											</option>
-											<option value="ca">
-												Català
-											</option>
-											<option value="cs">
-												Čeština
-											</option>
-											<option value="da">
-												Dansk
-											</option>
-											<option value="et">
-												Eesti
-											</option>
-											<option value="el">
-												Ελληνικά
-											</option>
-											<option value="hi">
-												हिन्दी
-											</option>
-											<option value="hr">
-												Hrvatski
-											</option>
-											<option value="zu">
-												IsiZulu
-											</option>
-											<option value="ja">
-												日本語
-											</option>
-											<option value="ko">
-												한국어
-											</option>
-											<option value="lv">
-												Latviešu
-											</option>
-											<option value="lt">
-												Lietuviškai
-											</option>
-											<option value="hu">
-												Magyar
-											</option>
-											<option value="nl">
-												Nederlands
-											</option>
-											<option value="no">
-												Norsk
-											</option>
-											<option value="pt">
-												Português
-											</option>
-											<option value="ru">
-												Русский
-											</option>
-											<option value="sl">
-												Slovenščina
-											</option>
-											<option value="sk">
-												Slovenčina
-											</option>
-											<option value="fi">
-												Suomi
-											</option>
-											<option value="sv">
-												Svenska
-											</option>
-											<option value="tr">
-												Türkçe
-											</option>
-										</select>
-										<input name="changeLanguage" type="submit" id="changeLanguage" />
-									</label>
-								</form>
-							</li>
-						</ul>
-						<ul id="nav" class="zh">
-							<li class="first active">
-								<a href="http://www.hrs.cn"> <span> 查找酒店 </span> </a>
-							</li>
-							<li class="sub">
-								<a
-									href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;applicationFeature=specialOffers">
-									<span> <span> 特惠精选 </span> </span> </a>
-								<ul>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=0&amp;treeID=440847">特价</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=1&amp;treeID=440527">独家最惠</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=2&amp;treeID=1312471">最新开业的酒店</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=3&amp;treeID=1167144">租车</a>
-									</li>
-								</ul>
-							</li>
-							<li class="sub">
-								<a
-									href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;applicationFeature=specials">
-									<span> <span> 主题酒店 </span> </span> </a>
-								<ul>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=0&amp;treeID=440463">设计</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=1&amp;treeID=440655">高尔夫</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=2&amp;treeID=440719">豪华</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=3&amp;treeID=560118">度假</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=4&amp;treeID=440783">古堡</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=5&amp;treeID=608510">滑雪酒店</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=6&amp;treeID=440911">海滩</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=7&amp;treeID=441039">Spa</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=8&amp;treeID=439923">十佳HRS</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=9&amp;treeID=632070">连锁酒店</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a
-									href="https://www.hrs.com/web3/setBookingRequest.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=showBookingRequest">
-									<span> 修改/取消预订 </span> </a>
-							</li>
-							<li>
-								<a
-									href="/web3/portalRedirect.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=callConference">
-									<span> 会议 </span> </a>
-							</li>
-							<li>
-								<a
-									href="/web3/portalRedirect.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=callGroup">
-									<span> 团体旅行 </span> </a>
-							</li>
-							<li class="myhrs   sub">
-								<a
-									href="https://www.hrs.com/web3/showProfile.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=show">
-									<span> <span> 我的HRS <b class="hide">(Logout)</b>
-									</span> </span> </a>
-								<ul>
-									<li class="logout hide">
-										<p>
-										</p>
-										<span class="button global"><span> <a
-												href="/web3/processLogin.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=logout">注销</a>
-										</span>
-										</span>
-									</li>
-									<li class="login sub">
-										<form name="profileForm" method="post"
-											action="https://www.hrs.com/web3/processLogin.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1">
-											<fieldset>
-												<strong>登录:</strong>
-												<input type="hidden" name="activity" value="login" />
-												<input type="hidden" name="loginKey" value="8CCXnwHkx9" />
-												<div class="myhrsLoginLabelWrap">
-													<input type="text" name="username" maxlength="90"
-														autocomplete="off" value="" class="text" id="username" />
-													<label for="username">
-														用户名
-													</label>
-												</div>
-												<div class="myhrsLoginLabelWrap">
-													<input type="password" name="password" maxlength="64"
-														value="" class="text" id="password" />
-													<label for="password">
-														密码
-													</label>
-												</div>
-												<div>
-													<a
-														href="https://www.hrs.com/web3/showProfile.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=initLostPassword"
-														class="link">忘记了您的密码？</a>
-													<br />
-													<a
-														href="https://www.hrs.com/web3/showProfile.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=showLoginRegister"
-														class="link">还没有成为我们的会员？请立即在此注册！</a>
-												</div>
-												<span class="button global"><span> <input
-															type="submit" name="doLogin" value="登录" /> </span>
-												</span>
-											</fieldset>
-										</form>
-									</li>
-									<li>
-										<a
-											href="https://www.hrs.com/web3/showProfile.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=userdata&amp;levelFirstItem=0">个人信息</a>
-									</li>
-									<li>
-										<a
-											href="https://www.hrs.com/web3/setBookingTemplate.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=template&amp;levelFirstItem=1">个人设置</a>
-									</li>
-									<li>
-										<a
-											href="https://www.hrs.com/web3/showProfile.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=showFavorites&amp;levelFirstItem=2">收藏的酒店</a>
-									</li>
-									<li>
-										<a
-											href="https://www.hrs.com/web3/showProfile.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=showLightHistory&amp;levelFirstItem=3">预订记录</a>
-									</li>
-									<li>
-										<a
-											href="https://www.hrs.com/web3/showProfile.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=showHotelRating&amp;levelFirstItem=4">酒店评价</a>
-									</li>
-								</ul>
-							</li>
-							<li class="mobile  sub">
-								<a
-									href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;applicationFeature=mobileService">
-									<span> <span> HRS mobile </span> </span> </a>
-								<ul>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=0&amp;treeID=1434400">BlackBerry</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=1&amp;treeID=1434419">iPad</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=2&amp;treeID=1434426">iPhone</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=3&amp;treeID=1434456">诺基亚地图</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=4&amp;treeID=1434434">诺基亚应用程序</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=5&amp;treeID=1434404">现在查找酒店！</a>
-									</li>
-									<li>
-										<a
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;levelFirstItem=6&amp;treeID=1434527">移动电话</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
 					<img
 						src="http://www.hrsstatic.com/web3/images/wide/_general/en/logo_hrs_print.png"
 						alt="" class="printLogo" />
-					<script type="text/javascript">
-	//<![CDATA[
-	//definition of some language dependend values
-	var dayNames = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"];
-	var monthNames = ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"];
-	var iconPath = "http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/calendar.png";
-	var tooltipPath = "/web3/showCalendarTooltip.do?applicationFeature=searchBooking&jsPath=http://www.hrsstatic.com/web3/js/&imgPath=http://www.hrsstatic.com/web3/images/wide/&cssPath=http://www.hrsstatic.com/web3/css/wide/";
-	var tooltipText = "日历";
-	var dateSep = "-"
-	var dateStr = "yy-M-d"
-
-	// load calendar into iframe
-	buildCalIframe();
-	//]]>
-</script>
-					<table id="calTab" cellspacing="0">
-						<tbody id="calBody">
-							<tr>
-								<td colspan="7" id="calHead">
-									<span id="nextM"></span>
-									<span id="prevM"></span>
-									<span id="monthHeader"></span>
-								</td>
-							</tr>
-						</tbody>
-						<tbody id="calFooter">
-							<tr>
-								<td colspan="7">
-									<a href="javascript:cleanUpCal()" id="closeLink">关闭</a>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-					<a
-						id="Teaser_9_0::eVar10::zh_CN:HP:T3912T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T3912T::linkname::Teaser_9_0"
-						href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;treeID=1465639&amp;lid=INT-HPT%3A3912&amp;lpos=9_000000"
-						class="noBG jsTrackLink delay " target="_self"><img
-							src="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=7903"
-							alt="" class="startPic left" />
-					</a>
-					<a
-						id="Teaser_9_1::eVar10::zh_CN:HP:T3912T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T3912T::linkname::Teaser_9_1"
-						href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;treeID=1465639&amp;lid=INT-HPT%3A3912&amp;lpos=9_010000"
-						class="noBG jsTrackLink delay " target="_self"><img
-							src="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=1&amp;m=7901"
-							alt="" class="startPic top" />
-					</a>
-					<div class="linkGroup">
-						<div>
-							<a
-								id="Teaser_9_2::eVar10::zh_CN:HP:T3912T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T3912T::linkname::Teaser_9_2"
-								href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;treeID=1465639&amp;lid=INT-HPT%3A3912&amp;lpos=9_020000"
-								target="_self" class="link jsTrackLink delay l_start ">立即预订！</a>
-						</div>
-					</div>
-					<div id="startFirstRow">
-						<div class="col6">
-							<div class="teaser tCol2 ts">
-								<h5 class="flag ch">
-									苏黎世
-								</h5>
-								<h4>
-									<a
-										id="hn_1::eVar10::zh_CN:HP:T3919T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_72116_7E__2C__3B_T3919T::linkname::hn_1"
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=photo&amp;hotelnumber=72116&amp;lid=INT-HPT%3A3919&amp;lpos=1_020000"
-										class="jsTrackLink delay " target="_self">Landgasthof
-										Wassberg</a>
+					<form name="bookingForm" method="post"
+						action="/web3/showDetailsOfHotel.do;jsessionid=EC5C211F5353F536C8058AEA3326302F.7-4?clientId=emhfQ05fTkVYVA--&amp;cid=7-4#targetAnchor"
+						id="jsContentForm">
+						<input type="hidden" name="inCont" value="" />
+						<div id="head">
+							<h1>
+								<img
+									src="http://www.hrsstatic.com/web3/images/wide/_general/zh_CN/logo_hrs_small_popup.png"
+									alt="回至HRS主页" />
+							</h1>
+							<div class="contentTitle">
+								<h2 class="left">
+									如家快捷酒店 武汉台北一路店
 									<img
-										src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/star_3.png"
+										src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/star_details_2.png"
 										alt="" />
-								</h4>
-								<p class="totalRating">
-									<span class="totalRating rating8"><a
-										id="Teaser_1_6::eVar10::zh_CN:HP:T3919T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_72116_7E__2C__3B_T3919T::linkname::Teaser_1_6"
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=rating&amp;hotelnumber=72116&amp;lid=INT-HPT%3A3919&amp;lpos=1_060000"
-										class="jsTrackLink delay" target="_self"></a>
-									</span> 7.8 / 10
-									<span class="info">(</span><a
-										id="Teaser_1_6::eVar10::zh_CN:HP:T3919T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_72116_7E__2C__3B_T3919T::linkname::Teaser_1_6"
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=rating&amp;hotelnumber=72116&amp;lid=INT-HPT%3A3919&amp;lpos=1_060000"
-										target="_self" class="info jsTrackLink delay ">79 评价</a><span
-										class="info">)</span>
-								</p>
-								<p class="prize">
-									单人间
-									<a
-										id="hps_1::eVar10::zh_CN:HP:T3919T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_72116_7E__2C__3B_T3919T::linkname::hps_1"
-										class="link jsTrackLink delay "
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=video&amp;adults=1&amp;doubleRooms=0&amp;hotelnumber=72116&amp;singleRooms=1&amp;lid=INT-HPT%3A3919&amp;lpos=1_070000"
-										target="_self">523 CNY 起</a>
-								</p>
-								<p class="prize">
-									双人间
-									<a
-										id="hpd_1::eVar10::zh_CN:HP:T3919T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_72116_7E__2C__3B_T3919T::linkname::hpd_1"
-										class="link jsTrackLink delay "
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=video&amp;hotelnumber=72116&amp;lid=INT-HPT%3A3919&amp;lpos=1_080000"
-										target="_self">823 CNY 起</a>
-								</p>
-								<p class="info">
-									每间/每晚价格
-								</p>
-								<p class="info">
-									包括早餐
-								</p>
-								<p class="info">
-									有效期： 20.11. - 31.12. 2010
-								</p>
-								<p class="teaserLink">
-									<a
-										id="hnd_1::eVar10::zh_CN:HP:T3919T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_72116_7E__2C__3B_T3919T::linkname::hnd_1"
-										class="link jsTrackLink delay "
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=photo&amp;hotelnumber=72116&amp;lid=INT-HPT%3A3919&amp;lpos=1_130000"
-										target="_self">酒店详情</a>
-								</p>
-								<div class="lT"></div>
-								<div class="lT02"></div>
-							</div>
-							<script type="text/javascript">
-	//<![CDATA[
-	var vorabBelegung = '城镇、地区、地址、岛屿、邮编';
-	//]]>
-</script>
-							<div class="search ">
-								<script type="text/javascript">
-        //<![CDATA[
-        	if (typeof $ == 'undefined') {
-	        	var $ = function(string){
-	        		return document.getElementById(string);
-	        	}
-        	}
-            var countries = new Array();
-            countries['4'] = "阿富汗";
-            countries['1'] = "埃及";
-            countries['5'] = "阿尔巴尼亚";
-            countries['6'] = "阿尔及利亚";
-            countries['176'] = "安道尔";
-            countries['7'] = "安哥拉";
-            countries['244'] = "安圭拉";
-            countries['8'] = "安提瓜和巴布达岛";
-            countries['2'] = "赤道几内亚";
-            countries['9'] = "阿根廷";
-            countries['225'] = "亚美尼亚";
-            countries['246'] = "阿鲁巴岛";
-            countries['226'] = "阿塞拜疆";
-            countries['3'] = "埃塞俄比亚";
-            countries['10'] = "澳大利亚";
-            countries['11'] = "巴哈马群岛";
-            countries['12'] = "巴林";
-            countries['13'] = "孟加拉";
-            countries['14'] = "巴巴多斯";
-            countries['15'] = "比利时";
-            countries['16'] = "伯利兹城";
-            countries['17'] = "贝宁湾";
-            countries['18'] = "百慕大";
-            countries['19'] = "不丹";
-            countries['20'] = "缅甸";
-            countries['21'] = "玻利维亚";
-            countries['228'] = "波黑";
-            countries['22'] = "博茨瓦纳";
-            countries['23'] = "巴西";
-            countries['248'] = "英国维京岛";
-            countries['24'] = "文莱";
-            countries['25'] = "保加利亚";
-            countries['26'] = "布基纳法索";
-            countries['27'] = "布隆迪";
-            countries['28'] = "智利";
-            countries['29'] = "中国";
-            countries['186'] = "库克群岛";
-            countries['31'] = "哥斯达黎加";
-            countries['32'] = "丹麦";
-            countries['33'] = "德国";
-            countries['34'] = "多米尼加";
-            countries['35'] = "多米尼加共和国";
-            countries['36'] = "吉布提";
-            countries['37'] = "厄瓜多尔";
-            countries['39'] = "萨尔瓦多";
-            countries['38'] = "象牙海岸";
-            countries['229'] = "厄立特里亚";
-            countries['201'] = "爱沙尼亚";
-            countries['40'] = "福克兰群岛";
-            countries['41'] = "斐济";
-            countries['42'] = "芬兰";
-            countries['43'] = "法国";
-            countries['194'] = "法属圭亚那";
-            countries['44'] = "加蓬";
-            countries['45'] = "冈比亚";
-            countries['230'] = "格鲁吉亚";
-            countries['46'] = "加纳";
-            countries['47'] = "直布罗陀";
-            countries['48'] = "格林纳达";
-            countries['49'] = "希腊";
-            countries['50'] = "大不列颠";
-            countries['175'] = "瓜德罗普岛";
-            countries['51'] = "危地马拉";
-            countries['52'] = "几内亚";
-            countries['53'] = "几内亚比绍";
-            countries['54'] = "圭亚那";
-            countries['55'] = "海地";
-            countries['56'] = "洪都拉斯";
-            countries['57'] = "香港";
-            countries['58'] = "印度";
-            countries['59'] = "印度尼西亚";
-            countries['60'] = "伊拉克";
-            countries['61'] = "伊朗";
-            countries['62'] = "爱尔兰";
-            countries['63'] = "冰岛";
-            countries['64'] = "以色列";
-            countries['65'] = "意大利";
-            countries['66'] = "牙买加";
-            countries['67'] = "日本";
-            countries['68'] = "也门";
-            countries['70'] = "约旦";
-            countries['71'] = "赛尔维亚黑山地区";
-            countries['180'] = "维京岛";
-            countries['72'] = "开曼群岛";
-            countries['74'] = "柬埔寨";
-            countries['73'] = "喀麦隆";
-            countries['75'] = "加拿大";
-            countries['76'] = "佛得角";
-            countries['231'] = "卡萨克斯坦";
-            countries['77'] = "卡塔尔";
-            countries['78'] = "肯尼亚";
-            countries['232'] = "吉尔吉斯斯坦";
-            countries['233'] = "基里巴斯";
-            countries['79'] = "哥伦比亚";
-            countries['80'] = "科摩罗";
-            countries['81'] = "刚果";
-            countries['199'] = "克罗地亚";
-            countries['84'] = "古巴";
-            countries['85'] = "科威特";
-            countries['86'] = "老挝";
-            countries['87'] = "莱索托";
-            countries['223'] = "拉脱维亚";
-            countries['88'] = "黎巴嫩";
-            countries['89'] = "利比里亚";
-            countries['90'] = "利比亚";
-            countries['173'] = "列支敦士登";
-            countries['234'] = "立陶宛";
-            countries['91'] = "卢森堡";
-            countries['92'] = "澳门";
-            countries['93'] = "马达加斯加";
-            countries['94'] = "马拉维";
-            countries['95'] = "马来西亚";
-            countries['96'] = "马尔代夫";
-            countries['97'] = "马里";
-            countries['98'] = "马耳他";
-            countries['192'] = "马里亚纳群岛";
-            countries['99'] = "摩洛哥";
-            countries['235'] = "马绍尔群岛";
-            countries['174'] = "马提尼克岛";
-            countries['100'] = "毛里塔尼亚";
-            countries['101'] = "毛里求斯";
-            countries['236'] = "马其顿";
-            countries['102'] = "墨西哥";
-            countries['237'] = "摩尔多瓦";
-            countries['177'] = "摩纳哥";
-            countries['103'] = "蒙古";
-            countries['254'] = "黑山";
-            countries['245'] = "蒙特塞拉特岛";
-            countries['104'] = "莫桑比克";
-            countries['195'] = "纳米比亚";
-            countries['238'] = "瑙鲁";
-            countries['105'] = "尼泊尔";
-            countries['106'] = "新喀里多尼亚";
-            countries['107'] = "新西兰";
-            countries['108'] = "尼加拉瓜";
-            countries['110'] = "荷兰";
-            countries['109'] = "荷属安的列斯群岛";
-            countries['111'] = "尼日尔";
-            countries['112'] = "尼日利亚";
-            countries['82'] = "北朝鲜";
-            countries['113'] = "挪威";
-            countries['115'] = "阿曼";
-            countries['114'] = "奥地利";
-            countries['116'] = "巴基斯坦";
-            countries['239'] = "帕劳群岛";
-            countries['117'] = "巴拿马";
-            countries['118'] = "巴布亚新几内亚";
-            countries['119'] = "巴拉圭";
-            countries['120'] = "秘鲁";
-            countries['121'] = "菲律宾";
-            countries['122'] = "波兰";
-            countries['123'] = "葡萄牙";
-            countries['178'] = "波多黎各";
-            countries['193'] = "留尼汪岛";
-            countries['124'] = "金亚旺达";
-            countries['125'] = "罗马尼亚";
-            countries['202'] = "俄罗斯";
-            countries['126'] = "所罗门群岛";
-            countries['127'] = "赞比亚";
-            countries['128'] = "萨摩亚群岛";
-            countries['171'] = "圣马力诺";
-            countries['129'] = "圣多美和普林西比";
-            countries['130'] = "沙特阿拉伯";
-            countries['131'] = "瑞典";
-            countries['132'] = "瑞士";
-            countries['133'] = "塞内加尔";
-            countries['134'] = "塞舌尔";
-            countries['135'] = "塞拉利昂";
-            countries['137'] = "新加坡";
-            countries['200'] = "斯洛伐克";
-            countries['198'] = "斯洛文尼亚";
-            countries['138'] = "索马里";
-            countries['140'] = "西班牙";
-            countries['141'] = "斯里兰卡";
-            countries['142'] = "圣基茨及尼维斯";
-            countries['143'] = "圣露西娅";
-            countries['144'] = "圣文森特";
-            countries['146'] = "南非";
-            countries['145'] = "苏丹";
-            countries['83'] = "南韩";
-            countries['147'] = "苏里南";
-            countries['148'] = "斯威士兰";
-            countries['149'] = "叙利亚";
-            countries['240'] = "塔吉克斯坦";
-            countries['170'] = "塔希提岛";
-            countries['30'] = "台湾";
-            countries['150'] = "坦桑尼亚";
-            countries['151'] = "泰国";
-            countries['152'] = "多哥";
-            countries['153'] = "汤加";
-            countries['154'] = "特立尼达和多巴哥";
-            countries['155'] = "乍得";
-            countries['156'] = "捷克共和国";
-            countries['158'] = "突尼斯";
-            countries['157'] = "土耳其";
-            countries['241'] = "土库曼斯坦";
-            countries['247'] = "特克斯和凯科斯群岛";
-            countries['242'] = "图瓦卢";
-            countries['159'] = "乌干达";
-            countries['197'] = "乌克兰";
-            countries['160'] = "匈牙利";
-            countries['161'] = "乌拉圭";
-            countries['165'] = "美国";
-            countries['224'] = "乌兹别克斯坦";
-            countries['191'] = "瓦努阿图";
-            countries['172'] = "梵蒂冈";
-            countries['163'] = "委内瑞拉";
-            countries['164'] = "阿拉伯联合酋长国";
-            countries['166'] = "越南";
-            countries['227'] = "白俄罗斯";
-            countries['167'] = "扎伊尔";
-            countries['168'] = "中非共和国";
-            countries['136'] = "津巴布韦";
-            countries['169'] = "塞浦路斯s";
-            
-        
-        // add suggest initalisation to onload functions
-        tmpOnload = (window.onload) ? window.onload : function() { return true; };
-        window.onload = function() {
-                return (onloadSuggest() && tmpOnload()  )
-            };
-
-
-        function onloadSuggest() {
-            if( $('destiny') != null){
-
-                addSuggestField("");    // must be added directly because of the following usecase:
-                                        // search for a location
-                                        // select an entry
-                                        // submit
-                                        // browser back
-                                        // search for a location
-                                        // submit without selecting an entry
-
-                initMMSuggest();
-            }
-            
-            return true;
-        }
-        // suggest initialisation
-        function initMMSuggest() { 
-            var overObj =
-                new Array(
-                    
-                        $('start_stayPeriod'),
-                    
-                        $('end_stayPeriod'),
-                    
-                        $('singleRooms'),
-                    
-                        $('doubleRooms'),
-                    
-                        $('adults'),
-                    
-                        $('children'),
-                    
-                        $('perimeter'),
-                    
-                        $('age_0'),
-                    
-                        $('acc_0'),
-                    
-                        $('age_1'),
-                    
-                        $('acc_1'),
-                    
-                        $('age_2'),
-                    
-                        $('acc_2'),
-                    
-                        $('age_3'),
-                    
-                        $('acc_3'),
-                    
-                        $('age_4'),
-                    
-                        $('acc_4'),
-                    
-                        $('age_5'),
-                    
-                        $('acc_5'),
-                    
-                        $('rating')
-                    
-                );
-                
-            
-                
-                
-                
-                    
-                
-            
-
-            SetupMMSuggest( $('destiny'), {
-                // using java servlet mmsuggest
-                'requestURL':
-                    mmURLBase + "?max_results=25&Keywords=$v$&query=$v$&Language=zh&Language_mode=exact&bias=100&TranslitName=$v$&Filter=0"
-                , 'debug': false
-                //copied from mmGroupedPreFunction
-                    ,'preFunction':
-                    function(target, rows) {
-                        try {
-                            // store original rows
-                            target.originalRows = rows;
-                            // generate tree
-                            var root = new MMNode("", "", target.value);
-                            var sRows = rows;
-                            for (var z = 0; z < sRows.length; z++) {
-                                var cat = sRows[z][1];
-                                if(sRows[z][1]=='LOC')
-                                    cat = "地点";
-                                if(sRows[z][1]=='POI')
-                                    cat = "感兴趣的地方";
-                                if(sRows[z][1]=="FPOI")
-                                    cat = "企业地点";
-                                if(sRows[z][1]=="REG")
-                                    cat = "地区";
-                                if(sRows[z][1]=="IATA")
-                                    cat = "国际航空运输协会（IATA）";
-                                if(sRows[z][1]=="DIST")
-                                    cat = "城区";
-                                var node = new MMNode(sRows[z][0], cat, sRows[z][0]);
-                                node.row = sRows[z];
-                                root.group(node);
-                            }
-                            var result = new Array();
-                                if ((target.parameters.flags & AS_NO_ROOT)==AS_NO_ROOT) {
-                                root.levelUp();
-                                for (var i = 0; i < root.children.length; i++) {
-                                    root.children[i].parent = null;
-                                }
-                                root.getAsArray(result);
-                                result.shift();
-                            } else {
-                                root.getAsArray(result);
-                            }
-                            return result;
-
-                        } catch (E) {
-                            if (target.parameters.debug)
-                                alert("groupedPreFunction error: " + E);
-                        }
-                    }
-                , 'headerFunction' : function (parent, rowArray) {
-                    var result = "<div class=\"mmheadline\" align=\"left\"><div>选择一项建议或 浏览我们的位置。</div></div>";
-                    return result;
-                }
-                , 'footerFunction' : function(parent, rowArray) {
-                    var footer = 	"<div class=\"suggFooter\"></div>";
-                    return footer;
-                }
-                //copied from mmGroupedRowFunction
-                ,'rowFunction':function(target, rowArray, field_index, row, iDiv) {
-                    try {
-                        if(((target.parameters.flags & AS_DISPLAY_INPUT) == AS_DISPLAY_INPUT) && (row == 0)) {
-                            var ih = "<span class='suggInputHeader'><nobr>"+replaceHTMLEntities(rowArray[row][1])+" \""+replaceHTMLEntities(rowArray[row][0])+"\"</nobr></span>"
-                            iDiv.innerHTML = ih;
-                            return false;
-                        }
-                        var node = rowArray[row][2];
-                        var value = node.label;
-                        var cat = node.cat;
-                        var origrow = node.row;
-                        var icon = target.parameters.iconPath + "ordner.gif";
-                        var ph = "";
-                        if (node.children.length == 0) {
-                            icon = target.parameters.iconPath + "platzhalter.gif";
-                        } else if (node.parent != null) {
-                            if (node.isLastChild())
-                                ph = "<img align='middle' src='" + target.parameters.iconPath + "lastchild.gif'>";
-                            else
-                                ph = "<img align='middle' src='" + target.parameters.iconPath + "child.gif'>";
-                        }
-                        // insert placeholders depending on the node's level
-                        var parent = node;
-                        for (var i = node.level - 1; i > 0; i--) {
-                            parent = parent.parent;
-                            if (parent.isLastChild()) {
-                                ph = "<img align='middle' src='" + target.parameters.iconPath + "platzhalter.gif'>" + ph;
-                            } else {
-                                ph = "<img align='middle' src='" + target.parameters.iconPath + "line.gif'>" + ph;
-                            }
-                        }
-                        var result = true;
-                        // one displayed column?
-                        if (node.children.length > 0) {
-                            icon = target.parameters.iconPath + "ordner.gif";
-                            var ih = "<span class='suggGroupCaption'><nobr>" + ph + "<img align='middle' src='" + icon + "'>" +
-                            replaceHTMLEntities(rowArray[row][0]) +
-                            "&nbsp;&nbsp;</nobr></span>";
-                            // determine whether events on these rows
-                            result = (target.parameters.flags & AS_GENERATED_CATEGORIES_NOT_SELECTABLE) != AS_GENERATED_CATEGORIES_NOT_SELECTABLE;
-                        } else {
-                            var ih = "<span class='suggGroupProductOnly'><nobr>" + ph + "<img align='middle' src='" + icon + "'>" +
-                            replaceHTMLEntities(rowArray[row][0]) +
-                            (origrow[2] != '' ? '&nbsp;'+replaceHTMLEntities(origrow[2]) : '' ) +
-                            (origrow[10] != '' && countries[origrow[10]] != null ? '&nbsp;- '+replaceHTMLEntities(countries[origrow[10]]) : '' ) +
-                            "</nobr></span>";
-                        }
-                        iDiv.innerHTML = ih;
-                        return result;
-                    } catch (E) {
-                        alert("mmGroupedRowFunction error: " + E);
-                    }
-                }
-                ,'overlappedObjects': overObj
-                //copied from  mmGroupedOnActivate
-                ,'onActivate':function(input, row) {
-                    var node = row[2];
-                    var realRow = node.row;
-                    // generated node?
-                    if (realRow == null) {
-                        // build realRow on the fly
-                        realRow = new Array(node.value);
-                        // append enough columns to make it look like an original row
-                        for (var i = 1; i < input.originalRows[0].length; i++)
-                            realRow.push("");
-                    }
-                    if(realRow[1].match('POI')){
-                        addSuggestField('*'+realRow[6]);
-                    } else if(realRow[1].match('LOC')){
-                       addSuggestField('%'+realRow[6]);
-                    } else if(realRow[1].match('REG')){
-                        addSuggestField('%'+realRow[6]);
-                    } else if(realRow[1].match('FPOI')){
-                        addSuggestField('*'+realRow[6]);
-                    } else if(realRow[1].match('IATA')){
-                        addSuggestField('%'+realRow[6]);
-                    } else if(realRow[1].match('DIST')){
-                        addSuggestField('%'+realRow[6]);
-                    } else{
-                        alert('fehler: '+realRow[1]);
-                    }
-                    $('destiny').value = realRow[0] + (realRow[2] != '' ? ' ' + realRow[2] : '');
-                }
-                ,'flags':
-                    AS_TABSELECTS + AS_NO_ROOT + AS_NOLOGO + AS_DISPLAY_INPUT + AS_GENERATED_CATEGORIES_NOT_SELECTABLE  // + AS_NOCOMMIT
-                ,'normalfg':
-                    '#000033'
-                ,'normalbg':
-                    '#ffffff'
-                ,'highlightfg':
-                    '#000033'
-                ,'highlightbg':
-                    '#b0b7bd'
-                ,'width':
-                    391
-                ,'inputTitle':"关于您查找       的建议"
-                }) //close SetupMMSuggest
-        }//close setup
-
-        function addSuggestField(value){
-            var tmpForm = $('destiny').form;
-            var tmpFieldID = "suggestedID";     // might be set dynamically in case of 2 forms with the same hidden field
-
-            if(tmpForm.elements[tmpFieldID]==null){
-                var hiddenField = document.createElement("input");
-                hiddenField.setAttribute("type","hidden");
-                hiddenField.setAttribute("name", tmpFieldID);
-                hiddenField.setAttribute("id", tmpFieldID);         // id must be set because of an ie6 bug
-                hiddenField.setAttribute("value", value);
-                tmpForm.appendChild(hiddenField);
-            } else{
-                tmpForm.elements[tmpFieldID].value = value;
-            }
-        }
-    //]]>    
-    </script>
-								<form name="searchForm" method="post"
-									action="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1"
-									class="" id="searchForm">
-									<div class="hide">
-										<input type="hidden" id="mapExpanded" name="mapExpanded"
-											value="false" />
-										<input type="hidden" name="activity" value="initSearch"
-											class="standard" />
-										<input type="hidden" name="hotelThemesType" value=""
-											class="standard" />
-										<input type="hidden" name="searchSource" value="1"
-											class="standard" id="searchSource" />
-										<input type="hidden" id="veMapSearch" name="veMapSearch" />
-										<input type="hidden" name="stopWatchTime" />
-									</div>
-									<h2>
-										酒店查询
-									</h2>
-									<label for="destiny" class="jsHideAvailabilityCheck help">
-										您的目的地
-										<a
-											href="/web3/showPage.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;page=userHelpCont&amp;sat=location&amp;satBundle=content.searchBooking.help&amp;activity=show&amp;examplePart=true"
-											onclick="return openHelpSatellite('/web3/showPage.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;page=userHelpSat&amp;sat=location&amp;satBundle=content.searchBooking.help&amp;activity=show&amp;examplePart=true','Hilfe', '', 'large')"><img
-												src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/bt_hilfe.gif"
-												alt="" border="0" />
-										</a>
-										<br />
-										<input type="text" name="location" maxlength="200"
-											autocomplete="off" value="" class="text destiny noEvent"
-											id="destiny" />
-									</label>
-									<label for="perimeter" class="rightCol jsHideAvailabilityCheck">
-										查找距离目的地指定范围內的酒店
-										<br />
-										<select name="perimeter" size="1" class="" id="perimeter">
-											<option value="-1">
-												公里
-											</option>
-											<option value="3">
-												3
-											</option>
-											<option value="5">
-												5
-											</option>
-											<option value="10">
-												10
-											</option>
-											<option value="20">
-												20
-											</option>
-											<option value="30">
-												30
-											</option>
-											<option value="40">
-												40
-											</option>
-											<option value="50">
-												50
-											</option>
-										</select>
-									</label>
-									<fieldset>
-										<label for="start_stayPeriod" class="cal">
-											入住
-											<br />
-											<input type="text" name="stayPeriod.start.date"
-												value="10-11-17"
-												onfocus="startCal(this, new Date(2010,10,17), null, 1, null);"
-												class="dateInput text" id="start_stayPeriod" />
-										</label>
-										<label for="end_stayPeriod" class="rightCol cal">
-											离店
-											<br />
-											<input type="text" name="stayPeriod.end.date"
-												value="10-11-18"
-												onfocus="startCal(this, new Date(2010,10,17), null, 1, null);"
-												class="dateInput text" id="end_stayPeriod" />
-										</label>
-									</fieldset>
-									<fieldset>
-										<label for="singleRooms" class="small clearFix">
-											单人间
-											<br />
-											<input type="text" name="singleRooms" value="" class="text"
-												id="singleRooms" />
-										</label>
-										<label for="doubleRooms" class="small">
-											双人间
-											<br />
-											<input type="text" name="doubleRooms" value="" class="text"
-												id="doubleRooms" />
-										</label>
-										<label for="adults" class="small rightCol">
-											成人
-											<br />
-											<input type="text" name="adults" value="" class="text"
-												id="adults" />
-										</label>
-										<label for="children" class="small">
-											儿童
-											<br />
-											<select name="children" class="" id="children">
-												<option value="0">
-													0
-												</option>
-												<option value="1">
-													1
-												</option>
-												<option value="2">
-													2
-												</option>
-												<option value="3">
-													3
-												</option>
-												<option value="4">
-													4
-												</option>
-												<option value="5">
-													5
-												</option>
-												<option value="6">
-													6
-												</option>
-											</select>
-											<input type="submit" name="submitChildren"
-												class="jsFreeSubmit" />
-										</label>
-									</fieldset>
-									<div id="childrenWrap">
-										<div class="hide">
-											<h4>
-												1. 儿童
-											</h4>
-											<label for="age_0" class="age">
-												年龄：
-												<br />
-												<select name="childAccomodations[0].age" class="" id="age_0">
-													<option value="-1" selected="selected">
-														-
-													</option>
-													<option value="0">
-														0
-													</option>
-													<option value="1">
-														1
-													</option>
-													<option value="2">
-														2
-													</option>
-													<option value="3">
-														3
-													</option>
-													<option value="4">
-														4
-													</option>
-													<option value="5">
-														5
-													</option>
-													<option value="6">
-														6
-													</option>
-													<option value="7">
-														7
-													</option>
-													<option value="8">
-														8
-													</option>
-													<option value="9">
-														9
-													</option>
-													<option value="10">
-														10
-													</option>
-													<option value="11">
-														11
-													</option>
-													<option value="12">
-														12
-													</option>
-													<option value="13">
-														13
-													</option>
-													<option value="14">
-														14
-													</option>
-													<option value="15">
-														15
-													</option>
-													<option value="16">
-														16
-													</option>
-													<option value="17">
-														17
-													</option>
-												</select>
-											</label>
-											<label for="acc_0">
-												床：
-												<br />
-												<select name="childAccomodations[0].accomodation" class=""
-													id="acc_0">
-													<option value="1">
-														与父母合床
-													</option>
-													<option value="0">
-														加床
-													</option>
-													<option value="2">
-														单开房间
-													</option>
-												</select>
-											</label>
-										</div>
-										<div class="hide">
-											<h4>
-												2. 儿童
-											</h4>
-											<label for="age_1" class="age">
-												年龄：
-												<br />
-												<select name="childAccomodations[1].age" class="" id="age_1">
-													<option value="-1" selected="selected">
-														-
-													</option>
-													<option value="0">
-														0
-													</option>
-													<option value="1">
-														1
-													</option>
-													<option value="2">
-														2
-													</option>
-													<option value="3">
-														3
-													</option>
-													<option value="4">
-														4
-													</option>
-													<option value="5">
-														5
-													</option>
-													<option value="6">
-														6
-													</option>
-													<option value="7">
-														7
-													</option>
-													<option value="8">
-														8
-													</option>
-													<option value="9">
-														9
-													</option>
-													<option value="10">
-														10
-													</option>
-													<option value="11">
-														11
-													</option>
-													<option value="12">
-														12
-													</option>
-													<option value="13">
-														13
-													</option>
-													<option value="14">
-														14
-													</option>
-													<option value="15">
-														15
-													</option>
-													<option value="16">
-														16
-													</option>
-													<option value="17">
-														17
-													</option>
-												</select>
-											</label>
-											<label for="acc_1">
-												床：
-												<br />
-												<select name="childAccomodations[1].accomodation" class=""
-													id="acc_1">
-													<option value="1">
-														与父母合床
-													</option>
-													<option value="0">
-														加床
-													</option>
-													<option value="2">
-														单开房间
-													</option>
-												</select>
-											</label>
-										</div>
-										<div class="hide">
-											<h4>
-												3. 儿童
-											</h4>
-											<label for="age_2" class="age">
-												年龄：
-												<br />
-												<select name="childAccomodations[2].age" class="" id="age_2">
-													<option value="-1" selected="selected">
-														-
-													</option>
-													<option value="0">
-														0
-													</option>
-													<option value="1">
-														1
-													</option>
-													<option value="2">
-														2
-													</option>
-													<option value="3">
-														3
-													</option>
-													<option value="4">
-														4
-													</option>
-													<option value="5">
-														5
-													</option>
-													<option value="6">
-														6
-													</option>
-													<option value="7">
-														7
-													</option>
-													<option value="8">
-														8
-													</option>
-													<option value="9">
-														9
-													</option>
-													<option value="10">
-														10
-													</option>
-													<option value="11">
-														11
-													</option>
-													<option value="12">
-														12
-													</option>
-													<option value="13">
-														13
-													</option>
-													<option value="14">
-														14
-													</option>
-													<option value="15">
-														15
-													</option>
-													<option value="16">
-														16
-													</option>
-													<option value="17">
-														17
-													</option>
-												</select>
-											</label>
-											<label for="acc_2">
-												床：
-												<br />
-												<select name="childAccomodations[2].accomodation" class=""
-													id="acc_2">
-													<option value="1">
-														与父母合床
-													</option>
-													<option value="0">
-														加床
-													</option>
-													<option value="2">
-														单开房间
-													</option>
-												</select>
-											</label>
-										</div>
-										<div class="hide">
-											<h4>
-												4. 儿童
-											</h4>
-											<label for="age_3" class="age">
-												年龄：
-												<br />
-												<select name="childAccomodations[3].age" class="" id="age_3">
-													<option value="-1" selected="selected">
-														-
-													</option>
-													<option value="0">
-														0
-													</option>
-													<option value="1">
-														1
-													</option>
-													<option value="2">
-														2
-													</option>
-													<option value="3">
-														3
-													</option>
-													<option value="4">
-														4
-													</option>
-													<option value="5">
-														5
-													</option>
-													<option value="6">
-														6
-													</option>
-													<option value="7">
-														7
-													</option>
-													<option value="8">
-														8
-													</option>
-													<option value="9">
-														9
-													</option>
-													<option value="10">
-														10
-													</option>
-													<option value="11">
-														11
-													</option>
-													<option value="12">
-														12
-													</option>
-													<option value="13">
-														13
-													</option>
-													<option value="14">
-														14
-													</option>
-													<option value="15">
-														15
-													</option>
-													<option value="16">
-														16
-													</option>
-													<option value="17">
-														17
-													</option>
-												</select>
-											</label>
-											<label for="acc_3">
-												床：
-												<br />
-												<select name="childAccomodations[3].accomodation" class=""
-													id="acc_3">
-													<option value="1">
-														与父母合床
-													</option>
-													<option value="0">
-														加床
-													</option>
-													<option value="2">
-														单开房间
-													</option>
-												</select>
-											</label>
-										</div>
-										<div class="hide">
-											<h4>
-												5. 儿童
-											</h4>
-											<label for="age_4" class="age">
-												年龄：
-												<br />
-												<select name="childAccomodations[4].age" class="" id="age_4">
-													<option value="-1" selected="selected">
-														-
-													</option>
-													<option value="0">
-														0
-													</option>
-													<option value="1">
-														1
-													</option>
-													<option value="2">
-														2
-													</option>
-													<option value="3">
-														3
-													</option>
-													<option value="4">
-														4
-													</option>
-													<option value="5">
-														5
-													</option>
-													<option value="6">
-														6
-													</option>
-													<option value="7">
-														7
-													</option>
-													<option value="8">
-														8
-													</option>
-													<option value="9">
-														9
-													</option>
-													<option value="10">
-														10
-													</option>
-													<option value="11">
-														11
-													</option>
-													<option value="12">
-														12
-													</option>
-													<option value="13">
-														13
-													</option>
-													<option value="14">
-														14
-													</option>
-													<option value="15">
-														15
-													</option>
-													<option value="16">
-														16
-													</option>
-													<option value="17">
-														17
-													</option>
-												</select>
-											</label>
-											<label for="acc_4">
-												床：
-												<br />
-												<select name="childAccomodations[4].accomodation" class=""
-													id="acc_4">
-													<option value="1">
-														与父母合床
-													</option>
-													<option value="0">
-														加床
-													</option>
-													<option value="2">
-														单开房间
-													</option>
-												</select>
-											</label>
-										</div>
-										<div class="hide">
-											<h4>
-												6. 儿童
-											</h4>
-											<label for="age_5" class="age">
-												年龄：
-												<br />
-												<select name="childAccomodations[5].age" class="" id="age_5">
-													<option value="-1" selected="selected">
-														-
-													</option>
-													<option value="0">
-														0
-													</option>
-													<option value="1">
-														1
-													</option>
-													<option value="2">
-														2
-													</option>
-													<option value="3">
-														3
-													</option>
-													<option value="4">
-														4
-													</option>
-													<option value="5">
-														5
-													</option>
-													<option value="6">
-														6
-													</option>
-													<option value="7">
-														7
-													</option>
-													<option value="8">
-														8
-													</option>
-													<option value="9">
-														9
-													</option>
-													<option value="10">
-														10
-													</option>
-													<option value="11">
-														11
-													</option>
-													<option value="12">
-														12
-													</option>
-													<option value="13">
-														13
-													</option>
-													<option value="14">
-														14
-													</option>
-													<option value="15">
-														15
-													</option>
-													<option value="16">
-														16
-													</option>
-													<option value="17">
-														17
-													</option>
-												</select>
-											</label>
-											<label for="acc_5">
-												床：
-												<br />
-												<select name="childAccomodations[5].accomodation" class=""
-													id="acc_5">
-													<option value="1">
-														与父母合床
-													</option>
-													<option value="0">
-														加床
-													</option>
-													<option value="2">
-														单开房间
-													</option>
-												</select>
-											</label>
-										</div>
-									</div>
-									<fieldset>
-										<label for="hotelName">
-											特定的酒店/连锁？
-											<br />
-											<input type="text" name="hotelname" value="" class="text"
-												id="hotelName" />
-										</label>
-										<label for="rating" class="rightCol">
-											显示您希望入住的最低酒店星级
-											<br />
-											<select name="minRating" class="" id="rating">
-												<option value="0">
-													--
-												</option>
-												<option value="1">
-													1
-												</option>
-												<option value="2">
-													2
-												</option>
-												<option value="3">
-													3
-												</option>
-												<option value="4">
-													4
-												</option>
-												<option value="5">
-													5
-												</option>
-											</select>
-										</label>
-									</fieldset>
-									<span class="button global booking" id="jsSubmitHotelSearch"><span>
-											<input name="submitBasicSearch" type="submit" value="查找酒店" />
-									</span>
-									</span>
-									<p class="extSearch">
-										<input id="mapSearch" class="map" name="startMapSearch"
-											type="submit" value="按地图查找" />
-									</p>
-								</form>
-							</div>
-						</div>
-						<div class="col3">
-							<div class="teaser tCol3 cityList">
-								<p class="pic">
-									<a
-										id="Teaser_6_0::eVar10::zh_CN:HP:L11277L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L11277L_2C__3B_T3875T::linkname::Teaser_6_0"
-										href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Hongkong&amp;singleRooms=1&amp;suggestedID=%2511277&amp;lid=INT-HPT%3A3875&amp;lpos=6_000000"
-										class="jsTrackLink delay " target="_self"><img
-											src="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=7846"
-											alt="" />
-									</a>
-									<a
-										id="Teaser_6_1::eVar10::zh_CN:HP:L11277L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L11277L_2C__3B_T3875T::linkname::Teaser_6_1"
-										href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Hongkong&amp;singleRooms=1&amp;suggestedID=%2511277&amp;lid=INT-HPT%3A3875&amp;lpos=6_010000"
-										target="_self" class="link cityLink jsTrackLink delay ">香港酒店，价格自335CNY起</a>
-								</p>
-								<h4>
-									最热门的城市，最优惠的酒店
-								</h4>
-								<ul class="city">
+								</h2>
+								<ul class="fc ">
 									<li>
-										<strong><a
-											id="Teaser_6_3::eVar10::zh_CN:HP:L48979L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L48979L_2C__3B_T3875T::linkname::Teaser_6_3"
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Beijing &amp;singleRooms=1&amp;suggestedID=%2548979&amp;lid=INT-HPT%3A3875&amp;lpos=6_030000"
-											class="jsTrackLink delay " target="_self">北京</a>
-										</strong>
-										<a
-											id="Teaser_6_4::eVar10::zh_CN:HP:L48979L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L48979L_2C__3B_T3875T::linkname::Teaser_6_4"
-											class="link jsTrackLink delay "
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Beijing &amp;singleRooms=1&amp;suggestedID=%2548979&amp;lid=INT-HPT%3A3875&amp;lpos=6_040000"
-											target="_self">130CNY起</a>
+										<img
+											src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/amenities/ic_pa.gif"
+											alt="" title="可以停车，可能不免费" width="20" height="20"
+											class="tooltip" />
 									</li>
 									<li>
-										<strong><a
-											id="Teaser_6_5::eVar10::zh_CN:HP:L49184L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L49184L_2C__3B_T3875T::linkname::Teaser_6_5"
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Shanghai &amp;singleRooms=1&amp;suggestedID=%2549184&amp;lid=INT-HPT%3A3875&amp;lpos=6_050000"
-											class="jsTrackLink delay " target="_self">上海</a>
-										</strong>
-										<a
-											id="Teaser_6_6::eVar10::zh_CN:HP:L49184L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L49184L_2C__3B_T3875T::linkname::Teaser_6_6"
-											class="link jsTrackLink delay "
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Shanghai &amp;singleRooms=1&amp;suggestedID=%2549184&amp;lid=INT-HPT%3A3875&amp;lpos=6_060000"
-											target="_self">150CNY起</a>
+										<img
+											src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/amenities/ic_it.gif"
+											alt="" title="房间内无线局域网或DSL连接" width="20" height="20"
+											class="tooltip" />
 									</li>
 									<li>
-										<strong><a
-											id="Teaser_6_7::eVar10::zh_CN:HP:L132723L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L132723L_2C__3B_T3875T::linkname::Teaser_6_7"
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Hangzhou &amp;singleRooms=1&amp;suggestedID=%25132723&amp;lid=INT-HPT%3A3875&amp;lpos=6_070000"
-											class="jsTrackLink delay " target="_self">杭州</a>
-										</strong>
-										<a
-											id="Teaser_6_8::eVar10::zh_CN:HP:L132723L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L132723L_2C__3B_T3875T::linkname::Teaser_6_8"
-											class="link jsTrackLink delay "
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Hangzhou &amp;singleRooms=1&amp;suggestedID=%25132723&amp;lid=INT-HPT%3A3875&amp;lpos=6_080000"
-											target="_self">168CNY起</a>
-									</li>
-									<li>
-										<strong><a
-											id="Teaser_6_9::eVar10::zh_CN:HP:L25734L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L25734L_2C__3B_T3875T::linkname::Teaser_6_9"
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Macau &amp;singleRooms=1&amp;suggestedID=%2525734&amp;lid=INT-HPT%3A3875&amp;lpos=6_090000"
-											class="jsTrackLink delay " target="_self">澳门</a>
-										</strong>
-										<a
-											id="Teaser_6_10::eVar10::zh_CN:HP:L25734L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L25734L_2C__3B_T3875T::linkname::Teaser_6_10"
-											class="link jsTrackLink delay "
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Macau &amp;singleRooms=1&amp;suggestedID=%2525734&amp;lid=INT-HPT%3A3875&amp;lpos=6_100000"
-											target="_self">471CNY起</a>
-									</li>
-									<li>
-										<strong><a
-											id="Teaser_6_11::eVar10::zh_CN:HP:L140420L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L140420L_2C__3B_T3875T::linkname::Teaser_6_11"
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Shenzhen &amp;singleRooms=1&amp;suggestedID=%25140420&amp;lid=INT-HPT%3A3875&amp;lpos=6_110000"
-											class="jsTrackLink delay " target="_self">深圳</a>
-										</strong>
-										<a
-											id="Teaser_6_12::eVar10::zh_CN:HP:L140420L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L140420L_2C__3B_T3875T::linkname::Teaser_6_12"
-											class="link jsTrackLink delay "
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Shenzhen &amp;singleRooms=1&amp;suggestedID=%25140420&amp;lid=INT-HPT%3A3875&amp;lpos=6_120000"
-											target="_self">155CNY起</a>
-									</li>
-									<li>
-										<strong><a
-											id="Teaser_6_13::eVar10::zh_CN:HP:L199395L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L199395L_2C__3B_T3875T::linkname::Teaser_6_13"
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Sanya &amp;singleRooms=1&amp;suggestedID=%25199395&amp;lid=INT-HPT%3A3875&amp;lpos=6_130000"
-											class="jsTrackLink delay " target="_self">三亚</a>
-										</strong>
-										<a
-											id="Teaser_6_14::eVar10::zh_CN:HP:L199395L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L199395L_2C__3B_T3875T::linkname::Teaser_6_14"
-											class="link jsTrackLink delay "
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Sanya &amp;singleRooms=1&amp;suggestedID=%25199395&amp;lid=INT-HPT%3A3875&amp;lpos=6_140000"
-											target="_self">388CNY起</a>
-									</li>
-									<li>
-										<strong><a
-											id="Teaser_6_15::eVar10::zh_CN:HP:L71302L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L71302L_2C__3B_T3875T::linkname::Teaser_6_15"
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=London &amp;singleRooms=1&amp;suggestedID=%2571302&amp;lid=INT-HPT%3A3875&amp;lpos=6_150000"
-											class="jsTrackLink delay " target="_self">伦敦</a>
-										</strong>
-										<a
-											id="Teaser_6_16::eVar10::zh_CN:HP:L71302L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L71302L_2C__3B_T3875T::linkname::Teaser_6_16"
-											class="link jsTrackLink delay "
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=London &amp;singleRooms=1&amp;suggestedID=%2571302&amp;lid=INT-HPT%3A3875&amp;lpos=6_160000"
-											target="_self">356CNY起</a>
-									</li>
-									<li>
-										<strong><a
-											id="Teaser_6_17::eVar10::zh_CN:HP:L49551L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L49551L_2C__3B_T3875T::linkname::Teaser_6_17"
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Paris &amp;singleRooms=1&amp;suggestedID=%2549551&amp;lid=INT-HPT%3A3875&amp;lpos=6_170000"
-											class="jsTrackLink delay " target="_self">巴黎</a>
-										</strong>
-										<a
-											id="Teaser_6_18::eVar10::zh_CN:HP:L49551L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L49551L_2C__3B_T3875T::linkname::Teaser_6_18"
-											class="link jsTrackLink delay "
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Paris &amp;singleRooms=1&amp;suggestedID=%2549551&amp;lid=INT-HPT%3A3875&amp;lpos=6_180000"
-											target="_self">420CNY起</a>
-									</li>
-									<li>
-										<strong><a
-											id="Teaser_6_19::eVar10::zh_CN:HP:L49102L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L49102L_2C__3B_T3875T::linkname::Teaser_6_19"
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Guangzhou &amp;singleRooms=1&amp;suggestedID=%2549102&amp;lid=INT-HPT%3A3875&amp;lpos=6_190000"
-											class="jsTrackLink delay " target="_self">广州</a>
-										</strong>
-										<a
-											id="Teaser_6_20::eVar10::zh_CN:HP:L49102L::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_L49102L_2C__3B_T3875T::linkname::Teaser_6_20"
-											class="link jsTrackLink delay "
-											href="/web3/search.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=startSearch&amp;adults=1&amp;doubleRooms=0&amp;location=Guangzhou &amp;singleRooms=1&amp;suggestedID=%2549102&amp;lid=INT-HPT%3A3875&amp;lpos=6_200000"
-											target="_self">128CNY起</a>
+										<img
+											src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/amenities/ic_rs.gif"
+											alt="" title="餐厅" width="20" height="20" class="tooltip" />
 									</li>
 								</ul>
-								<div class="lT"></div>
-								<div class="lT02"></div>
+								<address class="hotelAdress">
+									台北一路26号, 430015, 武汉市 - 江岸区
+								</address>
 							</div>
+							<ul id="nav">
+								<li class="first active">
+									<!--[if !IE]><!-->
+									<a> <!--<![endif]--> <!--[if IE]><a href="#"><![endif]--> <input
+											type="submit" name="photosButton" value="信息与图片" /> </a>
+								</li>
+								<li>
+									<!--[if !IE]><!-->
+									<a> <!--<![endif]--> <!--[if IE]><a href="#"><![endif]--> <input
+											type="submit" name="detailsButton" value="价格" /> </a>
+								</li>
+								<li>
+									<!--[if !IE]><!-->
+									<a> <!--<![endif]--> <!--[if IE]><a href="#"><![endif]--> <input
+											type="submit" name="configurationButton" value="设施" /> </a>
+								</li>
+								<li>
+									<!--[if !IE]><!-->
+									<a> <!--<![endif]--> <!--[if IE]><a href="#"><![endif]--> <input
+											type="submit" name="mapButton" value="地点" /> </a>
+								</li>
+							</ul>
 						</div>
-					</div>
-					<div id="startSecondRow">
-						<div class="col9">
-							<div class="teaserWrap">
-								<div class="teaser tCol2 ts">
-									<h5 class="flag hu">
-										布达佩斯
-									</h5>
-									<h4>
-										<a
-											id="hn_2::eVar10::zh_CN:HP:T3920T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_76342_7E__2C__3B_T3920T::linkname::hn_2"
-											href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=photo&amp;hotelnumber=76342&amp;lid=INT-HPT%3A3920&amp;lpos=2_020000"
-											class="jsTrackLink delay " target="_self">Adina Apartment</a>
-										<img
-											src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/star_5.png"
-											alt="" />
-									</h4>
-									<p class="totalRating">
-										<span class="totalRating rating8"><a
-											id="Teaser_2_6::eVar10::zh_CN:HP:T3920T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_76342_7E__2C__3B_T3920T::linkname::Teaser_2_6"
-											href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=rating&amp;hotelnumber=76342&amp;lid=INT-HPT%3A3920&amp;lpos=2_060000"
-											class="jsTrackLink delay" target="_self"></a>
-										</span> 8.3 / 10
-										<span class="info">(</span><a
-											id="Teaser_2_6::eVar10::zh_CN:HP:T3920T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_76342_7E__2C__3B_T3920T::linkname::Teaser_2_6"
-											href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=rating&amp;hotelnumber=76342&amp;lid=INT-HPT%3A3920&amp;lpos=2_060000"
-											target="_self" class="info jsTrackLink delay ">119 评价</a><span
-											class="info">)</span>
-									</p>
-									<p class="prize">
-										单人间
-										<a
-											id="hps_2::eVar10::zh_CN:HP:T3920T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_76342_7E__2C__3B_T3920T::linkname::hps_2"
-											class="link jsTrackLink delay "
-											href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=photo&amp;adults=1&amp;doubleRooms=0&amp;hotelnumber=76342&amp;singleRooms=1&amp;lid=INT-HPT%3A3920&amp;lpos=2_070000"
-											target="_self">653 CNY 起</a>
-									</p>
-									<p class="prize">
-										双人间
-										<a
-											id="hpd_2::eVar10::zh_CN:HP:T3920T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_76342_7E__2C__3B_T3920T::linkname::hpd_2"
-											class="link jsTrackLink delay "
-											href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=photo&amp;hotelnumber=76342&amp;lid=INT-HPT%3A3920&amp;lpos=2_080000"
-											target="_self">653 CNY 起</a>
-									</p>
-									<p class="info">
-										每间/每晚价格
-									</p>
-									<p class="info">
-										包括早餐
-									</p>
-									<p class="info">
-										有效期： 03.12. - 13.12. 2010
-									</p>
-									<p class="teaserLink">
-										<a
-											id="hnd_2::eVar10::zh_CN:HP:T3920T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_76342_7E__2C__3B_T3920T::linkname::hnd_2"
-											class="link jsTrackLink delay "
-											href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=photo&amp;hotelnumber=76342&amp;lid=INT-HPT%3A3920&amp;lpos=2_130000"
-											target="_self">酒店详情</a>
-									</p>
-									<div class="lT"></div>
-									<div class="lT02"></div>
+						<div id="content">
+							<div class="col6">
+								<div class="hide">
+									<input type="hidden" name="detailsEntry" value="hotelDetails1"
+										class="standard" />
+									<input type="hidden" name="activity" value="" class="standard" />
 								</div>
-								<div class="teaser tCol4 gallery" id="gallery">
-									<h4>
-										HRS主题酒店
-									</h4>
-									<a class="prev hide"><img
-											src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/arrow_left.png"
-											alt="" border="0" />
-									</a>
-									<div class="slideShow">
-										<ul>
+								<script type="text/javascript">
+<!--
+	document.write('<input type="hidden" name="availabilityJS"/>');
+-->
+</script>
+								<div class="bar">
+									<h3>
+										酒店信息/照片
+									</h3>
+								</div>
+								<div id="pic" class="box jsToggle">
+									<div class="large">
+										<div class="img">
+											<img
+												src="http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_a_1313378.jpg"
+												alt="外景" id="hotelphoto" style="margin-top: 29.0px;" />
+										</div>
+										<p id="photodescription">
+											外景
+										</p>
+										<div class="browse">
+											<input class="prev" type="image" name="pictureId_previous"
+												src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/arrow_left.png"
+												alt="显示前一图片" />
+											<input class="next" type="image" name="pictureId_next"
+												src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/arrow_right.png"
+												alt="显示下一图片" />
+										</div>
+									</div>
+									<div class="pool">
+										<ul class="gallery">
 											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1958T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1958T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=674232&amp;lid=INT-HPT%3A1958&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=4798"><span>手机订房</span>
-												</a>
+												<input type="image" name="pictureId_3"
+													src="http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_a_ht_1313378.jpg"
+													style="width: 5.0em; height: 3.9em;" alt="外景"
+													style="margin-top: 5.5px;" />
 											</li>
 											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1959T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1959T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=440911&amp;lid=INT-HPT%3A1959&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=4803"><span>海滩</span>
-												</a>
+												<input type="image" name="pictureId_2"
+													src="http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_z_ht_1313377.jpg"
+													style="width: 5.0em; height: 3.9em;" alt="房间"
+													style="margin-top: 5.5px;" />
 											</li>
 											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1967T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1967T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=440783&amp;lid=INT-HPT%3A1967&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=4830"><span>古堡</span>
-												</a>
+												<input type="image" name="pictureId_5"
+													src="http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_z_ht_1478946.jpg"
+													style="width: 5.0em; height: 3.8em;" alt="房间"
+													style="margin-top: 6.0px;" />
 											</li>
 											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1964T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1964T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=440463&amp;lid=INT-HPT%3A1964&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=4819"><span>设计</span>
-												</a>
+												<input type="image" name="pictureId_0"
+													src="http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_rt_ht_1478943.jpg"
+													style="width: 5.0em; height: 3.8em;" alt="餐厅"
+													style="margin-top: 6.0px;" />
 											</li>
 											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1960T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1960T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=440655&amp;lid=INT-HPT%3A1960&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=4807"><span>高尔夫</span>
-												</a>
+												<input type="image" name="pictureId_1"
+													src="http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_h_ht_1313381.jpg"
+													style="width: 5.0em; height: 3.9em;" alt="大厅"
+													style="margin-top: 5.5px;" />
 											</li>
 											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1966T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1966T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=560118&amp;lid=INT-HPT%3A1966&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=4828"><span>度假</span>
-												</a>
-											</li>
-											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1965T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1965T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=440847&amp;lid=INT-HPT%3A1965&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=4825"><span>特价</span>
-												</a>
-											</li>
-											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1961T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1961T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=440719&amp;lid=INT-HPT%3A1961&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=4812"><span>豪华</span>
-												</a>
-											</li>
-											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1956T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1956T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=608510&amp;lid=INT-HPT%3A1956&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=4790"><span>滑雪</span>
-												</a>
-											</li>
-											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1957T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1957T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=441039&amp;lid=INT-HPT%3A1957&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=4797"><span>Spa</span>
-												</a>
-											</li>
-											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1968T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1968T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=52&amp;lid=INT-HPT%3A1968&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=4834"><span>主题酒店</span>
-												</a>
-											</li>
-											<li>
-												<a
-													id="Teaser_4_0::eVar10::zh_CN:HP:T1963T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T1963T::linkname::Teaser_4_0"
-													href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;amp;client=zh_CN&amp;treeID=439923&amp;lid=INT-HPT%3A1963&amp;lpos=4_000000"
-													class="noImg jsTrackLink delay " target="_self"
-													rel="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=7033"><span>十佳HRS</span>
-												</a>
+												<input type="image" name="pictureId_4"
+													src="http://www.hrsstatic.com/foto/4/0/9/7/409740/6da47/409740_d_ht_1478944.jpg"
+													style="width: 5.0em; height: 3.8em;" alt="浴室"
+													style="margin-top: 6.0px;" />
 											</li>
 										</ul>
 									</div>
-									<a class="next hide"><img
-											src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/arrow_right.png"
-											alt="" border="0" />
-									</a>
-									<div class="lT"></div>
-									<div class="lT02"></div>
 								</div>
-								<div class="teaser advantage">
-									<p class="pic">
-										<a
-											id="Teaser_7_0::eVar10::zh_CN:HP:T47T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T47T::linkname::Teaser_7_0"
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;treeID=4&amp;lid=INT-HPT%3A47&amp;lpos=7_000000"
-											class="jsTrackLink delay " target="_self"><img
-												src="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=669"
-												alt="" />
-										</a>
+								<div class="spaceV"></div>
+								<div class="bar">
+									<h3>
+										重要信息
+									</h3>
+								</div>
+								<div class="box jsToggle">
+									<p>
+										酒店建于 2007, 房间总数量: 100, 酒店 , 城市酒店 , 商务酒店
 									</p>
+									<dl id="hotelinformation">
+										<dt>
+											酒店风格和环境
+										</dt>
+										<dd>
+											如家七斗星酒店（武汉台北路店）位于武汉台北一路店地处汉口金融中心，是一个全新的体验式商旅酒店，免费上网的商务角，为入住酒店的商务人士提供便捷的办公服务、特有的人文设施，让您在芬芳的咖啡香中品尝书的气息、回顾经典影片，
+										</dd>
+										<dt>
+											酒店的特色
+										</dt>
+										<dd>
+											、无烟楼层让您获得充满人文关怀的居留空间、女士客房温馨优雅，处处洋益浪漫情怀、
+										</dd>
+										<dt>
+											接待
+										</dt>
+										<dd>
+											长达一天24小时
+										</dd>
+										<dt>
+											周末人工接待
+										</dt>
+										<dd>
+											长达一天24小时
+										</dd>
+										<dt>
+											最早入住登记
+										</dt>
+										<dd>
+											14:00
+										</dd>
+										<dt>
+											离店时间
+										</dt>
+										<dd>
+											12:00
+										</dd>
+										<dt>
+											酒店停业日期
+										</dt>
+										<dd></dd>
+										<dt>
+											为HRS客人提供的免费服务
+										</dt>
+										<dd>
+											1瓶矿泉水, 欢迎饮料, 在酒店使用某个互联网终端, 酒店内或其旁边免费停车场, 房间内无线局域网
+										</dd>
+										<dt>
+											酒店地点、环境和景观
+										</dt>
+										<dd>
+											交 通：机场： 30分钟可抵达武汉天河国际机场 火车站：15分钟可至汉口火车站
+											附近景区：中山公园、西北湖广场、杂技厅、国际会展中心、江汉路步行街 附近标志物：新华路体育场 汉口国际会展中心
+											周边商场：新世界百货、武汉广场、SOGO、中心百货、江汉路新世界百货、世界之窗
+										</dd>
+									</dl>
+								</div>
+								<div class="spaceV"></div>
+							</div>
+							<div class="col2">
+								<p class="totalPrice">
+									<strong> 总价 604.00&nbsp;CNY </strong>
+									<input type="submit" name="detailsButton" value="转至价格详细情况"
+										class="link jsTrackLink delay" id="service_ToPriceDetails" />
+								</p>
+								<div class="teaser tCol3 marginal">
 									<h4>
-										免费的HRS优势之处
+										我们将亲自帮助您！
 									</h4>
-									<ul class="checkList">
-										<li>
-											每日超级特价
-										</li>
-										<li>
-											全球超过250,000家酒店供您选择
-										</li>
-										<li>
-											免费预订，甚至连信用卡都不用
-										</li>
-										<li>
-											您在酒店直接支付
-										</li>
-										<li>
-											免费修改和取消预订
-										</li>
-									</ul>
-									<div class="lT"></div>
-									<div class="lT02"></div>
-								</div>
-							</div>
-						</div>
-						<div class="col2">
-							<div class="teaser tCol2 ts">
-								<h5 class="flag de">
-									科隆
-								</h5>
-								<h4>
-									<a
-										id="hn_3::eVar10::zh_CN:HP:T3921T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_67442_7E__2C__3B_T3921T::linkname::hn_3"
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=photo&amp;hotelnumber=67442&amp;lid=INT-HPT%3A3921&amp;lpos=3_020000"
-										class="jsTrackLink delay " target="_self">Servatius</a>
-									<img
-										src="http://www.hrsstatic.com/web3/images/wide/_general/_general/icons/star_3.png"
-										alt="" />
-								</h4>
-								<p class="totalRating">
-									<span class="totalRating rating8"><a
-										id="Teaser_3_6::eVar10::zh_CN:HP:T3921T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_67442_7E__2C__3B_T3921T::linkname::Teaser_3_6"
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=rating&amp;hotelnumber=67442&amp;lid=INT-HPT%3A3921&amp;lpos=3_060000"
-										class="jsTrackLink delay" target="_self"></a>
-									</span> 8.3 / 10
-									<span class="info">(</span><a
-										id="Teaser_3_6::eVar10::zh_CN:HP:T3921T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_67442_7E__2C__3B_T3921T::linkname::Teaser_3_6"
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=rating&amp;hotelnumber=67442&amp;lid=INT-HPT%3A3921&amp;lpos=3_060000"
-										target="_self" class="info jsTrackLink delay ">320 评价</a><span
-										class="info">)</span>
-								</p>
-								<p class="prize">
-									单人间
-									<a
-										id="hps_3::eVar10::zh_CN:HP:T3921T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_67442_7E__2C__3B_T3921T::linkname::hps_3"
-										class="link jsTrackLink delay "
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=photo&amp;adults=1&amp;doubleRooms=0&amp;hotelnumber=67442&amp;singleRooms=1&amp;lid=INT-HPT%3A3921&amp;lpos=3_070000"
-										target="_self">560 CNY 起</a>
-								</p>
-								<p class="prize">
-									双人间
-									<a
-										id="hpd_3::eVar10::zh_CN:HP:T3921T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_67442_7E__2C__3B_T3921T::linkname::hpd_3"
-										class="link jsTrackLink delay "
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=photo&amp;hotelnumber=67442&amp;lid=INT-HPT%3A3921&amp;lpos=3_080000"
-										target="_self">709 CNY 起</a>
-								</p>
-								<p class="info">
-									每间/每晚价格
-								</p>
-								<p class="info">
-									包括早餐
-								</p>
-								<p class="info">
-									有效期： 26.11. - 06.12. 2010
-								</p>
-								<p class="teaserLink">
-									<a
-										id="hnd_3::eVar10::zh_CN:HP:T3921T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B__7E_67442_7E__2C__3B_T3921T::linkname::hnd_3"
-										class="link jsTrackLink delay "
-										href="/web3/hotelData.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=photo&amp;hotelnumber=67442&amp;lid=INT-HPT%3A3921&amp;lpos=3_130000"
-										target="_self">酒店详情</a>
-								</p>
-								<div class="lT"></div>
-								<div class="lT02"></div>
-							</div>
-						</div>
-						<div class="col4">
-							<div class="teaserWrap">
-								<div class="teaser tCol2">
-									<p class="pic">
-										<a
-											id="Teaser_5_0::eVar10::zh_CN:HP:T3922T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T3922T::linkname::Teaser_5_0"
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;treeID=1465639&amp;lid=INT-HPT%3A3922&amp;lpos=5_000000"
-											class="jsTrackLink delay " target="_self"><img
-												src="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=7913"
-												alt="" />
-										</a>
+									<h5>
+										电话
+									</h5>
+									<p class="phoneBahn phoneBahnxtra">
+										800 720 1388
+										<b><sup>
+												1
+											</sup> <sup>
+												2
+											</sup> </b>
+										<br />
+										400 720 1388
+										<b><sup>
+												2
+											</sup> <sup>
+												3
+											</sup> </b>
+										<br />
+										+86 21 51976700
+										<b><sup>
+												4
+											</sup> <sup>
+												5
+											</sup> </b>
 									</p>
-									<h4>
-										巴黎超值酒店，立即预订！
-									</h4>
-									<p class="teaserLink">
-										<a
-											id="Teaser_5_3::eVar10::zh_CN:HP:T3922T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T3922T::linkname::Teaser_5_3"
-											class="link jsTrackLink delay "
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;treeID=1465639&amp;lid=INT-HPT%3A3922&amp;lpos=5_030000"
-											target="_self">查看详情</a>
+									<h5>
+										营业时间
+									</h5>
+									<p>
+										周一至周日 每天24小时
 									</p>
-									<div class="lT"></div>
-									<div class="lT02"></div>
-								</div>
-								<div class="teaser tCol2">
-									<p class="pic">
-										<a
-											id="Teaser_5_0::eVar10::zh_CN:HP:T3923T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T3923T::linkname::Teaser_5_0"
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;treeID=440527&amp;lid=INT-HPT%3A3923&amp;lpos=5_000000"
-											class="jsTrackLink delay " target="_self"><img
-												src="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=7915"
-												alt="" />
-										</a>
+									<p class="info">
+										<sup>
+											1
+										</sup>
+										从您所在的国家拨打此号码是免费的。如您用手机，请拨打 400 720 1388，可享受半价优惠。
 									</p>
-									<h4>
-										HRS独家特惠，立即预订！
-									</h4>
-									<p class="teaserLink">
-										<a
-											id="Teaser_5_3::eVar10::zh_CN:HP:T3923T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T3923T::linkname::Teaser_5_3"
-											class="link jsTrackLink delay "
-											href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;treeID=440527&amp;lid=INT-HPT%3A3923&amp;lpos=5_030000"
-											target="_self">查看详情</a>
+									<p class="info">
+										<sup>
+											2
+										</sup>
+										HRS呼叫中心服务时间：
+									</p>
+									<p class="info">
+										<sup>
+											3
+										</sup>
+										国内通话免费的手机号码
+									</p>
+									<p class="info">
+										<sup>
+											4
+										</sup>
+										请核对该国的具体电话收费。
+									</p>
+									<p class="info">
+										<sup>
+											5
+										</sup>
+										HRS呼叫中心服务时间：
 									</p>
 									<div class="lT"></div>
 									<div class="lT02"></div>
 								</div>
 							</div>
 						</div>
-						<div class="col3">
-							<div class="teaser advantage">
-								<p class="pic">
-									<a
-										id="Teaser_8_0::eVar10::zh_CN:HP:T206T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T206T::linkname::Teaser_8_0"
-										href="http://www.hrs.de/?client=zh_CN__NEXT&amp;forwardName=newsletter"
-										class="jsTrackLink delay " target="_self"><img
-											src="http://www.hrsstatic.com/web3/media?src=teo&amp;l=zh_CN&amp;s=0&amp;m=1609"
-											alt="" />
-									</a>
-								</p>
-								<h4>
-									订阅HRS全球订房网时事通讯
-								</h4>
-								<p>
-									最及时的优惠促销，最详细的信息推介，最热门的在线活动，最令人心动的超值大奖，尽在HRS时事通讯！
-								</p>
-								<p class="teaserLink">
-									<a
-										id="Teaser_8_3::eVar10::zh_CN:HP:T206T::events::event15::linkTrackVars::eVar10_2C_events_2C_products::linkTrackEvents::event15::products::_3B_T206T::linkname::Teaser_8_3"
-										class="link jsTrackLink delay "
-										href="http://www.hrs.de/?client=zh_CN_NEXT&amp;forwardName=newsletter"
-										target="_self">立刻订阅</a>
-								</p>
-								<div class="lT"></div>
-								<div class="lT02"></div>
+						<div class="foot">
+							<div class="box">
+								<span class="button global booking"><span> <input
+											type="submit" name="initBooking" value="马上预订" /> </span> </span>
+								<a
+									href="/web3/sendHotelLink.do;jsessionid=EC5C211F5353F536C8058AEA3326302F.7-4?clientId=emhfQ05fTkVYVA--&amp;cid=7-4&amp;activity=show&amp;hotelnumber=409740&amp;inCont=1"
+									target="_blank" class="link sendEmail">作为链接发送</a>
+								<a
+									href="/web3/showDetailsOfHotel.do;jsessionid=EC5C211F5353F536C8058AEA3326302F.7-4?clientId=emhfQ05fTkVYVA--&amp;cid=7-4&amp;activity=showPrint&amp;hotelDetailPrintPage=picture&amp;detailsEntry=hotelDetails1"
+									target="print" class="link print">打印预览</a>
+								<script type="text/javascript">
+            document.write('<a href="javascript:window.close();" class="link close">关闭</a>');
+        </script>
 							</div>
 						</div>
-					</div>
-					<ul class="foot">
-						<li>
-							<a
-								href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;applicationFeature=legal">网站信息保护证明</a>
-						</li>
-						<li class="footNavSeparator">
-							&#124;
-						</li>
-						<li>
-							<a
-								href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;applicationFeature=conditions">条款</a>
-						</li>
-						<li class="footNavSeparator">
-							&#124;
-						</li>
-						<li>
-							<a
-								href="/web3/showImprint.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=show">版权所有</a>
-						</li>
-						<li class="footNavSeparator">
-							&#124;
-						</li>
-						<li>
-							<a
-								href="/web3/setContact.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=showIntro">联系我们</a>
-						</li>
-						<li class="footNavSeparator">
-							&#124;
-						</li>
-						<li>
-							<a
-								href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;applicationFeature=help">帮助</a>
-						</li>
-						<li class="footNavSeparator">
-							&#124;
-						</li>
-						<li>
-							<a
-								href="/web3/showService.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;activity=showNewsletter&amp;levelSecondItem=0&amp;levelFirstItem=2">HRS会员通讯</a>
-						</li>
-						<li class="footNavSeparator">
-							&#124;
-						</li>
-						<li>
-							<a
-								href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;applicationFeature=service">旅游信息</a>
-						</li>
-						<li class="footNavSeparator">
-							&#124;
-						</li>
-						<li>
-							<a
-								href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;treeID=816237"
-								target="_self">与HRS广告合作</a>
-						</li>
-						<li class="footNavSeparator">
-							&#124;
-						</li>
-						<li>
-							<a
-								href="/web3/showPage.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;page=exclusivePriceDescription"
-								onclick="puSized(this, 750, 780, 'exclusivePrice', this.href); return false; return false;">HRS特价酒店</a>
-						</li>
-						<!--[if IE]><li class="footNavSeparator">&#124;</li><![endif]-->
-						<![if !IE]>
-						<![endif]>
-						<li>
-							<![if !IE]>
-							<br />
-							<![endif]>
-							<a
-								href="/web3/showDynamic.do;jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1?clientId=emhfQ05fTkVYVA--&amp;cid=6-1&amp;applicationFeature=copyright">©HRS
-								2010</a>
-						</li>
-					</ul>
-					<div class="foot footerLinks">
-						<div class="bookmarks">
-							<ul class="main">
-								<li id="bookmarkSelection">
-									<h6>
-										将此页加入书签
-									</h6>
-									<div>
-										<div class="button local socialBookmarks">
-											<span> <a href="#" class="bookmarkLayer"> Social
-													media书签 </a> </span>
-											<div class="hideAbsolute">
-												<ul id="bookmarkTooltip">
-													<li>
-														<a
-															href="http://delicious.com/save?v=5&amp;title=www.HRS.com+%E2%80%93+%E9%85%92%E5%BA%97%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99&amp;url=http%3A%2F%2Fwww.hrs.com%2Fweb3%2F%3Fl%3Dzh_CN&amp;jump=close"
-															target="_blank" id="delicious"
-															class="jsTrackLink delicious" title="加入delicious书签">
-															&nbsp; </a>
-													</li>
-													<li>
-														<a
-															href="http://digg.com/remote-submit/?title=www.HRS.com+%E2%80%93+%E9%85%92%E5%BA%97%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99&amp;phase=2&amp;url=http://www.hrs.com/web3/?l=zh_CN"
-															target="_blank" id="digg" class="jsTrackLink digg"
-															title="加入digg书签"> &nbsp; </a>
-													</li>
-													<li>
-														<a
-															href="http://bookmarks.yahoo.com/toolbar/savebm?opener=bm&amp;u=http%3A%2F%2Fwww.hrs.com%2Fweb3%2F%3Fl%3Dzh_CN&amp;t=www.HRS.com+%E2%80%93+%E9%85%92%E5%BA%97%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99&amp;ei=UTF-8"
-															target="_blank" id="yahoo" class="jsTrackLink yahoo"
-															title="加入Yahoo!书签"> &nbsp; </a>
-													</li>
-													<li>
-														<a
-															href="http://www.stumbleupon.com/submit?title=www.HRS.com – 酒店门户网站&amp;url=http://www.hrs.com"
-															target="_blank" id="stumbleupon"
-															class="jsTrackLink stumbleupon" title="加入StumbleUpon书签">
-															&nbsp; </a>
-													</li>
-													<li>
-														<a
-															href="http://www.bebo.com/c/share?title=www.HRS.com+%E2%80%93+%E9%85%92%E5%BA%97%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99&amp;Url=http%3A%2F%2Fwww.hrs.com%2Fweb3%2F%3Fl%3Dzh_CN"
-															target="_blank" id="bebo" class="jsTrackLink bebo"
-															title="加入bebo书签"> &nbsp; </a>
-													</li>
-													<li>
-														<a
-															href="http://reddit.com/submit?title=www.HRS.com+%E2%80%93+%E9%85%92%E5%BA%97%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99&amp;url=http%3A%2F%2Fwww.hrs.com%2Fweb3%2F%3Fl%3Dzh_CN"
-															target="_blank" id="reddit" class="jsTrackLink reddit"
-															title="加入reddit书签"> &nbsp; </a>
-													</li>
-													<li>
-														<a
-															href="http://www.fark.com/cgi/farkit.pl?u=http://www.hrs.com&amp;h=www.HRS.com – 酒店门户网站"
-															target="_blank" id="fark" class="jsTrackLink fark"
-															title="加入Fark.com书签"> &nbsp; </a>
-													</li>
-												</ul>
-												<p class="addTooltipInfo">
-													&nbsp;
-												</p>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li id="recommendedSelection">
-									<h6>
-										推荐该页
-									</h6>
-									<ul>
-										<li>
-											<a
-												href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.hrs.com%2Fweb3%2F%3Fl%3Dzh_CN&amp;t=www.HRS.com+%E2%80%93+%E9%85%92%E5%BA%97%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99"
-												target="_blank" id="facebook"
-												class="jsTrackLink hp_facebook jsPopup" title="facebook">
-												&nbsp; </a>
-										</li>
-										<li>
-											<a
-												href="http://twitter.com/home?status=www.HRS.com+%E2%80%93+%E9%85%92%E5%BA%97%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99+http%3A%2F%2Fwww.hrs.com%2Fweb3%2F%3Fl%3Dzh_CN"
-												target="_blank" id="twitter" class="jsTrackLink hp_twitter "
-												title="twitter"> &nbsp; </a>
-										</li>
-									</ul>
-								</li>
-								<li id="mobileDevices">
-									<h6>
-										用于您旅行时
-									</h6>
-									<div>
-										<div class="button local mobileDevice">
-											<span> <a href="#" class="bookmarkLayer"> HRS
-													mobile </a> </span>
-											<div class="hideAbsolute">
-												<ul id="mobileDeviceTooltip">
-													<li>
-														<a
-															href="http://fusion.google.com/add?moduleurl=http://redaktion.iweblabs.de/fileadmin/hrs/hrs/hrs2.xml&amp;source=www.HRS.com+%E2%80%93+%E9%85%92%E5%BA%97%E9%97%A8%E6%88%B7%E7%BD%91%E7%AB%99&amp;hl=zh"
-															target="_blank" id="igoogle" class="jsTrackLink igoogle"
-															title="添加至iGoogle"> &nbsp; </a>
-													</li>
-													<li>
-														<a
-															href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=332193586&amp;mt=8"
-															target="_blank" id="iphone" class="jsTrackLink iphone"
-															title="iPhone上的HRS"> &nbsp; </a>
-													</li>
-													<li>
-														<a
-															href="http://appworld.blackberry.com/webstore/content/888"
-															target="_blank" id="blackberry"
-															class="jsTrackLink blackberry" title="BlackBerry上的HRS">
-															&nbsp; </a>
-													</li>
-													<li>
-														<a href="http://maps.nokia.com/services-and-apps/ovi-maps"
-															target="_blank" id="nokia" class="jsTrackLink nokia"
-															title="用于Nokia Ovi Maps的HRS"> &nbsp; </a>
-													</li>
-													<li>
-														<a href="http://www.hotels-now.de/en/" target="_blank"
-															id="hotelsnow" class="jsTrackLink hotelsnow"
-															title="现在体验酒店！"> &nbsp; </a>
-													</li>
-													<li>
-														<a
-															href="http://itunes.apple.com/us/app/hrs-hotelportal-ipad/id371123357?mt=8"
-															target="_blank" id="ipad" class="jsTrackLink ipad"
-															title="iPad上的HRS"> &nbsp; </a>
-													</li>
-													<li>
-														<a href="http://store.ovi.com/content/42592/?lang=zh_cn"
-															target="_blank" id="nokiaApp"
-															class="jsTrackLink nokiaApp" title="Nokia移动电话上的HRS">
-															&nbsp; </a>
-													</li>
-												</ul>
-												<p class="addTooltipInfo">
-													&nbsp;
-												</p>
-											</div>
-										</div>
-									</div>
-								</li>
-							</ul>
-							<div id="hrsContact">
-								<h6>
-									HRS – HOTEL RESERVATION SERVICE
-								</h6>
-								<p>
-									+49 221 2077 600&nbsp;&#124;&nbsp;
-									<a href="mailto:office@hrs.de"> office@hrs.de </a>
-								</p>
-							</div>
-						</div>
-						<div class="clearer"></div>
-						<ul class="addHRSInfos">
-							<li>
-								除非另有说明，HRS.com上列出的所有价格均代表一个间夜。 要求酒店显示全价。
-							</li>
-							<li class="footNavSeparator">
-								<b>*</b> 热线: 800 7201388 - 从您所在的国家拨打此号码是免费的。如您用手机，请拨打 400 720
-								1388，可享受半价优惠。
-								<br />
-								HRS呼叫中心服务时间： - 周一至周日 每天24小时
-							</li>
-							<li class="footNavSeparator">
-								<b>**</b>
-								在相同预订条件下，您在HRS网站上预订的酒店价格总是比互联网上任何其他旅游网站便宜至少10％。如果不是这样的情况，在您结帐离店时，酒店将按20欧元/间夜的比率对您进行赔偿。详细情况，请查看HRS特价酒店条款。
-							</li>
-						</ul>
-						<br style="clear: both;" />
-					</div>
-					<div class="clearer"></div>
+					</form>
 				</div>
 			</div>
 			<div id="corner01"></div>
@@ -3211,132 +598,5 @@
 		<div id="ICP-License">
 			<a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">ICP许可证号：沪ICP备08016371号</a>
 		</div>
-		<script type="text/javascript">
-		//<![CDATA[
-			var mmBase =
-			window.location.protocol + "//"
-			+ window.location.hostname
-			+ ((window.location.port != null && window.location.port != '') ? ":" + window.location.port : "")
-			+ "/hrs-suggest/";
-			var mmURLBase = mmBase + "mmsuggest";
-			var mmIconPath= mmBase + "images/";
-		//]]>
-	</script>
-		<script type="text/javascript"
-			src="http://www.hrsstatic.com/hrs-suggest/js/mmCompressedWide.js"></script>
-		<div class="tracking">
-			<script type="text/javascript">
-			//<![CDATA[
-				display();
-			//]]>
-		</script>
-			<!--
-	mfinfo.webservice="web1000"
-	mfinfo.session="jsessionid=F75596CA34E9F6F342D70041D6C74A26.6-1 cid=6-1"
-	mfinfo.affcorp="public|public"
-	mfinfo.bustrans="Suche|homepage"
-	mfinfo.chnksrvr="6|1"
--->
-			<!-- SiteCatalyst code version: H.21. Copyright 1996-2010 Adobe, Inc. All Rights Reserved More info available at http://www.omniture.com -->
-			<script language="JavaScript" type="text/javascript"><!--
-var s_account="hotelrsasia";
-//--></script>
-			<script language="JavaScript" type="text/javascript"
-				src="/web3/js/s_code.js"></script>
-			<script language="JavaScript" type="text/javascript"><!--
-s.channel="Search Hotel";
-s.eVar20="zh_CN:~6011~:Search Hotel:Homepage";
-s.eVar43="Web1000";
-s.events="event14";
-s.pageName="Homepage";
-s.products=";T3912T,;~72116~,;T3919T,;L11277L,;T3875T,;L48979L,;L49184L,;L132723L,;L25734L,;L140420L,;L199395L,;L71302L,;L49551L,;L49102L,;~76342~,;T3920T,;T1958T,;T1959T,;T1967T,;T1964T,;T1960T,;T1966T,;T1965T,;T1961T,;T1956T,;T1957T,;T1968T,;T1963T,;T47T,;~67442~,;T3921T,;T3922T,;T3923T,;T206T";
-s.prop25="~6011~";
-s.prop26="zh_CN";
-s.prop27="Search Hotel:Homepage";
-s.prop32="~6011~:Search Hotel:Homepage";
-s.prop33="No";
-s.prop48="~6011~:Search Hotel:Homepage";
-s.server="Web1000";
-s.formList="ratingForm,bookingProcessForm,contactForm,newsletterForm";
-s.rgvo=s.getValOnce('F75596CA34E9F6F342D70041D6C74A26.6-1','s_rgvo')?s.resetGetValOnce():false;
-//--></script>
-			<script language="JavaScript" type="text/javascript"><!--
-var s_code=s_trackPage();if(s_code)document.write(s_code);
-s.setupFormAnalysis();
-s.done=true;
-//--></script>
-		</div>
-		<!--
-		lastCVSBuild:		2010-10-14 02:54 Rev: tags/prebuild-3.20-10-10-14@387589
-		chunkId:		6
-		webserverId:		1
-		remoteHost:		125.56.208.136
-		remoteAddr:		125.56.208.136
-		serverName:		www.hrs.com
-		host (header):		www.hrs.com
-		ssl (header):		
-		customerId: 		6011
-		costCenter: 		
-		
-		applicationFeature:	searchBooking
-
-		session-ID:		F75596CA34E9F6F342D70041D6C74A26.6-1
-		last access:		1289973769621
-		locale:			zh_CN_NEXT, fmtLocale: zh_CN_NEXT
-		channel:		[layout: wide] [customer: NEXT] [variant: ]
-		clientName:		NEXT
-
-		charSet:		UTF-8
-		request encoding:	UTF-8
-		response encoding:	UTF-8
-
-		browser:		Mozilla 5.0 Windows
-		isJavascript:		false
-		showHint:		false
-		lowSpeed:		false
-		stopWatchTime:		-1 ms (last call of searchPage, limit: 20000 ms)
-		contextPath:		/web3/
-		jsPath:			http://www.hrsstatic.com/web3/js/
-		cssPath:		http://www.hrsstatic.com/web3/css/wide/
-		imgPath:		http://www.hrsstatic.com/web3/images/wide/
-
-		actualPath:		homepage
--->
-		<!--
-		lastCVSBuild:		2010-10-14 02:54 Rev: tags/prebuild-3.20-10-10-14@387589
-		chunkId:		6
-		webserverId:		1
-		remoteHost:		125.56.208.136
-		remoteAddr:		125.56.208.136
-		serverName:		www.hrs.com
-		host (header):		www.hrs.com
-		ssl (header):		
-		customerId: 		6011
-		costCenter: 		
-		
-		applicationFeature:	searchBooking
-
-		session-ID:		F75596CA34E9F6F342D70041D6C74A26.6-1
-		last access:		1289973769621
-		locale:			zh_CN_NEXT, fmtLocale: zh_CN_NEXT
-		channel:		[layout: wide] [customer: NEXT] [variant: ]
-		clientName:		NEXT
-
-		charSet:		UTF-8
-		request encoding:	UTF-8
-		response encoding:	UTF-8
-
-		browser:		Mozilla 5.0 Windows
-		isJavascript:		false
-		showHint:		false
-		lowSpeed:		false
-		stopWatchTime:		-1 ms (last call of searchPage, limit: 20000 ms)
-		contextPath:		/web3/
-		jsPath:			http://www.hrsstatic.com/web3/js/
-		cssPath:		http://www.hrsstatic.com/web3/css/wide/
-		imgPath:		http://www.hrsstatic.com/web3/images/wide/
-
-		actualPath:		homepage
--->
 	</body>
 </html>
