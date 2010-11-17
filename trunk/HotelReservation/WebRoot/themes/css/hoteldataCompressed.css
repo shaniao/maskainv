@@ -1,0 +1,154 @@
+.hoteldetail #layout02{height:auto;}
+h2{color:#145ca3;font-size:1.8em;margin:.4em 0 .1em;}
+h2 img{margin-bottom:.2em;}
+.box h4{margin-bottom:1.375em!important;}
+h5{clear:both;font-size:1.4em;color:#145ca3;}
+.errorMsg h5{font-size:1.2em;color:#cc092f;}
+.info{clear:both;}
+a.info{text-decoration:underline;}
+.box .col{float:left;width:50%;}
+.box .packageCol{float:right;width:48%;}
+.box .col .check,.box .packageCol .check{width:auto;margin-bottom:1em;}
+.offerTabs:after,dl:after,#pic:after,#deals h5:after{content:" ";clear:both;visibility:hidden;display:block;height:0;}
+#content div #contentNav{margin:1em 0 2em 0;width:63.7em;}
+#contentNav div{right:-1px;width:100%;}
+#contentNav ul{margin:0;}
+#contentNav ul li input{cursor:pointer;float:left;display:block;font-size:1.2em;font-weight:bold;font-family:arial,helvetica,sans-serif;color:#cc092f;overflow:visible!important;padding:.1em .9em .1em .9em;border-left:1px dotted #ccc;margin:.05em 0 .25em 0;background:transparent url(../../images/wide/_general/_general/elements/dot.png) repeat-y left center;border:0;}
+#contentNav ul li input:hover,#contentNav ul li.active input{color:#145ca3;}
+#contentNav ul li.first input{background-image:none;}
+#hotelinformation{margin:-.8em 0 0;}
+#hotelinformation dd,#hotelinformation dt{width:50%;padding-top:.8em;border-top:solid 1px #c8c8c8;}
+#availabilityForm fieldset{clear:both;padding:0;border:0;margin:0;}
+#availabilityForm label{float:left;width:15.5em;}
+#availabilityForm label input.text{width:13.2em;margin:0 .5em 0 0;}
+#availabilityForm label.small{overflow:visible;width:7.75em;}
+#availabilityForm label.small input.text{width:2.7em;}
+#availabilityForm .leftCol{clear:left;padding:0;}
+#availabilityForm .rightCol{margin-left:1.7em;}
+#availabilityForm .submitButton{clear:both;float:right;}
+#childrenWrap{padding-top:.8em;}
+#staticMap iframe{width:405px;height:250px;margin-bottom:12px;}
+.box .leftCol dt img,.box .rightCol dt img{margin:0 5px -5px -28px;_margin:0 5px -5px -25px;}
+.box .amenities dt{font-weight:normal;padding-left:28px;width:70%;_height:1.7em;}
+.box .amenities dd{width:20%;padding-top:.25em;margin-bottom:.4166em;}
+.box ul.location li{display:inline;}
+div.box fieldset.distance{padding-left:0;border:none;}
+.box ol.motorway,.box ol.publicTransport{padding-left:28px;_height:2.2em;min-height:2.2em;}
+.box ol.motorway{background:url(../../images/wide/_general/_general/icons/amenities/ic_det_motorway.gif) no-repeat;}
+.box ol.publicTransport{border-top:solid 1px #c8c8c8;padding-top:1em;margin-top:1em;background:url(../../images/wide/_general/_general/icons/amenities/ic_det_publicTraffic.gif) 0 1.2em no-repeat;}
+fieldset.plain label{width:auto;padding:0 .25em 0 0;}
+fieldset.plain label a.link{background-image:none;padding:0;}
+.ratingsummary{float:left;width:50%;margin:1em 0 0 0;}
+.ratingsummary .result img{width:5.5em;height:5.5em;margin:0 1em -5.25em 0;}
+.ratingsummary p.result strong,.ratingsummary p.result span{display:block;margin:0 0 0 9em;}
+.ratingsummary p.result strong{padding:0;}
+.ratingsummary p.result span{padding:0 0 .375em 0;}
+.ratingsummary p.result a.info{font-size:89%!important;}
+.ratingsummary .feelbad,.ratingsummary .feelgood,.ratingsummary .feelnice,.help-text .feelbad,.help-text .feelgood,.help-text .feelnice{background:url(../../images/wide/_general/_general/icons/feel_good.png) no-repeat 0 .2em;padding-left:2em;}
+.ratingsummary .feelbad,.help-text .feelbad{background-image:url(../../images/wide/_general/_general/icons/feel_bad.png);}
+.ratingsummary .feelnice,.help-text .feelnice{background-image:url(../../images/wide/_general/_general/icons/feel_nice.png);}
+dl.rating dt,dl.rating dd{padding:0;margin:0 0 .675em 0;font-weight:normal;clear:none;float:left;}
+dl.rating dt{width:33%;overflow:hidden;}
+dl.rating.comments dt{width:auto;}
+dl.rating dd{width:15%;padding-right:1em;}
+dl.rating dd p.totalRating{line-height:1em!important;font-size:11px!important;}
+dl.rating dd p.totalRating span.totalRating a{line-height:1.5em!important;background-position:3px 0!important;}
+dl.rating dd p.totalRating img.zeroRating{margin:-2px 2px -2px -18px;}
+dl.rating.comments{padding:0;margin:0;}
+dl.rating.comments dt{padding:0 10px 2px 0;}
+p.ratingCommentUser{font-weight:bold;padding:0!important;margin:0!important;}
+div#content p.positivRating,div#content p.negativRating{line-height:1.25em!important;overflow:hidden;clear:left;}
+div#content p.positivRating{margin-bottom:.8em;}
+p.positivRating span,p.negativRating span{font-weight:bold;padding-right:.25em;}
+p.positivRating span{color:#127F2C;}
+p.negativRating span{color:#E00;}
+dl.legend{margin-bottom:1em;}
+dl.legend dt,dl.legend dd{clear:none;float:left;width:25%;height:1.2em;}
+dl.legend dt{width:8%;}
+dl.legend dt img{margin-bottom:-2px;}
+.help-text dl.legend dt,.help-text dl.legend dd{width:36%;}
+.help-text dl.legend dt{width:13%;}
+a.jsMoreToggler,input.jsMoreToggler{border:0;font-weight:bold;color:#145CA3;background:#FFF url(../../images/wide/_general/_general/icons/sprite.png) no-repeat scroll 0 -3398px;padding-left:14px;margin-bottom:1em;overflow:visible;}
+a.jsMoreToggled,input.jsMoreToggled,#content table.deal input.jsMoreToggled{background-position:0 -3448px;}
+a.jsMoreToggler{padding-left:14px;display:inline-block;cursor:pointer;}
+a.jsMoreToggler:hover{text-decoration:underline;}
+p.slideSeparator{border-bottom:1px solid #C8C8C8;}
+p.pager{float:right;width:auto;}
+p.pager span{float:left;}
+p.pager a{color:#cc092f;}
+p.pager a:hover{text-decoration:underline;}
+p.pager a.next,p.pager a.back{font-weight:bold;background:#FFF url(../../images/wide/_general/_general/icons/sprite.png) no-repeat scroll 0 -100px;padding-left:20px;margin:0 1em 0 0;display:block;}
+p.pager strong.next,p.pager strong.back{color:#bdbcbc;background:#FFF url(../../images/wide/_general/_general/icons/sprite.png) no-repeat scroll 0 -99px;padding-left:20px;margin:0 1em 0 0;display:block;}
+p.pager strong.back{background-position:0 -9450px;}
+p.pager strong.next,p.pager a.next{background-position:100% -400px;padding:0 20px 0 0;margin:0 0 0 1em;}
+p.pager strong.next{background-position:100% -9500px;padding:0 20px 0 0;margin:0 0 0 1em;}
+#weather h5{font-size:1.2em;color:#003;margin-bottom:1em;}
+#weather .current{float:left;width:30%;}
+#weather .current .indicator{font-weight:bold;}
+#weather .current .indicator img{width:4.16em;height:2.25em;margin:0 .8em -.6em 0;}
+#weather .current dl dt{width:75%;}
+#weather .current dl dd{width:25%;}
+#weather .forecast{float:right;width:65%;}
+#weather .forecast table{width:100%;border-collapse:collapse;border-spacing:0;}
+#weather .forecast table th,#weather .forecast table td{padding:.325em .5em 0 0;}
+#weather .forecast .day{height:3em;}
+#weather .forecast .day strong{position:absolute;}
+#weather .forecast .indicator th,#weather .forecast .indicator td{vertical-align:bottom;}
+#weather .forecast .indicator td img{display:block;margin-bottom:.0em;}
+#weather .forecast .separator th,#weather .forecast .separator td{padding-top:1em;}
+#weather .forecast .last th,#weather .forecast .last td{padding-bottom:1em;}
+#hotelOverview{border-bottom:solid 1px #d0deed;padding-bottom:1em;margin-bottom:1.1em;}
+#hotelOverview h4,h4#traveltime{clear:both;font-size:1.4em;color:#003;float:left;}
+fieldset#alternativeCurrencyBox{clear:none;}
+#hotelOverview ul{margin-top:-1.7em;float:right;}
+#hotelOverview li{display:inline;margin-right:.1em;}
+.price{clear:both;}
+.price dt,.service dt{float:none;font-weight:normal;margin-top:.5em;width:auto;}
+.service{clear:both;margin-left:1em;}
+.service dt{font-weight:bold;}
+.price dd,.service dd{width:auto;float:none;}
+.service dd label{float:none;width:auto;}
+.room{border:solid #d0deed;border-width:1px 0;padding:.4em 0;margin:.8em 0;}
+.room dt{font-weight:bold;margin-top:0;}
+.total{background:#f9eed2;color:#cc092f;border-color:#ffb300;padding:.4em 1.4em;margin:2.7em 0 1.3em;}
+.total dt,.total strong{font-size:1.2em!important;}
+.package{margin-top:.7em;}
+#reset{border-bottom:solid 1px #d0deed;padding:1.2em 0;margin:-1.5em 0 1.2em;float:left;}
+.creditcard{background:url(../../images/wide/_general/_general/icons/sprite.png) no-repeat 0 -1100px;padding-left:35px;}
+.offerTabs{background-color:#fff;position:relative;border:1px solid #d0deed;margin-bottom:1em;}
+.offerTabs .jsHide{display:none;}
+.offerTabs .jsShow{display:block;}
+#wrap .offerTabs .info{width:auto;margin:0;}
+#wrap .offerTabs span.info{display:inline;}
+.offerTabs .tabs{position:absolute;top:0;left:0;width:18%;}
+.offerTabs .tabs .tab{font-size:1.2em;color:#2b6cac;background:#e0ecf8;padding:.8em;border-right:1px solid #d0deed;border-bottom:1px solid #d0deed;}
+.offerTabs .tabs .tab input{cursor:pointer;display:block;color:#2b6cac;background:transparent;padding:0;border:0;margin:-.1em 0 .2em -.1em;}
+.offerTabs .tabs .active{color:#003;background:#fff;border-right-color:#fff;}
+.offerTabs .tabs .active input{color:#003;}
+.offerTabs .deals{padding:.8em 1.2em 0;margin-left:18%;}
+.offerTabs .deals fieldset{padding:0;}
+.offerTabs .deals fieldset label{margin-bottom:1em;}
+.totalPrice{text-align:right;background:#fff9b4!important;width:auto;padding:1em;border-top:1px solid #ef8202!important;border-bottom:1px solid #ef8202!important;margin:1em 0 1em;_margin-top:2em;clear:left;}
+#content table.allRoundPrice{border:none;}
+#content table.allRoundPrice tbody td.totalPrice{padding:.4em 1em;}
+#content table.allRoundPrice tbody td.totalPrice input.link{margin-top:.4em;float:left;margin-left:1.6em;}
+.allRoundPrice .totalPrice dl{float:left;}
+.allRoundPrice .totalPrice dt,.allRoundPrice .totalPrice dd{color:#cc092f;font-size:1.5em!important;display:inline;float:none;}
+.allRoundPrice .totalPrice dt{padding-right:1em;}
+.tool-tip{max-width:200px;_width:200px;}
+ul.equalHeight{letter-spacing:-0.3em;margin-right:0;}
+.equalHeight li{display:-moz-inline-stack;display:inline-block;vertical-align:top;zoom:1;*display:inline;letter-spacing:normal;}
+.equipement ul{width:100%;overflow:hidden;}
+.equipement li{margin:-1px 0 0 0;padding:.8em .8em .8em 1.5em;width:10.4875em;*width:10.4575em;border-top:1px solid #f0f0f0;background:url(../../images/wide/_general/_general/icons/checkSprite.png) no-repeat 0 -178px;}
+.equipement li.columnPos1{padding-right:39.25em;}
+.equipement li.columnPos2{padding-right:26.325em;}
+.equipement li.columnPos3{padding-right:13.575em;}
+.equipement .dualCol li{width:23.225em;}
+.equipement .dualCol li.columnPos1{padding-right:26.325em;}
+.equipement li.disabled{background-position:0 -83px;color:#a3a3a3;}
+.additionalEquipement{float:left;}
+.equipement .additionalEquipement ul{width:30.7em;*width:30.5em;margin:0;padding:.5em 0;float:left;border:none;border-top:1px solid #F0F0F0;}
+.additionalEquipement li{background:url(../../images/wide/_general/_general/icons/checkSprite.png) no-repeat 0 8px;padding:.4em .4em .4em 20px;width:auto;border:none;}
+a.jsTogglerLocal{background:url(../../images/wide/_general/_general/icons/toggleSprite.png) no-repeat 0 -36px;text-decoration:none;padding:1px 0 0 18px;}
+a.jsToggled{background-position:0 3px;}
+div.addConfiguration{padding:.75em 0 0 0;border-top:1px solid #F0F0F0;}
