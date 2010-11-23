@@ -84,6 +84,18 @@
 			<ref bean="sessionFactory" />
 		</property>
 	</bean>
+	<bean id="hotelTeamuserDAO"
+		class="com.mask.hrs.dao.HotelTeamuserDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+	<bean id="hotelReservationDAO"
+		class="com.mask.hrs.dao.HotelReservationDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
 
 	<bean id="hotelManagerServiceImpl"
 		class="com.mask.hrs.service.impl.HotelManagerServiceImpl">
@@ -92,10 +104,10 @@
 		</property>
 	</bean>
 
-
 	<bean name="/admin" class="com.mask.admin.action.AdminAction">
 		<property name="hotelManagerService">
 			<ref bean="hotelManagerServiceImpl" />
 		</property>
 	</bean>
+	
 </beans>
