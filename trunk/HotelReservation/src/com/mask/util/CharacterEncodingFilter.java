@@ -9,6 +9,8 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
+import org.apache.struts.Globals;
+
 public class CharacterEncodingFilter implements Filter {
 	public void init(FilterConfig arg0) throws ServletException {
 	}
