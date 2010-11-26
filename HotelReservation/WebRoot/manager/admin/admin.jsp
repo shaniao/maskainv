@@ -15,7 +15,7 @@
 		<title>管理员添加</title>
 	</head>
 	<body>
-		<form action="<%=basePath%>admin.do?method=newAdmin" method="POST"
+		<form action="<%=basePath%>admin.do?method=newAdmin" method="post"
 			id="adminForm">
 			username :
 			<input type="text" name="username" />
