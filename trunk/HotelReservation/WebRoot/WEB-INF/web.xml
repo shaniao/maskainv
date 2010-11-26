@@ -74,5 +74,11 @@
 			<taglib-location>/WEB-INF/struts-logic.tld</taglib-location>
 		</taglib>
 	</jsp-config>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/404.html</location>
+	</error-page>
+
 </web-app>
 
