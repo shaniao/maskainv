@@ -1,6 +1,5 @@
 package com.mask.hrs.po;
 
-import java.util.Date;
 
 /**
  * HotelReservation entity.
@@ -15,8 +14,8 @@ public class HotelReservation implements java.io.Serializable {
 	private Integer id;
 	private String reservationId;
 	private String hotelId;
-	private Date comeTime;
-	private Date leftTime;
+	private String comeTime;
+	private String leftTime;
 	private Integer singleRoom;
 	private Integer adultNum;
 	private Integer childrenNum;
@@ -35,7 +34,7 @@ public class HotelReservation implements java.io.Serializable {
 
 	/** minimal constructor */
 	public HotelReservation(String reservationId, String hotelId,
-			Date comeTime, Date leftTime, String customName,
+			String comeTime, String leftTime, String customName,
 			String customEmail, String customTel, String reservationType) {
 		this.reservationId = reservationId;
 		this.hotelId = hotelId;
@@ -49,7 +48,7 @@ public class HotelReservation implements java.io.Serializable {
 
 	/** full constructor */
 	public HotelReservation(String reservationId, String hotelId,
-			Date comeTime, Date leftTime, Integer singleRoom, Integer adultNum,
+			String comeTime, String leftTime, Integer singleRoom, Integer adultNum,
 			Integer childrenNum, Integer doubleRoom, String password,
 			String customName, String customEmail, String customTel,
 			String reservationType) {
@@ -94,19 +93,19 @@ public class HotelReservation implements java.io.Serializable {
 		this.hotelId = hotelId;
 	}
 
-	public Date getComeTime() {
+	public String getComeTime() {
 		return this.comeTime;
 	}
 
-	public void setComeTime(Date comeTime) {
+	public void setComeTime(String comeTime) {
 		this.comeTime = comeTime;
 	}
 
-	public Date getLeftTime() {
+	public String getLeftTime() {
 		return this.leftTime;
 	}
 
-	public void setLeftTime(Date leftTime) {
+	public void setLeftTime(String leftTime) {
 		this.leftTime = leftTime;
 	}
 

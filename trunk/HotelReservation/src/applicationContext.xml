@@ -36,6 +36,7 @@
 		<property name="mappingResources">
 			<list>
 				<value>com/mask/hrs/po/HotelManager.hbm.xml</value>
+				<value>com/mask/hrs/po/HotelReservation.hbm.xml</value>
 			</list>
 		</property>
 	</bean>
@@ -78,7 +79,7 @@
 	</bean>
 	<!-- 定义事务管理器 结束 -->
 
-
+	<!-- DAO 定义  -->
 	<bean id="managerDao" class="com.mask.hrs.dao.HotelManagerDAO">
 		<property name="sessionFactory">
 			<ref bean="sessionFactory" />
@@ -96,18 +97,36 @@
 			<ref bean="sessionFactory" />
 		</property>
 	</bean>
+	<!-- DAO 定义 结束 -->
 
+	<!-- Service 定义 -->
 	<bean id="hotelManagerServiceImpl"
 		class="com.mask.hrs.service.impl.HotelManagerServiceImpl">
 		<property name="managerDao">
 			<ref bean="managerDao" />
 		</property>
 	</bean>
+	<bean id="hotelReservationServiceImpl"
+		class="com.mask.hrs.service.impl.HotelReservationServiceImpl">
+		<property name="hotelReservationDAO">
+			<ref bean="hotelReservationDAO" />
+		</property>
+	</bean>
 
+
+	<!-- Action 定义 -->
 	<bean name="/admin" class="com.mask.admin.action.AdminAction">
 		<property name="hotelManagerService">
 			<ref bean="hotelManagerServiceImpl" />
 		</property>
 	</bean>
+	<bean name="/reservation" class="com.mask.reservation.action.ReservationAction">
+		<property name="hotelReservationService">
+			<ref bean="hotelReservationServiceImpl" />
+		</property>
+	</bean>
 	
+	
+	
+
 </beans>

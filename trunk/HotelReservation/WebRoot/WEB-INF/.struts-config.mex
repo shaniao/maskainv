@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowViewLayout Version="1.2">
   <StrutsActivity path="/admin.do" location="50,50" dimension="208,84" />
-  <StrutsActivity path="/managar/admin/admin.jsp" location="650,50" dimension="184,48" />
-  <StrutsActivity path="/mangar/admin/admin.jsp" location="350,50" dimension="178,48" />
-  <StrutsActivity path="/manager/admin/admin.jsp" location="950,50" dimension="184,48" />
-  <StrutsTransition id="/manager/admin/admin.jsp,null,/admin.do,2" routingType="0">
+  <StrutsActivity path="/lang.do" location="350,50" dimension="298,84" />
+  <StrutsActivity path="/reservation.do" location="375,255" dimension="244,84" />
+  <StrutsActivity path="/reservation.jsp" location="50,250" dimension="136,48" />
+  <StrutsTransition id="/reservation.jsp,null,/reservation.do,2" routingType="0">
     <AutomaticBendpoints>
-      <AbsolutePoint location="1042,98" />
-      <AbsolutePoint location="1042,113" />
-      <AbsolutePoint location="258,113" />
-    </AutomaticBendpoints>
-  </StrutsTransition>
-  <StrutsTransition id="/managar/admin/admin.jsp,null,/admin.do,2" routingType="0">
-    <AutomaticBendpoints>
-      <AbsolutePoint location="742,98" />
-      <AbsolutePoint location="742,113" />
-      <AbsolutePoint location="258,113" />
+      <AbsolutePoint location="186,274" />
+      <AbsolutePoint location="375,274" />
     </AutomaticBendpoints>
   </StrutsTransition>
 </FlowViewLayout>
