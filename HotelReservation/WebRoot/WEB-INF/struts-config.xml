@@ -6,6 +6,8 @@
 	<form-beans>
 		<form-bean name="adminForm"
 			type="com.mask.admin.form.AdminForm" />
+		<form-bean name="reservationForm"
+			type="com.mask.reservation.form.ReservationForm" />
 	</form-beans>
 
 	<global-exceptions />
@@ -14,7 +16,11 @@
 		<action path="/admin" attribute="adminForm" name="adminForm"
 			scope="request" type="com.mask.admin.action.AdminAction"
 			parameter="method" />
-		<action path="/lang" scope="request" type="com.mask.sys.action.LanguageSelectAction"
+		<action path="/lang" scope="request"
+			type="com.mask.sys.action.LanguageSelectAction" parameter="method" />
+		<action attribute="reservationForm" input="/reservation.jsp"
+			name="reservationForm" path="/reservation" scope="request"
+			type="com.mask.reservation.action.ReservationAction"
 			parameter="method" />
 	</action-mappings>
 
