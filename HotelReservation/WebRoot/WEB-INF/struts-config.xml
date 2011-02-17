@@ -8,6 +8,8 @@
 			type="com.mask.admin.form.AdminForm" />
 		<form-bean name="reservationForm"
 			type="com.mask.reservation.form.ReservationForm" />
+		<form-bean name="loactionSearchForm"
+			type="com.mask.hrs.form.LoactionSearchForm" />
 	</form-beans>
 
 	<global-exceptions />
@@ -22,6 +24,9 @@
 			name="reservationForm" path="/reservation" scope="request"
 			type="com.mask.reservation.action.ReservationAction"
 			parameter="method" />
+		<action attribute="loactionSearchForm" input="/index.jsp"
+			name="loactionSearchForm" path="/loactionSearch" scope="request"
+			type="com.mask.hrs.action.LoactionSearchAction" />
 	</action-mappings>
 
 	<controller><!-- 与spring对接 20101114-->
