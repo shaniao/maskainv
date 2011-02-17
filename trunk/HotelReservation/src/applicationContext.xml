@@ -125,6 +125,8 @@
 			<ref bean="hotelReservationServiceImpl" />
 		</property>
 	</bean>
+	<bean name="/loactionSearch" class="com.mask.hrs.action.LoactionSearchAction">
+	</bean>
 	
 	
 	
